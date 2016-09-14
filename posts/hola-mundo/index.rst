@@ -7,4 +7,9 @@
 .. description: 
 .. type: text
 
-Vamos con nuestro hola mundo en Nikola!!!
+Bueno, esta será la primera entrada del blog. Por supuesto, utilizando [Nikola](https://getnikola.com/) como generador.
+
+Se hablará de lo que se pueda: ingeniería, programación, política...
+
+
+Bienvenido...

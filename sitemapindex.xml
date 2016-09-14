@@ -6,15 +6,11 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://jorgedelossantos.github.io/galleries/rss.xml</loc>
-  <lastmod>2016-09-14T04:29:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://jorgedelossantos.github.io/rss.xml</loc>
-  <lastmod>2016-09-14T04:29:00Z</lastmod>
+  <lastmod>2016-09-14T04:50:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/sitemap.xml</loc>
-  <lastmod>2016-09-14T04:29:00Z</lastmod>
+  <lastmod>2016-09-14T04:50:00Z</lastmod>
  </sitemap>
 </sitemapindex>
