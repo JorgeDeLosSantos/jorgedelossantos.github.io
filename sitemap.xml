@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://jorgedelossantos.github.io/</loc>
-  <lastmod>2016-10-04T15:33:00Z</lastmod>
+  <lastmod>2016-10-04T22:00:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/2016/</loc>
@@ -60,5 +60,9 @@
  <url>
   <loc>https://jorgedelossantos.github.io/posts/test/</loc>
   <lastmod>2016-10-04T15:33:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/stories/about/</loc>
+  <lastmod>2016-10-04T22:01:00Z</lastmod>
  </url>
 </urlset>
