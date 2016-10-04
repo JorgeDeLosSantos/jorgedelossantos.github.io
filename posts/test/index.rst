@@ -21,17 +21,20 @@ pero qué le vamos a hacer, a día de hoy (y durante muchos años) es (será) la
 para la edición a partir de texto plano. Claro está que de todos es el que tiene la sintaxis 
 más *pesada*.
 
-Los apuntes en su versión incompleta están disponibles en la plataforma LeanPub_ , que permite 
+Los apuntes en su versión incompleta están disponibles en la plataforma `LeanPub`_ , que permite 
 escribir/editar y publicar/vender libros bajo un esquema muy simple. Cualquiera que guste descargar 
 el libro ahí lo tendrá, gratis claro está. LeanPub, además, está pensado para que los lectores 
 (o potenciales lectores) puedan acceder a libros en una etapa temprana de desarrollo y contribuir 
 con retroalimentación sobre el mismo, lo cual suene por demás interesante, un ganar-ganar.
+
 .. _LeanPub: https://leanpub.com/programacionmatlab
+
 .. _Descargar: https://leanpub.com/programacionmatlab
 
 Sin más, les dejo el link y la portada del libro en cuestión:
 
 .. image:: https://s3.amazonaws.com/titlepages.leanpub.com/programacionmatlab/hero?1475359772
-	:scale: 40%
+	:width: 200 px
 
-Descargar_
+
+`Descargar`_
