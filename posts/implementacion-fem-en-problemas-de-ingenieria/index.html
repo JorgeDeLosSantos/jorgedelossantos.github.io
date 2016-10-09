@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Programación en MATLAB, fundamentos y aplicaciones | While true</title>
+<title>Implementación del MEF en problemas de ingeniería | While true</title>
 <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="../../assets/css/rst.css" rel="stylesheet" type="text/css">
 <link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
@@ -11,23 +11,18 @@
 <link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
 <meta content="#14178D" name="theme-color">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
-<link rel="canonical" href="https://jorgedelossantos.github.io/posts/test/">
+<link rel="canonical" href="https://jorgedelossantos.github.io/posts/implementacion-fem-en-problemas-de-ingenieria/">
 <link rel="icon" href="favicon.ico" sizes="16x16">
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Pedro Jorge De Los Santos">
-<link rel="prev" href="../sobre-la-tesis/" title="Sobre la tesis" type="text/html">
-<link rel="next" href="../implementacion-fem-en-problemas-de-ingenieria/" title="Implementación del MEF en problemas de ingeniería" type="text/html">
+<link rel="prev" href="../test/" title="Programación en MATLAB, fundamentos y aplicaciones" type="text/html">
 <meta property="og:site_name" content="While true">
-<meta property="og:title" content="Programación en MATLAB, fundamentos y aplicaciones">
-<meta property="og:url" content="https://jorgedelossantos.github.io/posts/test/">
-<meta property="og:description" content="Desde el año pasado intento escribir unos apuntes/libro sobre  programación en MATLAB.
-El título: Programación en MATLAB, fundamentos y aplicaciones. Del cual la idea
-es abordar la programación en MAT">
+<meta property="og:title" content="Implementación del MEF en problemas de ingeniería">
+<meta property="og:url" content="https://jorgedelossantos.github.io/posts/implementacion-fem-en-problemas-de-ingenieria/">
+<meta property="og:description" content="El método del elemento finito es utilizado para resolver problemas físicos en análisis de ingeniería
+y diseño. La figura mostrada enseguida esquematiza el proceso del análisis por elementos finitos.
+E">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2016-10-04T10:08:38-05:00">
-<meta property="article:tag" content="books">
-<meta property="article:tag" content="mathjax">
-<meta property="article:tag" content="MATLAB">
-<meta property="article:tag" content="programming">
+<meta property="article:published_time" content="2016-10-09T00:42:31-05:00">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
@@ -112,16 +107,16 @@ es abordar la programación en MAT">
         <div class="row">
             
             
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Programación en MATLAB, fundamentos y aplicaciones</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Implementación del MEF en problemas de ingeniería</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">
                     Pedro Jorge De Los Santos
             </span></p>
-            <p class="dateline"><a href="." rel="bookmark"><time class="published dt-published" datetime="2016-10-04T10:08:38-05:00" itemprop="datePublished" title="2016-10-04 10:08">2016-10-04 10:08</time></a></p>
+            <p class="dateline"><a href="." rel="bookmark"><time class="published dt-published" datetime="2016-10-09T00:42:31-05:00" itemprop="datePublished" title="2016-10-09 00:42">2016-10-09 00:42</time></a></p>
                 <p class="commentline">
         
-    <a href="#disqus_thread" data-disqus-identifier="cache/posts/test.html">Comments</a>
+    <a href="#disqus_thread" data-disqus-identifier="cache/posts/implementacion-fem-en-problemas-de-ingenieria.html">Comments</a>
 
 
             
@@ -133,38 +128,50 @@ es abordar la programación en MAT">
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>Desde el año pasado intento escribir unos apuntes/libro sobre  programación en MATLAB.
-El título: <strong>Programación en MATLAB, fundamentos y aplicaciones</strong>. Del cual la idea
-es abordar la programación en MATLAB en un nivel básico-intermedio, el libro se escribe para
-personas que tengan asimiladas las nociones básicas de programación, algoritmos y esas
-cosas necesarias para comenzar.</p>
-<p>Uno de los detalles/cuestionamientos constantes ha sido ¿cómo escribir/editar el libro?,
-las opciones: Sphinx con ResT, ResT + rst2pdf (una minilibrería creada por Alsina), un editor
-de textos tipo WYSIWYG, Markdown + pandoc, Markdown + LeanPub, o LaTeX. Y en esa experimentación
-he pasado por casi todas las opciones, para al finar llegar a quedar con el odioso LaTeX,
-pero qué le vamos a hacer, a día de hoy (y durante muchos años) es (será) la opción más madura
-para la edición a partir de texto plano. Claro está que de todos es el que tiene la sintaxis
-más <em>pesada</em>.</p>
-<p>Los apuntes en su versión incompleta están disponibles en la plataforma <a class="reference external" href="https://leanpub.com/programacionmatlab">LeanPub</a> , que permite
-escribir/editar y publicar/vender libros bajo un esquema muy simple. Cualquiera que guste descargar
-el libro ahí lo tendrá, gratis claro está. LeanPub, además, está pensado para que los lectores
-(o potenciales lectores) puedan acceder a libros en una etapa temprana de desarrollo y contribuir
-con retroalimentación sobre el mismo, lo cual suene por demás interesante, un ganar-ganar.</p>
-<p>Sin más, les dejo el link y la portada del libro en cuestión:</p>
-<img alt="https://s3.amazonaws.com/titlepages.leanpub.com/programacionmatlab/hero?1475359772" src="https://s3.amazonaws.com/titlepages.leanpub.com/programacionmatlab/hero?1475359772" style="width: 200px;"><p><a class="reference external" href="https://leanpub.com/programacionmatlab">Descargar</a></p>
+<p>El método del elemento finito es utilizado para resolver problemas físicos en análisis de ingeniería
+y diseño. La figura mostrada enseguida esquematiza el proceso del análisis por elementos finitos.
+El problema físico típicamente involucra una estructura o ciertos elementos mecánicos sometidos
+a condiciones de cargas establecidas. La <em>conversión</em> del problema físico a un modelo matemático
+correspondiente requiere que se hagan consideraciones para la simplificación y resolución de las
+ecuaciones diferenciales resultantes. El análisis de elementos finitos resuelve ese modelo matemático
+resultante. Puesto que la solución por elemento finito involucra un procedimiento por técnicas de
+análisis numérico es necesario evaluar la exactitud de la solución. Si no existe un criterio de
+exactitud o punto de comparación, la solución numérica debe repetirse refinando algunos parámetros
+(como la densidad de malla) hasta que las variaciones entre soluciones sean aceptables.</p>
+<img alt="img/fem_diagram.PNG" src="img/fem_diagram.PNG"><p>Está claro que la solución por elementos finitos resolvera sólo el modelo matemático
+establecido y la respuesta del sistema reflejará las consideraciones o simplificaciones
+realizadas a este. La selección de un modelo matemático apropiado es crucial y determina
+completamente la percepción actual del fenómeno físico que puede obtenerse mediante el
+análisis. Luego, es claro que, naturalmente, la respuesta de problemas solucionados
+mediante técnicas de elemento finito no corresponderán exactamente con la situación real,
+dado que es casi imposible reproducir las condiciones de un entorno tomando en cuenta
+todas las variables que inciden en el proceso, en la mayoría de los casos se tendrá
+una comparación basada en la correlación o correspondencia entre la respuesta matemática
+y la experimental.</p>
+<p>Una vez que el modelo matemático ha sido resuelto y los resultados han sido interpretados,
+se puede entonces considerar la refinación o redefinición del modelo matemático para
+considerar otros factores que permitan obtener una solución más ajustada a la realidad.</p>
+<p>Para definir la confiabilidad y efectividad de un modelo seleccionado debemos pensar
+en un modelo matemático muy completo del problema físico y medir la respuesta de nuestro
+modelo seleccionado contra la respuesta del modelo completo. En general, un modelo matemático
+completo incluye una descripción tridimensional del problema e incluye efectos no-lineales.</p>
+<p>Para evaluar el resultado obtenido por la solución de un modelo matemático seleccionado,
+puede ser necesario también resolver problemas de modelado matemático de orden superior,
+e incluso ir incluyendo cada vez factores más complejos. Por ejemplo, una viga estructural
+puede primero analizarse usando la teoría de la viga de Bernoulli, luego usando
+la teoría de una viga de Timoshenko, siguiendo con una análisis bidimensional por la
+teoría de esfuerzo plano, y finalmente utilizando un modelo tridimensional continuo,
+y en cada caso la posibilidad de incluir efectos no lineales.</p>
+<p>Claramente con esa jerarquía de modelos, enunciada en el párrafo anterior, el análisis
+incluirá cada vez respuestas más complejas, incrementando consecuentemente el costo de
+la solución. Es conocido que un análisis tridimensional es alrededor de un orden de
+magnitud más costoso que el caso bidimensional, tanto en recursos computacionales
+como en el tiempo de ingeniería realizada.</p>
 </div>
     </div>
-    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
-<li><a class="tag p-category" href="../../categories/books/" rel="tag">books</a></li>
-            <li><a class="tag p-category" href="../../categories/matlab/" rel="tag">MATLAB</a></li>
-            <li><a class="tag p-category" href="../../categories/programming/" rel="tag">programming</a></li>
-        </ul>
-<ul class="pager hidden-print">
+    <aside class="postpromonav"><nav><ul class="pager hidden-print">
 <li class="previous">
-                <a href="../sobre-la-tesis/" rel="prev" title="Sobre la tesis">Publicación anterior</a>
-            </li>
-            <li class="next">
-                <a href="../implementacion-fem-en-problemas-de-ingenieria/" rel="next" title="Implementación del MEF en problemas de ingeniería">Siguiente publicación</a>
+                <a href="../test/" rel="prev" title="Programación en MATLAB, fundamentos y aplicaciones">Publicación anterior</a>
             </li>
         </ul></nav></aside><section class="comments hidden-print"><h2>Comentarios</h2>
         
@@ -172,9 +179,9 @@ con retroalimentación sobre el mismo, lo cual suene por demás interesante, un 
         <div id="disqus_thread"></div>
         <script>
         var disqus_shortname ="jorge-de-los-santos",
-            disqus_url="https://jorgedelossantos.github.io/posts/test/",
-        disqus_title="Programaci\u00f3n en MATLAB, fundamentos y aplicaciones",
-        disqus_identifier="cache/posts/test.html",
+            disqus_url="https://jorgedelossantos.github.io/posts/implementacion-fem-en-problemas-de-ingenieria/",
+        disqus_title="Implementaci\u00f3n del MEF en problemas de ingenier\u00eda",
+        disqus_identifier="cache/posts/implementacion-fem-en-problemas-de-ingenieria.html",
         disqus_config = function () {
             this.language = "es_ES";
         };
@@ -188,9 +195,7 @@ con retroalimentación sobre el mismo, lo cual suene por demás interesante, un 
     <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
-        </section><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script><script type="text/x-mathjax-config">
-            MathJax.Hub.Config({tex2jax: {inlineMath: [['$latex ','$'], ['\\(','\\)']]}});
-            </script></article><script>var disqus_shortname="jorge-de-los-santos";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+        </section></article><script>var disqus_shortname="jorge-de-los-santos";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
 </div>
         <!--End of body content-->
 
