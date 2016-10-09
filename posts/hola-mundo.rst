@@ -13,6 +13,8 @@ Se hablará de lo que se pueda: ingeniería, programación, elemento finito, mat
 
 Bienvenido.
 
+.. image:: src/fem_diagram.PNG
+    :scale: 60%
 
 
 - **Pedro Jorge De Los Santos**
