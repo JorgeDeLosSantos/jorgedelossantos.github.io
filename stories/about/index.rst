@@ -1,4 +1,4 @@
-.. title: About
+.. title: Acerca de...
 .. slug: about
 .. date: 2016-10-04 16:58:43 UTC-05:00
 .. tags: 
@@ -47,5 +47,7 @@ También pueden encontrarme en algunos otros "lugares" como Twitter_ o GitHub_.
 
 **Bienvenidos**
 
+
 *Pedro Jorge De Los Santos*
+
 *Tuxtla Gutiérrez, Chiapas, México*
