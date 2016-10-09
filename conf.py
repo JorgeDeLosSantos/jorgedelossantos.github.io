@@ -132,15 +132,23 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archivo", "icon-folder-open-alt"),
-		("/stories/about/", "Acerca de", "icon-user"),
-        ("/categories/", "Etiquetas", "icon-tags"),
-        ("/rss.xml", "Canal RSS", "icon-rss"),
+        ("/archive.html", "Archivo"),
+		("/stories/about/", "Acerca de"),
+        ("/categories/", "Etiquetas"),
+        ("/rss.xml", "Canal RSS"),
     ),
 }
+# NAVIGATION_LINKS = {
+    # DEFAULT_LANG: (
+        # ("/archive.html", "Archivo", "icon-folder-open-alt"),
+		# ("/stories/about/", "Acerca de", "icon-user"),
+        # ("/categories/", "Etiquetas", "icon-tags"),
+        # ("/rss.xml", "Canal RSS", "icon-rss"),
+    # ),
+# }
 
 # Name of the theme to use.
-THEME = "zen"
+THEME = "bootstrap3"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
