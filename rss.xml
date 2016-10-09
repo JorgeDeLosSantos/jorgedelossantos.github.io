@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>While true</title><link>https://jorgedelossantos.github.io/</link><description>Blog personal</description><atom:link href="https://jorgedelossantos.github.io/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>es</language><lastBuildDate>Sun, 09 Oct 2016 05:50:06 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Implementación del MEF en problemas de ingeniería</title><link>https://jorgedelossantos.github.io/posts/implementacion-fem-en-problemas-de-ingenieria/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;p&gt;El método del elemento finito es utilizado para resolver problemas físicos en análisis de ingeniería
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>While true</title><link>https://jorgedelossantos.github.io/</link><description>Blog personal</description><atom:link href="https://jorgedelossantos.github.io/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>es</language><lastBuildDate>Sun, 09 Oct 2016 05:52:35 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Implementación del MEF en problemas de ingeniería</title><link>https://jorgedelossantos.github.io/posts/implementacion-fem-en-problemas-de-ingenieria/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;p&gt;El método del elemento finito es utilizado para resolver problemas físicos en análisis de ingeniería
 y diseño. La figura mostrada enseguida esquematiza el proceso del análisis por elementos finitos.
 El problema físico típicamente involucra una estructura o ciertos elementos mecánicos sometidos
 a condiciones de cargas establecidas. La &lt;em&gt;conversión&lt;/em&gt; del problema físico a un modelo matemático
@@ -9,7 +9,7 @@ resultante. Puesto que la solución por elemento finito involucra un procedimien
 análisis numérico es necesario evaluar la exactitud de la solución. Si no existe un criterio de
 exactitud o punto de comparación, la solución numérica debe repetirse refinando algunos parámetros
 (como la densidad de malla) hasta que las variaciones entre soluciones sean aceptables.&lt;/p&gt;
-&lt;img alt="/img/fem_diagram.png" src="https://jorgedelossantos.github.io/img/fem_diagram.png"&gt;
+&lt;img alt="/img/fem_diagram.PNG" src="https://jorgedelossantos.github.io/img/fem_diagram.PNG"&gt;
 &lt;p&gt;Está claro que la solución por elementos finitos resolvera sólo el modelo matemático
 establecido y la respuesta del sistema reflejará las consideraciones o simplificaciones
 realizadas a este. La selección de un modelo matemático apropiado es crucial y determina
