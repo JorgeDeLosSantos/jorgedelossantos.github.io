@@ -132,15 +132,15 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archivo"),
-		("/stories/about/", "Acerca de"),
-        ("/categories/", "Etiquetas"),
-        ("/rss.xml", "Canal RSS"),
+        ("/archive.html", "Archivo", "icon-folder-open-alt"),
+		("/stories/about/", "Acerca de", "icon-user"),
+        ("/categories/", "Etiquetas", "icon-tags"),
+        ("/rss.xml", "Canal RSS", "icon-rss"),
     ),
 }
 
 # Name of the theme to use.
-THEME = "readable"
+THEME = "zen"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
@@ -792,9 +792,9 @@ IMAGE_FOLDERS = {'images': 'images'}
 # Used to create favicon link like this:
 # <link rel="name" href="file" sizes="size"/>
 FAVICONS = (
-     ("icon", "/favicon.ico", "16x16"),
+     ("icon", "files/favicon.ico", "16x16"), )
 #    ("icon", "/icon_128x128.png", "128x128"),
-)
+# )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
 # INDEX_TEASERS = False
