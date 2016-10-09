@@ -1,7 +1,7 @@
 .. title: Implementación del MEF en problemas de ingeniería
 .. slug: implementacion-fem-en-problemas-de-ingenieria
 .. date: 2016-10-09 00:42:31 UTC-05:00
-.. tags: 
+.. tags: FEA, Mechanical Engineering, 
 .. category: 
 .. link: 
 .. description: 
