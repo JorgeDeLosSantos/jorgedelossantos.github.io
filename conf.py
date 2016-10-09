@@ -133,9 +133,6 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archivo"),
-        ("/stories/about/", "Acerca de"),
-        ("/categories/", "Etiquetas"),
-        ("/rss.xml", "Canal RSS"),
         (
             (
                 ('http://codigo-wxpython.blogspot.mx/', 'Código wxPython'),
@@ -143,8 +140,11 @@ NAVIGATION_LINKS = {
                 ('http://matlab-typ.blogspot.mx/', 'MATLAB TYP'),
                 ('http://matlab-avanzado.blogspot.mx/', 'MATLAB Avanzado'),
             ),
-            'Otros blogs'
+            'Mis otros blogs'
         ),
+        ("/stories/about/", "Acerca de"),
+        ("/categories/", "Etiquetas"),
+        ("/rss.xml", "Canal RSS"),
     ),
 }
 # NAVIGATION_LINKS = {
