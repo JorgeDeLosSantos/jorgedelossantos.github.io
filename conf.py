@@ -133,7 +133,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archivo"),
-		("/stories/about/", "Acerca de"),
+        ("/stories/about/", "Acerca de"),
         ("/categories/", "Etiquetas"),
         ("/rss.xml", "Canal RSS"),
     ),
@@ -141,7 +141,7 @@ NAVIGATION_LINKS = {
 # NAVIGATION_LINKS = {
     # DEFAULT_LANG: (
         # ("/archive.html", "Archivo", "icon-folder-open-alt"),
-		# ("/stories/about/", "Acerca de", "icon-user"),
+        # ("/stories/about/", "Acerca de", "icon-user"),
         # ("/categories/", "Etiquetas", "icon-tags"),
         # ("/rss.xml", "Canal RSS", "icon-rss"),
     # ),
@@ -800,7 +800,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # Used to create favicon link like this:
 # <link rel="name" href="file" sizes="size"/>
 FAVICONS = (
-     ("icon", "files/favicon.ico", "16x16"), )
+     ("icon", "/output/favicon.ico", "16x16"), )
 #    ("icon", "/icon_128x128.png", "128x128"),
 # )
 
@@ -836,14 +836,14 @@ FEED_LINKS_APPEND_QUERY = False
 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
-LICENSE = ""
+# LICENSE = ""
 # I recommend using the Creative Commons' wizard:
 # https://creativecommons.org/choose/
-# LICENSE = """
-# <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-# <img alt="Creative Commons License BY-NC-SA"
-# style="border-width:0; margin-bottom:12px;"
-# src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
+LICENSE = """
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<img alt="Creative Commons License BY-NC-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
@@ -1087,19 +1087,19 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # """ % SITE_URL
 #
 # If you prefer a Google search form, here's an example that should just work:
-# SEARCH_FORM = """
-# <!-- Google custom search -->
-# <form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
-# <div class="form-group">
-# <input type="text" name="q" class="form-control" placeholder="Search">
-# </div>
-# <button type="submit" class="btn btn-primary">
-# 	<span class="glyphicon glyphicon-search"></span>
-# </button>
-# <input type="hidden" name="sitesearch" value="%s">
-# </form>
-# <!-- End of custom search -->
-# """ % SITE_URL
+SEARCH_FORM = """
+<!-- Google custom search -->
+<form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
+<div class="form-group">
+<input type="text" name="q" class="form-control" placeholder="Search">
+</div>
+<button type="submit" class="btn btn-primary">
+  <span class="glyphicon glyphicon-search"></span>
+</button>
+<input type="hidden" name="sitesearch" value="%s">
+</form>
+<!-- End of custom search -->
+""" % SITE_URL
 
 # Use content distribution networks for jQuery, twitter-bootstrap css and js,
 # and html5shiv (for older versions of Internet Explorer)
