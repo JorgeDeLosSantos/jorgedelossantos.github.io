@@ -800,7 +800,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # Used to create favicon link like this:
 # <link rel="name" href="file" sizes="size"/>
 FAVICONS = (
-     ("icon", "/output/favicon.ico", "16x16"), )
+     ("icon", "favicon.ico", "16x16"), )
 #    ("icon", "/icon_128x128.png", "128x128"),
 # )
 
