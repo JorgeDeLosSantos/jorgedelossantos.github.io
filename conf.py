@@ -18,7 +18,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Pedro Jorge De Los Santos"  # (translatable)
-BLOG_TITLE = "Jorge De Los Santos"  # (translatable)
+BLOG_TITLE = "While true"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://jorgedelossantos.github.io/"
@@ -26,7 +26,7 @@ SITE_URL = "https://jorgedelossantos.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://jorgedelossantos.github.io/"
 BLOG_EMAIL = "delossantosmfq@gmail.com"
-BLOG_DESCRIPTION = "Cosas y cosas..."  # (translatable)
+BLOG_DESCRIPTION = "Blog personal"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -136,6 +136,15 @@ NAVIGATION_LINKS = {
         ("/stories/about/", "Acerca de"),
         ("/categories/", "Etiquetas"),
         ("/rss.xml", "Canal RSS"),
+        (
+            (
+                ('http://codigo-wxpython.blogspot.mx/', 'Código wxPython'),
+                ('http://numython.blogspot.mx/', 'Numython'),
+                ('http://matlab-typ.blogspot.mx/', 'MATLAB TYP'),
+                ('http://matlab-avanzado.blogspot.mx/', 'MATLAB Avanzado'),
+            ),
+            'Otros blogs'
+        ),
     ),
 }
 # NAVIGATION_LINKS = {
@@ -1002,19 +1011,19 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # long time). Insert anything you want here, or even make it empty (which is
 # the default right now)
 # (translatable)
-SOCIAL_BUTTONS_CODE = """
-<!-- Social buttons -->
-<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
-<a class="addthis_button_more">Share</a>
-<ul><li><a class="addthis_button_facebook"></a>
-<li><a class="addthis_button_google_plusone_share"></a>
-<li><a class="addthis_button_linkedin"></a>
-<li><a class="addthis_button_twitter"></a>
-</ul>
-</div>
-<script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
-<!-- End of social buttons -->
-"""
+# SOCIAL_BUTTONS_CODE = """
+# <!-- Social buttons -->
+# <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+# <a class="addthis_button_more">Share</a>
+# <ul><li><a class="addthis_button_facebook"></a>
+# <li><a class="addthis_button_google_plusone_share"></a>
+# <li><a class="addthis_button_linkedin"></a>
+# <li><a class="addthis_button_twitter"></a>
+# </ul>
+# </div>
+# <script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
+# <!-- End of social buttons -->
+# """
 
 # Show link to source for the posts?
 # Formerly known as HIDE_SOURCELINK (inverse)
