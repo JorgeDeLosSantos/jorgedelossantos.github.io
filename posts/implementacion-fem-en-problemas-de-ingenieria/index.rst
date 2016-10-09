@@ -19,8 +19,7 @@ análisis numérico es necesario evaluar la exactitud de la solución. Si no exi
 exactitud o punto de comparación, la solución numérica debe repetirse refinando algunos parámetros 
 (como la densidad de malla) hasta que las variaciones entre soluciones sean aceptables.
 
-.. image:: img/fem_diagram.PNG
-    :scale: 60%
+.. image:: /img/fem_diagram.png
 
 Está claro que la solución por elementos finitos resolvera sólo el modelo matemático 
 establecido y la respuesta del sistema reflejará las consideraciones o simplificaciones 
