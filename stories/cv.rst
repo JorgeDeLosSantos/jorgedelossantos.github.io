@@ -7,6 +7,6 @@
 .. description: 
 .. type: text
 
-`Versión PDF`_
+Versión `PDF`_
 
-.. _Version PDF:: /pdf/cv.pdf
+.. _PDF:: /pdf/cv.pdf
