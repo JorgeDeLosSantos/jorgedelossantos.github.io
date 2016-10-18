@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/blog.xml</loc>
-  <lastmod>2016-10-18T01:11:00Z</lastmod>
+  <lastmod>2016-10-18T01:46:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/books.xml</loc>
@@ -55,7 +55,7 @@
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/otros.xml</loc>
-  <lastmod>2016-10-18T01:11:00Z</lastmod>
+  <lastmod>2016-10-18T01:46:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/personal.xml</loc>
@@ -71,10 +71,10 @@
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/rss.xml</loc>
-  <lastmod>2016-10-18T01:40:00Z</lastmod>
+  <lastmod>2016-10-18T01:46:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/sitemap.xml</loc>
-  <lastmod>2016-10-18T01:40:00Z</lastmod>
+  <lastmod>2016-10-18T01:46:00Z</lastmod>
  </sitemap>
 </sitemapindex>
