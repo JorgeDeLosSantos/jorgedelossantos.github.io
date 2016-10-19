@@ -135,8 +135,8 @@ NAVIGATION_LINKS = {
         ("/archive.html", "Archivo"),
         (
             (
+                ('http://numython.github.io', 'Numython'),
                 ('http://codigo-wxpython.blogspot.mx/', 'Código wxPython'),
-                ('http://numython.blogspot.mx/', 'Numython'),
                 ('http://matlab-typ.blogspot.mx/', 'MATLAB TYP'),
                 ('http://matlab-avanzado.blogspot.mx/', 'MATLAB Avanzado'),
             ),
