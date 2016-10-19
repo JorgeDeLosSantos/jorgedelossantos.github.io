@@ -1,5 +1,5 @@
 .. title: Programación en MATLAB, fundamentos y aplicaciones
-.. slug: test
+.. slug: programacion-matlab
 .. date: 2016-10-04 10:08:38 UTC-05:00
 .. tags: MATLAB, mathjax, books, programming
 .. category: 

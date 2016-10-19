@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/archive.html</loc>
-  <lastmod>2016-10-18T01:46:00Z</lastmod>
+  <lastmod>2016-10-19T02:28:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/categories/</loc>
@@ -90,15 +90,7 @@
   <lastmod>2016-10-09T02:59:00Z</lastmod>
  </url>
  <url>
-  <loc>https://jorgedelossantos.github.io/index-1.html</loc>
-  <lastmod>2016-10-18T01:40:00Z</lastmod>
- </url>
- <url>
   <loc>https://jorgedelossantos.github.io/posts/2016/01/metodos-estaticos-en-una-clase-matlab/</loc>
-  <lastmod>2016-10-18T01:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://jorgedelossantos.github.io/posts/2016/01/test-matlab-avanzado/</loc>
   <lastmod>2016-10-18T01:40:00Z</lastmod>
  </url>
  <url>
@@ -128,6 +120,10 @@
  <url>
   <loc>https://jorgedelossantos.github.io/posts/implementacion-fem-en-problemas-de-ingenieria/</loc>
   <lastmod>2016-10-09T05:47:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/posts/programacion-matlab/</loc>
+  <lastmod>2016-10-19T02:28:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/posts/sobre-la-tesis/</loc>
