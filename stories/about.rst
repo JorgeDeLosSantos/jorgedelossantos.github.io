@@ -7,7 +7,7 @@
 .. description: 
 .. type: text
 
-De manera casi formal soy Jorge De Los Santos, egresado de Ingeniería Mecánica actualmente estudiante 
+De manera casi formal soy Jorge De Los Santos, egresado de Ingeniería Mecánica y actualmente estudiante 
 de posgrado y "escritor" aficionado en mis tiempos libres. Me atrae mucho el mundo de la programación 
 orientada a la resolución de problemas de ingeniería y el modelado de sistemas y/o procesos físicos. 
 Afín al software libre y convencido de que compartir la información y el conocimiento es un acto muy 
