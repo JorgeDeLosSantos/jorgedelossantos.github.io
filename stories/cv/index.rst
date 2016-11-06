@@ -9,4 +9,4 @@
 
 Versión `PDF`_
 
-.. _PDF:: /pdf/cv.pdf
+.. _PDF:: https:jorgedelossantos.github.io/pdf/cv.pdf
