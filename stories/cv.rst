@@ -7,6 +7,6 @@
 .. description: 
 .. type: text
 
-Versión `PDF`_
+Versión PDF_
 
-.. _PDF:: https:jorgedelossantos.github.io/pdf/cv.pdf
+.. _PDF: https:jorgedelossantos.github.io/pdf/cv.pdf
