@@ -142,6 +142,7 @@ NAVIGATION_LINKS = {
             ),
             'Mis otros blogs'
         ),
+		("/stories/links/", "Links"),
         ("/stories/about/", "Acerca de"),
         ("/categories/", "Etiquetas"),
         ("/rss.xml", "Canal RSS"),
@@ -198,6 +199,7 @@ POSTS = (
 )
 PAGES = (
     ("stories/*.rst", "stories", "story.tmpl"),
+	("stories/*.md", "stories", "story.tmpl"),
     ("stories/*.txt", "stories", "story.tmpl"),
     ("stories/*.html", "stories", "story.tmpl"),
 )

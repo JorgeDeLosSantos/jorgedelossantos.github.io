@@ -20,6 +20,3 @@ Esta es una recopilación personal de diversos sitios de internet, más o menos 
 ## Tiras cómicas / viñetas / cartones
 
 * [La pulga Snob](http://www.lapulgasnob.com/)
-
-
-
