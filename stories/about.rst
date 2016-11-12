@@ -29,8 +29,8 @@ la programación "de verdad" en MATLAB, orientado a aquellos que están verdader
 el tema y no por una cuestión académica obligatoria. El contenido va en torno a desarrollo de interfaces 
 gráficas, programación orientada a objetos, mejores prácticas de programación, entre otras.
 
-**CODIGO WXPYTHON**: Todo sobre el desarrollo de interfaces gráficas utilizando la librería wxPython. 
-La idea es proporcionar información útil en "spanish" sobre wxPython, que tanta falta hace.
+.. **CODIGO WXPYTHON**: Todo sobre el desarrollo de interfaces gráficas utilizando la librería wxPython. 
+.. La idea es proporcionar información útil en "spanish" sobre wxPython, que tanta falta hace.
 
 **NUMECÁNICA**: Sobre simulación numérica en la ingeniería mecánica, cómo hacer simulaciones con paquetes 
 de análisis por elemento finito como ANSYS y ABAQUS. Actualmente en estatus de hibernación indefinida.
