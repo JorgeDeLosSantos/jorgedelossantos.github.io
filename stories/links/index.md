@@ -16,6 +16,11 @@ Esta es una recopilación personal de diversos sitios de internet, más o menos 
 * [Numython](https://numython.github.io/)
 * [Pythonic Perambulations (Jake Vanderplas blog)](http://jakevdp.github.io/)
 * [SymPy](http://www.sympy.org/en/index.html)
+* [Blog de Raul E. Lopez Briega](http://relopezbriega.github.io/)
+* [Aaron Meurer's Blog](http://www.asmeurer.com/blog/)
+* [Hans Petter Langtangen blog](http://hplgit.github.io/)
+* [Doing Math with Python](https://doingmathwithpython.github.io/)
+* [Eaten by the Python](http://zulko.github.io/)
 
 ## Análisis por elementos finitos
 
