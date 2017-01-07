@@ -17,8 +17,17 @@
     padding-right: 50px;
 }
 
+.p-name.entry-title{
+    font-size: 30px;
+    color: #009999;
+}
+
 img {
     max-width: 90%;
+}
+
+p {
+    text-align: justify;
 }
 
 .postbox {

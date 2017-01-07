@@ -7220,8 +7220,17 @@ table.codetable { width: 100%;} td.linenos {text-align: right; width: 4em;}
     padding-right: 50px;
 }
 
+.p-name.entry-title{
+    font-size: 30px;
+    color: #009999;
+}
+
 img {
     max-width: 90%;
+}
+
+p {
+    text-align: justify;
 }
 
 .postbox {
