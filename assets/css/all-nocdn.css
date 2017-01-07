@@ -7209,8 +7209,13 @@ table.codetable { width: 100%;} td.linenos {text-align: right; width: 4em;}
 #contentcolumn {
     max-width: 760px;
 }
+
 #q {
     width: 150px;
+}
+
+.container {
+    max-width: 900px;
 }
 
 img {
@@ -7255,9 +7260,10 @@ div.figure > a > img {
 }
 
 blockquote p, blockquote {
-  font-size: 17.5px;
-  font-weight: 300;
+  font-size: 14px;
   line-height: 1.25;
+  color: #009999 ;
+  background-color: #f0f0f0;
 }
 
 ul.bricks > li {

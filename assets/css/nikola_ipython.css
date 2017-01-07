@@ -1,4 +1,4 @@
-div.prompt {
+/*div .prompt {
   padding: 0.6em;
   font-size: 13px;
   background-color: #FFFFFF;
@@ -6,6 +6,18 @@ div.prompt {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+}*/
+
+div.prompt.input_prompt {
+  /* 5px right shift to account for margin in parent container */
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+div.prompt.output_prompt {
+  /* 5px right shift to account for margin in parent container */
+  background-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 div.output_prompt {
@@ -21,6 +33,15 @@ div.text_cell_render {
   padding: 0px;
   color: #333333;
 }
+
+/*.input {
+    color: #FFFFFF;
+}
+
+.output {
+    color: #FFFFFF;
+}
+*/
 
 .rendered_html p {
   text-align: left;
