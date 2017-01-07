@@ -12,6 +12,10 @@
 }
 
 .container {
+    background-color: #ff00ff;
+}
+
+.h-entry.post-text {
     max-width: 1000px;
 }
 

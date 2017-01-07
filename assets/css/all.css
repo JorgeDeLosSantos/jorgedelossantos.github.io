@@ -457,6 +457,10 @@ table.codetable { width: 100%;} td.linenos {text-align: right; width: 4em;}
 }
 
 .container {
+    background-color: #ff00ff;
+}
+
+.h-entry.post-text {
     max-width: 1000px;
 }
 
