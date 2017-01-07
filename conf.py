@@ -18,7 +18,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Pedro Jorge De Los Santos"  # (translatable)
-BLOG_TITLE = "While true"  # (translatable)
+BLOG_TITLE = "While True"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://jorgedelossantos.github.io/"
@@ -136,13 +136,11 @@ NAVIGATION_LINKS = {
         (
             (
                 ('http://numython.github.io', 'Numython'),
-                ('http://codigo-wxpython.blogspot.mx/', 'Código wxPython'),
                 ('http://matlab-typ.blogspot.mx/', 'MATLAB TYP'),
-                ('http://matlab-avanzado.blogspot.mx/', 'MATLAB Avanzado'),
             ),
             'Mis otros blogs'
         ),
-		("/stories/links/", "Links"),
+        ("/stories/links/", "Links"),
         ("/stories/about/", "Acerca de"),
         ("/categories/", "Etiquetas"),
         ("/rss.xml", "Canal RSS"),
@@ -199,7 +197,7 @@ POSTS = (
 )
 PAGES = (
     ("stories/*.rst", "stories", "story.tmpl"),
-	("stories/*.md", "stories", "story.tmpl"),
+    ("stories/*.md", "stories", "story.tmpl"),
     ("stories/*.txt", "stories", "story.tmpl"),
     ("stories/*.html", "stories", "story.tmpl"),
 )
