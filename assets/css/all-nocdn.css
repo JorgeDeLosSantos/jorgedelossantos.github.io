@@ -7215,7 +7215,7 @@ table.codetable { width: 100%;} td.linenos {text-align: right; width: 4em;}
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
 }
 
 img {
@@ -7263,7 +7263,8 @@ blockquote p, blockquote {
   font-size: 14px;
   line-height: 1.25;
   color: #009999 ;
-  background-color: #f0f0f0;
+  background-color: #FAFAFA;
+  border-radius: 5px;
 }
 
 ul.bricks > li {
