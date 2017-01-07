@@ -12,11 +12,13 @@
 }
 
 .container {
-    background-color: #ff00ff;
+    background-color: #FFFFFF;
 }
 
 .h-entry.post-text {
     max-width: 1000px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 img {
