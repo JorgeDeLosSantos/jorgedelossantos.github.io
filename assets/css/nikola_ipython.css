@@ -8,6 +8,15 @@
   border-radius: 3px;
 }*/
 
+#notebook-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: justify;
+}
+
 div.prompt.input_prompt {
   /* 5px right shift to account for margin in parent container */
   background-color: #FFFFFF;
