@@ -143,6 +143,7 @@ NAVIGATION_LINKS = {
         # ("/stories/links/", "Links"),
         # ("/stories/about/", "Acerca de"),
         ("/stories/mecanica-de-materiales/", "Mecánica de Materiales"),
+        ("/stories/mecanismos/", "Mecanismos"),
         ("/categories/", "Etiquetas"),
         ("/rss.xml", "Canal RSS"),
     ),
