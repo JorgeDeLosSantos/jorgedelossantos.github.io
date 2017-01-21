@@ -19,5 +19,3 @@
 * [Esfuerzo y deformación](/pdf/AP01_esfuerzo_deformacion.pdf)
 * [Torsión](/pdf/AP02_torsion.pdf)
 * [Flexión](/pdf/AP03_flexion.pdf)
-
-
