@@ -9,7 +9,11 @@
 .. type: text
 -->
 
-[Descargar programa de la asignatura](/pdf/MTJ1020-Mecanica de Materiales.pdf)
+## Enlaces de interés
+
+* [Programa de la asignatura](/pdf/MTJ1020-Mecanica de Materiales.pdf)
+* [OCW - Mechanics of Materials](https://ocw.mit.edu/courses/materials-science-and-engineering/3-11-mechanics-of-materials-fall-1999/index.htm)
+
 
 
 
