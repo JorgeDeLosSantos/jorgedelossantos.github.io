@@ -23,6 +23,7 @@
 
 Porcentajes base:
 
+| **Ítem** | **Porcentaje** |
 |----|----|
 | **Examen** | 60 % |
 | **Examen rápido** | 15 % |
@@ -30,7 +31,7 @@ Porcentajes base:
 
 Porcentajes adicionales:
 
-| **Asistencia** | 5 % |
+* **Asistencia**: 5 % 
 
 ---
 
