@@ -10,17 +10,16 @@
 <link rel="canonical" href="https://jorgedelossantos.github.io/posts/implementacion-fem-en-problemas-de-ingenieria/">
 <link rel="icon" href="favicon.ico" sizes="16x16">
 <script type="text/x-mathjax-config">
-MathJax.Hub.Config({
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
     tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-        processEscapes: true
+      inlineMath: [ ['$','$'], ["\(","\)"] ],
+      displayMath: [ ['$$','$$'], ["\[","\]"] ],
+      processEscapes: true
     },
-    displayAlign: 'left', // Change this to 'center' to center equations.
-    "HTML-CSS": {
-        styles: {'.MathJax_Display': {"margin": 0}}
-    }
-});
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
 </script><!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Pedro Jorge De Los Santos">
 <link rel="prev" href="../programacion-matlab/" title="Programación en MATLAB, fundamentos y aplicaciones" type="text/html">
 <meta property="og:site_name" content="While True">
