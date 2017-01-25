@@ -14,6 +14,9 @@
 * [Programa de la asignatura](/pdf/MTJ1020-Mecanica de Materiales.pdf)
 * [OCW - Mechanics of Materials](https://ocw.mit.edu/courses/materials-science-and-engineering/3-11-mechanics-of-materials-fall-1999/index.htm)
 
+
+---
+
 ## Sobre los porcentajes de evaluación
 
 Porcentajes base:
@@ -26,11 +29,16 @@ Porcentajes adicionales:
 
 * **Asistencia**: 5 %
 
+
+---
+
 ## Apuntes (en desarrollo)
 
 * [Esfuerzo y deformación](/pdf/AP01_esfuerzo_deformacion.pdf)
 * [Torsión](/pdf/AP02_torsion.pdf)
 * [Flexión](/pdf/AP03_flexion.pdf)
+
+---
 
 ## Tareas 
 
@@ -61,10 +69,13 @@ $$ \text{Puntos} = (90)(0.25) = 22.5  $$
 Enseguida, se listan los puntos tomados en cuenta para asignar una calificación a las tareas y su correspondiente 
 ponderación: 
 
-* Presentación del trabajo (10)
+* Presentación (10)
 * Estructuración (10)
 * Contenido (60)
-* Redacción y ortografía (20)
+* Redacción y ortografía (10)
+* Inclusión de referencias (10)
+
+---
 
 ## Bibliografía básica
 
