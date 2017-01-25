@@ -23,13 +23,13 @@
 
 Porcentajes base:
 
-* **Examen**: 60 %
-* **Examen rápido**: 15 %
-* **Tareas**: 25 %
+|**Examen**|60 %|
+|**Examen rápido**| 15 %|
+|**Tareas**| 25 %|
 
 Porcentajes adicionales:
 
-* **Asistencia**: 5 %
+|**Asistencia**|5 %|
 
 
 ---
