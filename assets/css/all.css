@@ -488,6 +488,7 @@ p {
 
 table, th, td {
    border: 1px solid black;
+   background-color: #ff0000;
 }
 
 #addthisbox {margin-bottom: 12px;}
