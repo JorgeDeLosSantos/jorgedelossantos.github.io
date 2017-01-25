@@ -962,20 +962,20 @@ PRETTY_URLS = True
 # SCHEDULE_ALL = False
 
 # Do you want a add a Mathjax config file?
-MATHJAX_CONFIG = """
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX", "output/HTML-CSS"],
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-      processEscapes: true
-    },
-    "HTML-CSS": { availableFonts: ["TeX"] }
-  });
-</script>
-"""
+# MATHJAX_CONFIG = """
+# <script type="text/x-mathjax-config">
+#   MathJax.Hub.Config({
+#     extensions: ["tex2jax.js"],
+#     jax: ["input/TeX", "output/HTML-CSS"],
+#     tex2jax: {
+#       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+#       displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+#       processEscapes: true
+#     },
+#     "HTML-CSS": { availableFonts: ["TeX"] }
+#   });
+# </script>
+# """
 
 # If you are using the compile-ipynb plugin, just add this one:
 # MATHJAX_CONFIG = """
