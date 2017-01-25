@@ -2,7 +2,7 @@
 .. title: Mecánica de materiales
 .. slug: mecanica-de-materiales
 .. date: 2017-01-20 17:57:08 UTC-06:00
-.. tags: 
+.. tags: mathjax, asignaturas,
 .. category: 
 .. link: 
 .. description: 
@@ -53,8 +53,6 @@ se tienen tres tareas, se calculará el promedio general. A manera de ejemplo:
 Entonces:
 
 $$ NP = \frac{95+85+90}{3} = 90 $$
-
-
 
 
 
