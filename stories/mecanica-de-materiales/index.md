@@ -36,7 +36,7 @@ Porcentajes adicionales:
 
 En esta sección se listan las tareas del curso:
 
-* Tarea 1. Ensayo de tensión (25/01/2017)
+* Tarea 1. Ensayo de tensión \(25/01/2017\)
 
 **¿Cómo se calificarán las tareas?**
 
@@ -52,10 +52,19 @@ se tienen tres tareas, se calculará el promedio general. A manera de ejemplo:
 
 Entonces:
 
-$$ NP = \frac{95+85+90}{3} = 90 $$
+$$ \text{NP} = \frac{95+85+90}{3} = 90 $$
 
+Luego, la nota promediada se multiplica por el porcentaje correspondiente a las tareas:
 
+$$ \text{Puntos} = (90)(0.25) = 22.5  $$
 
+Enseguida, se listan los puntos tomados en cuenta para asignar una calificación a las tareas y su correspondiente 
+ponderación: 
+
+* Presentación del trabajo (10)
+* Estructuración (10)
+* Contenido (60)
+* Redacción y ortografía (20)
 
 ## Bibliografía básica
 
