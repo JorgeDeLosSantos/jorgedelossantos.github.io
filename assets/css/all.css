@@ -486,6 +486,10 @@ p {
     text-align: right;
 }
 
+table, th, td {
+   border: 1px solid black;
+}
+
 #addthisbox {margin-bottom: 12px;}
 
 td.label {
