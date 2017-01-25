@@ -29,7 +29,7 @@ Porcentajes base:
 
 Porcentajes adicionales:
 
-|**Asistencia**|5 %|
+| **Asistencia** | 5 % |
 
 
 ---
