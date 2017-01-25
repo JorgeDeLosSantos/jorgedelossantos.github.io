@@ -44,10 +44,14 @@ La aportación de cada tarea a la calificación parcial será de forma equitativ
 se tienen tres tareas, se calculará el promedio general. A manera de ejemplo:
 
 | **No. de tarea** | **Calificación** |
-|---|---|
+|----|----|
 | Tarea 1 | 95 |
 | Tarea 2 | 85 |
 | Tarea 3 | 90 |
+
+Entonces:
+
+$$ NP = \frac{95+85+90}{3} = 90 $$
 
 
 
