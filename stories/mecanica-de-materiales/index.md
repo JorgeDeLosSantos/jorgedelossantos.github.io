@@ -49,9 +49,11 @@ se tienen tres tareas, se calculará el promedio general. A manera de ejemplo:
 | Tarea 2 | 85 |
 | Tarea 3 | 90 |
 
+
 Entonces:
 
 $$ NP = \frac{95+85+90}{3} = 90 $$
+
 
 
 
