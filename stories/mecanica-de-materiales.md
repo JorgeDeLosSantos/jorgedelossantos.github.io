@@ -14,6 +14,16 @@
 * [Programa de la asignatura](/pdf/MTJ1020-Mecanica de Materiales.pdf)
 * [OCW - Mechanics of Materials](https://ocw.mit.edu/courses/materials-science-and-engineering/3-11-mechanics-of-materials-fall-1999/index.htm)
 
+## Sobre la evaluación
+
+**Examen**: 60 %
+**Examen rápido**: 15 %
+**Tareas**: 25 %
+
+Porcentajes adicionales:
+
+**Asistencia**: 5 %
+
 ## Apuntes (en desarrollo)
 
 * [Esfuerzo y deformación](/pdf/AP01_esfuerzo_deformacion.pdf)
@@ -24,7 +34,10 @@
 
 En esta sección se listan las tareas del curso:
 
-* Tarea 1. Ensayo de tensión
+* Tarea 1. Ensayo de tensión (25/01/2017)
+
+**¿Cómo se calificarán las tareas?**
+
 
 ## Bibliografía básica
 
