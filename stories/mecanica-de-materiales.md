@@ -9,6 +9,8 @@
 .. type: text
 -->
 
+---
+
 ## Enlaces de interés
 
 * [Programa de la asignatura](/pdf/MTJ1020-Mecanica de Materiales.pdf)
@@ -29,14 +31,6 @@ Porcentajes adicionales:
 
 * **Asistencia**: 5 %
 
-
----
-
-## Apuntes (en desarrollo)
-
-* [Esfuerzo y deformación](/pdf/AP01_esfuerzo_deformacion.pdf)
-* [Torsión](/pdf/AP02_torsion.pdf)
-* [Flexión](/pdf/AP03_flexion.pdf)
 
 ---
 
@@ -74,6 +68,16 @@ ponderación:
 * Contenido (60)
 * Redacción y ortografía (10)
 * Inclusión de referencias (10)
+
+
+---
+
+## Apuntes (en desarrollo)
+
+* [Esfuerzo y deformación](/pdf/AP01_esfuerzo_deformacion.pdf)
+* [Torsión](/pdf/AP02_torsion.pdf)
+* [Flexión](/pdf/AP03_flexion.pdf)
+
 
 ---
 
