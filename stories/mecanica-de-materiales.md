@@ -1,5 +1,5 @@
 <!-- 
-.. title: Mecánica de materiales (Ing. Mecatrónica)
+.. title: Mecánica de materiales
 .. slug: mecanica-de-materiales
 .. date: 2017-01-20 17:57:08 UTC-06:00
 .. tags: 
@@ -14,8 +14,20 @@
 * [Programa de la asignatura](/pdf/MTJ1020-Mecanica de Materiales.pdf)
 * [OCW - Mechanics of Materials](https://ocw.mit.edu/courses/materials-science-and-engineering/3-11-mechanics-of-materials-fall-1999/index.htm)
 
-## Apuntes
+## Apuntes (en desarrollo)
 
 * [Esfuerzo y deformación](/pdf/AP01_esfuerzo_deformacion.pdf)
 * [Torsión](/pdf/AP02_torsion.pdf)
 * [Flexión](/pdf/AP03_flexion.pdf)
+
+## Tareas 
+
+En esta sección se listan las tareas del curso:
+
+* Tarea 1. Ensayo de tensión
+
+## Bibliografía básica
+
+* Beer And Johnston, Mecánica de Materiales, Última Edición. Ed. Mc Graw Hill
+* James M. Gere, Barry J Goodno. Mecánica de Materiales. Septima Edición. Ed. Cengage Learning Editores, 2009
+* Rusel Hibbeler, Mecánica de Materiales, Última Edición. Ed. Prentice Hall 
