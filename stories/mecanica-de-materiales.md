@@ -16,6 +16,8 @@
 
 ## Sobre los porcentajes de evaluación
 
+Porcentajes base:
+
 * **Examen**: 60 %
 * **Examen rápido**: 15 %
 * **Tareas**: 25 %
@@ -37,6 +39,14 @@ En esta sección se listan las tareas del curso:
 * Tarea 1. Ensayo de tensión (25/01/2017)
 
 **¿Cómo se calificarán las tareas?**
+
+La aportación de cada tarea a la calificación parcial será de forma equitativa, es decir, si en un parcial 
+se tienen tres tareas, se calculará el promedio general. A manera de ejemplo:
+
+| No. de tarea | Calificación |
+| Tarea 1 | 95 |
+| Tarea 2 | 85 |
+| Tarea 3 | 90 |
 
 
 ## Bibliografía básica
