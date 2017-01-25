@@ -14,15 +14,15 @@
 * [Programa de la asignatura](/pdf/MTJ1020-Mecanica de Materiales.pdf)
 * [OCW - Mechanics of Materials](https://ocw.mit.edu/courses/materials-science-and-engineering/3-11-mechanics-of-materials-fall-1999/index.htm)
 
-## Sobre la evaluación
+## Sobre los porcentajes de evaluación
 
-**Examen**: 60 %
-**Examen rápido**: 15 %
-**Tareas**: 25 %
+* **Examen**: 60 %
+* **Examen rápido**: 15 %
+* **Tareas**: 25 %
 
 Porcentajes adicionales:
 
-**Asistencia**: 5 %
+* **Asistencia**: 5 %
 
 ## Apuntes (en desarrollo)
 
