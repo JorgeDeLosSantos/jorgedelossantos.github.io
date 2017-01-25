@@ -57,6 +57,8 @@ $$ NP = \frac{95+85+90}{3} = 90 $$
 
 
 
+
+
 ## Bibliografía básica
 
 * Beer And Johnston, Mecánica de Materiales, Última Edición. Ed. Mc Graw Hill
