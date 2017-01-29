@@ -96,7 +96,7 @@ En lo subsiguiente se describen los puntos anteriores:
 * **Redacción y ortografía**: Autodescriptivo.
 * **Referencias**:  Se califica dependiendo el estilo y claridad de las referencias incluidas.
 
-*En el caso que la tarea corresponda a la resolución de ejercicios, la calificación estará basada en el procedimiento y solución del mismo.*
+> *En el caso que la tarea corresponda a la resolución de ejercicios, la calificación estará basada en el procedimiento y solución del mismo.*
 
 
 ---
