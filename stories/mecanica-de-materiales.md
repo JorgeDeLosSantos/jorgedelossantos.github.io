@@ -9,6 +9,19 @@
 .. type: text
 -->
 
+Bienvenidos a la página del curso de **Mecánica de Materiales** para Ingeniería Mecatrónica del ITC. 
+Aquí encontrará información relacionada con el desarrollo del curso: criterios de evaluación, referencias, 
+enlaces de interés, notas parciales, observaciones generales, entre otros.
+
+---
+## Información general
+
+* **Nombre del curso:** Mecánica de Materiales
+* **Horario:** Lunes (15:00-17:00) - Miércoles (15:00-17:00) - Viernes (15:00-17:00)
+* **Profesor:** Ing. Pedro Jorge De Los Santos Lara
+* **E-mail para el envío de tareas:** delossantosmfq@gmail.com
+
+
 ---
 
 ## Enlaces de interés
@@ -72,11 +85,11 @@ ponderación:
 
 En lo subsiguiente se describen los puntos anteriores: 
 
-**Presentación**: Todo lo relativo con el formato del documento: márgenes, distribución de espacios, colores, fuentes utilizadas, etc.
-**Estructura**: Manera en la que se distribuye el contenido: temas y subtemas u otro tipo de ítems necesarios para comunicar las ideas planteadas de manera efectiva.
-**Contenido**: Referente a la información contenida en el trabajo, sobre todo que esta corresponda con lo que se ha pedido.
-**Redacción y ortografía**: Tal cual.
-**Referencias**:
+* **Presentación**: Todo lo relativo con el formato del documento: márgenes, distribución de espacios, colores, fuentes utilizadas, etc.
+* **Estructura**: Manera en la que se distribuye el contenido: temas y subtemas u otro tipo de ítems necesarios para comunicar las ideas planteadas de manera efectiva.
+* **Contenido**: Referente a la información contenida en el trabajo, sobre todo que esta corresponda con lo que se ha pedido.
+* **Redacción y ortografía**: Autodescriptivo.
+* **Referencias**:  Se califica dependiendo el estilo y claridad de las referencias incluidas.
 
 
 ---
@@ -95,3 +108,5 @@ En lo subsiguiente se describen los puntos anteriores:
 * Beer And Johnston, Mecánica de Materiales, Última Edición. Ed. Mc Graw Hill
 * James M. Gere, Barry J Goodno. Mecánica de Materiales. Septima Edición. Ed. Cengage Learning Editores, 2009
 * Rusel Hibbeler, Mecánica de Materiales, Última Edición. Ed. Prentice Hall 
+
+## 
