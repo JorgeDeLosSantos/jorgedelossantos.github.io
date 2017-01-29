@@ -39,7 +39,7 @@ Porcentajes adicionales:
 
 En esta sección se listan las tareas del curso:
 
-* Tarea 1. Ensayo de tensión \(25/01/2017\)
+* Tarea 1. Ensayo de tensión (25/01/2017)
 
 **¿Cómo se calificarán las tareas?**
 
@@ -65,10 +65,18 @@ Enseguida, se listan los puntos tomados en cuenta para asignar una calificación
 ponderación: 
 
 * Presentación (10)
-* Estructuración (10)
+* Estructura (10)
 * Contenido (60)
 * Redacción y ortografía (10)
-* Inclusión de referencias (10)
+* Referencias (10)
+
+En lo subsiguiente se describen los puntos anteriores: 
+
+**Presentación**: Todo lo relativo con el formato del documento: márgenes, distribución de espacios, colores, fuentes utilizadas, etc.
+**Estructura**: Manera en la que se distribuye el contenido: temas y subtemas u otro tipo de ítems necesarios para comunicar las ideas planteadas de manera efectiva.
+**Contenido**: Referente a la información contenida en el trabajo, sobre todo que esta corresponda con lo que se ha pedido.
+**Redacción y ortografía**: Tal cual.
+**Referencias**:
 
 
 ---
