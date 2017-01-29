@@ -42,7 +42,7 @@ Porcentajes base:
 | Examen rápido | 15 % |
 | Tareas | 25 % |
 
-        
+
 Porcentajes adicionales:
 
 * **Asistencia**: 5 % 
@@ -51,9 +51,13 @@ Porcentajes adicionales:
 
 ## Tareas 
 
-En esta sección se listan las tareas del curso:
+En esta sección se listan las tareas del curso y su fecha de entrega:
 
 * Tarea 1. Ensayo de tensión (25/01/2017)
+* Tarea 2. Ejercicio (27/01/2017)
+* Tarea 3. Ley de Hooke multiaxial y relación de Poisson (27/01/2017)
+* Tarea 4. Esfuerzos térmicos (30/01/2017)
+* Tarea 5. Ejercicios (30/01/2017)
 
 **¿Cómo se calificarán las tareas?**
 
@@ -92,6 +96,8 @@ En lo subsiguiente se describen los puntos anteriores:
 * **Redacción y ortografía**: Autodescriptivo.
 * **Referencias**:  Se califica dependiendo el estilo y claridad de las referencias incluidas.
 
+*En el caso que la tarea corresponda a la resolución de ejercicios, la calificación estará basada en el procedimiento y solución del mismo.*
+
 
 ---
 
@@ -109,5 +115,3 @@ En lo subsiguiente se describen los puntos anteriores:
 * Beer And Johnston, Mecánica de Materiales, Última Edición. Ed. Mc Graw Hill
 * James M. Gere, Barry J Goodno. Mecánica de Materiales. Septima Edición. Ed. Cengage Learning Editores, 2009
 * Rusel Hibbeler, Mecánica de Materiales, Última Edición. Ed. Prentice Hall 
-
-## 
