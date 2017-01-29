@@ -18,7 +18,7 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 
 * **Nombre del curso:** Mecánica de Materiales
 * **Horario:** Lunes (15:00-17:00) - Miércoles (15:00-17:00) - Viernes (15:00-17:00)
-* **Profesor:** Ing. Pedro Jorge De Los Santos Lara
+* **Profesor:** Pedro Jorge De Los Santos Lara
 * **E-mail para el envío de tareas:** delossantosmfq@gmail.com
 
 
@@ -42,6 +42,7 @@ Porcentajes base:
 | Examen rápido | 15 % |
 | Tareas | 25 % |
 
+        
 Porcentajes adicionales:
 
 * **Asistencia**: 5 % 
