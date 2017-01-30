@@ -29,6 +29,14 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 * [Programa de la asignatura](/pdf/MTJ1020-Mecanica de Materiales.pdf)
 * [OCW - Mechanics of Materials](https://ocw.mit.edu/courses/materials-science-and-engineering/3-11-mechanics-of-materials-fall-1999/index.htm)
 
+---
+
+## Calificaciones
+
+En el siguiente link pueden descargar un archivo XLSX con el concentrado de calificaciones parciales/temporales, tome en cuenta 
+que las notas ahí colocadas se han calculado asumiento algunas condiciones que se explican en el mismo archivo.
+
+[Concentrado de calificaciones](/xls/notas_mecamat_2017.xlsx)
 
 ---
 
