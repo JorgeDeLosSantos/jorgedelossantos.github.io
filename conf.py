@@ -142,8 +142,22 @@ NAVIGATION_LINKS = {
         # ),
         # ("/stories/links/", "Links"),
         # ("/stories/about/", "Acerca de"),
-        ("/stories/mecanica-de-materiales/", "Mecánica de Materiales"),
-        ("/stories/mecanismos/", "Mecanismos"),
+        (
+            (
+                ("/stories/mecanica-de-materiales/", "Mecánica de Materiales"),
+                ("/stories/mecanismos/", "Mecanismos"),
+            ),
+            'ITC'
+        ),        
+        (
+            (
+                ("/stories/tsrv/", "Técnicas de Selección y RV"),
+                ("/stories/cad-2d/", "CAD - 2D"),
+                ("/stories/cad-2e/", "CAD - 2E"),
+                ("/stories/iproy/", "Ingeniería de Proyectos"),
+            ),
+            'UPG'
+        ),
         ("/categories/", "Etiquetas"),
         ("/rss.xml", "Canal RSS"),
     ),
