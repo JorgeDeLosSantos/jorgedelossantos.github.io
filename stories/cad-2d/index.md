@@ -16,5 +16,5 @@
 
 ## Lecciones de CAD 
 
-.. youtube:: https://www.youtube.com/watch?v=J4cKymIjOfo&list=PLhIg9h5mTUnRI-fsupg0S9LF5_jz4lLuH
+{{% media url="https://www.youtube.com/watch?v=J4cKymIjOfo&list=PLhIg9h5mTUnRI-fsupg0S9LF5_jz4lLuH" %}}
 
