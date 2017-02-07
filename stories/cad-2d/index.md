@@ -17,26 +17,11 @@
 ## Lecciones de CAD 
 
 * [Introducción](https://www.youtube.com/embed/J4cKymIjOfo)
-
-* Interface de usuario
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RU15SUSL4kA"  frameborder="0" allowfullscreen></iframe>
-<hr size=5px>
-
-* Introducción al croquizado
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HUNevIKZjXc" frameborder="0" allowfullscreen></iframe>
-<hr size=5px>
-
-* Modelado básico de piezas
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G78rqlTrS0o" frameborder="0" allowfullscreen></iframe>
-<hr size=5px>
-
-* Generación de salientes
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bbX9Hhfthro" frameborder="0" allowfullscreen></iframe>
-<hr size=5px>
-
-* Asistente para taladros y redondeos
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mmp5ZktFUxA" frameborder="0" allowfullscreen></iframe>
-<hr size=5px>
+* [Interface de usuario](https://www.youtube.com/embed/RU15SUSL4kA)
+* [Introducción al croquizado](https://www.youtube.com/embed/HUNevIKZjXc)
+* [Modelado básico de piezas](https://www.youtube.com/embed/G78rqlTrS0o)
+* [Generación de salientes](https://www.youtube.com/embed/bbX9Hhfthro)
+* [Asistente para taladros y redondeos](https://www.youtube.com/embed/mmp5ZktFUxA)
 
 * Creación básica de planos
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y-YEzcVCjFc" frameborder="0" allowfullscreen></iframe>
