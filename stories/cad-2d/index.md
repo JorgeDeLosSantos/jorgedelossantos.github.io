@@ -16,12 +16,19 @@
 
 ## Lecciones de CAD 
 
+### Introducción
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J4cKymIjOfo"  frameborder="0" allowfullscreen></iframe>
 ---
+
+### Interface de usuario
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RU15SUSL4kA"  frameborder="0" allowfullscreen></iframe>
 ---
+
+### Introducción al croquizado
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HUNevIKZjXc" frameborder="0" allowfullscreen></iframe>
 ---
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G78rqlTrS0o" frameborder="0" allowfullscreen></iframe>
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bbX9Hhfthro" frameborder="0" allowfullscreen></iframe>
@@ -58,4 +65,37 @@
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LtgnUfyguCI" frameborder="0" allowfullscreen></iframe>
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XW275x1qIyY" frameborder="0" allowfullscreen></iframe>
+---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5-y82pXraqo" frameborder="0" allowfullscreen></iframe>
+---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WqfzVgkM9MI" frameborder="0" allowfullscreen></iframe>
+---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zCuMQ8sJvUw" frameborder="0" allowfullscreen></iframe>
+---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZhNvRdj7auY" frameborder="0" allowfullscreen></iframe>
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
