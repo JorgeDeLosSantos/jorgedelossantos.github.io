@@ -18,7 +18,7 @@
 
 ### Introducción
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J4cKymIjOfo"  frameborder="0" allowfullscreen></iframe>
----
+<hr size=5px>
 
 ### Interface de usuario
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RU15SUSL4kA"  frameborder="0" allowfullscreen></iframe>
