@@ -16,10 +16,10 @@
 
 ## Lecciones de CAD 
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/J4cKymIjOfo"></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J4cKymIjOfo"  frameborder="0" allowfullscreen></iframe>
 ---
-
-<iframe width="420" height="315" src="https://www.youtube.com/watch?v=RU15SUSL4kA"></iframe>
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RU15SUSL4kA"  frameborder="0" allowfullscreen></iframe>
+---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HUNevIKZjXc" frameborder="0" allowfullscreen></iframe>
+---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G78rqlTrS0o" frameborder="0" allowfullscreen></iframe>
