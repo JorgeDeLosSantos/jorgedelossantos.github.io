@@ -9,4 +9,9 @@
 .. type: text
 -->
 
-Test Text
+## Normas y simbología
+
+* [NOM-Z-3-1986 Dibujo Técnico-Vistas](/pdf/NOM Z-3-1986 Dibujo Técnico Vistas.pdf)
+* [NOM-Z-4-1986 Dibujo Técnico-Líneas, NOM-Z-5-1986 Dibujo Técnico-Rayados y NOM-Z-25-1986 Dibujo Técnico-Acotaciones](/pdf/NOM - Lineas, Rayados y Acotaciones.pdf)
+
+
