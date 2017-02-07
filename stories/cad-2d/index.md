@@ -16,5 +16,7 @@
 
 ## Lecciones de CAD 
 
-{{% media url="https://www.youtube.com/watch?v=J4cKymIjOfo&list=PLhIg9h5mTUnRI-fsupg0S9LF5_jz4lLuH" %}}
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/XGSy3_Czz8k">
+</iframe>
 
