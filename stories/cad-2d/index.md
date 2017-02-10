@@ -14,7 +14,12 @@
 * [NOM-Z-3-1986 Dibujo Técnico-Vistas](/pdf/NOM-Z3.pdf)
 * [NOM-Z-4-1986 Dibujo Técnico-Líneas, NOM-Z-5-1986 Dibujo Técnico-Rayados y NOM-Z-25-1986 Dibujo Técnico-Acotaciones](/pdf/NOM-Z4-Z5-Z25.pdf)
 
-## Lecciones de CAD 
+## Tareas 
+
+* **Tarea 1.** 
+
+
+## Lecciones en vídeo de CAD (Solidworks)
 
 * [Introducción](https://www.youtube.com/embed/J4cKymIjOfo)
 * [Interface de usuario](https://www.youtube.com/embed/RU15SUSL4kA)
