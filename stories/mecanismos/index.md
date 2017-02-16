@@ -13,3 +13,7 @@
 
 * [Programa de la asignatura](/pdf/AED1043-Mecanismos.pdf)
 
+## Archivos del Libro de Norton 3ed
+
+[Animaciones](/mecanismos/animations/Animations.html)
+
