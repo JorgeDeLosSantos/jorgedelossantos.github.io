@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>While true (mathjax)</title><link>https://jorgedelossantos.github.io/</link><description></description><atom:link href="https://jorgedelossantos.github.io/categories/mathjax.xml" type="application/rss+xml" rel="self"></atom:link><language>es</language><lastBuildDate>Sun, 06 Nov 2016 04:31:22 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Programación en MATLAB, fundamentos y aplicaciones</title><link>https://jorgedelossantos.github.io/posts/programacion-matlab/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;p&gt;Desde el año pasado intento escribir unos apuntes/libro sobre  programación en MATLAB.
+El título: &lt;strong&gt;Programación en MATLAB, fundamentos y aplicaciones&lt;/strong&gt;. Del cual la idea
+es abordar la programación en MATLAB en un nivel básico-intermedio, el libro se escribe para
+personas que tengan asimiladas las nociones básicas de programación, algoritmos y esas
+cosas necesarias para comenzar.&lt;/p&gt;
+&lt;p&gt;Uno de los detalles/cuestionamientos constantes ha sido ¿cómo escribir/editar el libro?,
+las opciones: Sphinx con ResT, ResT + rst2pdf (una minilibrería creada por Alsina), un editor
+de textos tipo WYSIWYG, Markdown + pandoc, Markdown + LeanPub, o LaTeX. Y en esa experimentación
+he pasado por casi todas las opciones, para al finar llegar a quedar con el odioso LaTeX,
+pero qué le vamos a hacer, a día de hoy (y durante muchos años) es (será) la opción más madura
+para la edición a partir de texto plano. Claro está que de todos es el que tiene la sintaxis
+más &lt;em&gt;pesada&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Los apuntes en su versión incompleta están disponibles en la plataforma &lt;a class="reference external" href="https://leanpub.com/programacionmatlab"&gt;LeanPub&lt;/a&gt; , que permite
+escribir/editar y publicar/vender libros bajo un esquema muy simple. Cualquiera que guste descargar
+el libro ahí lo tendrá, gratis claro está. LeanPub, además, está pensado para que los lectores
+(o potenciales lectores) puedan acceder a libros en una etapa temprana de desarrollo y contribuir
+con retroalimentación sobre el mismo, lo cual suene por demás interesante, un ganar-ganar.&lt;/p&gt;
+&lt;p&gt;Sin más, les dejo el link y la portada del libro en cuestión:&lt;/p&gt;
+&lt;img alt="https://s3.amazonaws.com/titlepages.leanpub.com/programacionmatlab/hero?1475359772" src="https://s3.amazonaws.com/titlepages.leanpub.com/programacionmatlab/hero?1475359772" style="width: 200px;"&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://leanpub.com/programacionmatlab"&gt;Descargar&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>books</category><category>mathjax</category><category>MATLAB</category><category>programming</category><guid>https://jorgedelossantos.github.io/posts/programacion-matlab/</guid><pubDate>Tue, 04 Oct 2016 15:08:38 GMT</pubDate></item></channel></rss>
