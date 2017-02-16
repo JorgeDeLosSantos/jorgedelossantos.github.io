@@ -15,5 +15,5 @@
 
 ## Archivos del Libro de Norton 3ed
 
-[Animaciones](/mecanismos/animations/Animations.html)
+[Animaciones](/mecanismos/animations/Animation.html)
 
