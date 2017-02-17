@@ -76,23 +76,8 @@ En esta sección se listan las tareas del curso y su fecha de entrega:
 
 **¿Cómo se calificarán las tareas?**
 
-La aportación de cada tarea a la calificación parcial será de forma equitativa, es decir, si en un parcial 
-se tienen tres tareas, se calculará el promedio general. A manera de ejemplo:
-
-| **No. de tarea** | **Calificación** |
-|----|----|
-| Tarea 1 | 95 |
-| Tarea 2 | 85 |
-| Tarea 3 | 90 |
-
-
-Entonces:
-
-$$ \text{NP} = \frac{95+85+90}{3} = 90 $$
-
-Luego, la nota promediada se multiplica por el porcentaje correspondiente a las tareas:
-
-$$ \text{Puntos} = (90)(0.25) = 22.5  $$
+La aportación de cada tarea a la calificación parcial será de forma equitativa, a menos que se especifique 
+de forma explícita una ponderación diferente.
 
 Enseguida, se listan los puntos tomados en cuenta para asignar una calificación a las tareas y su correspondiente 
 ponderación: 
@@ -118,9 +103,11 @@ En lo subsiguiente se describen los puntos anteriores:
 
 ## Apuntes (en desarrollo)
 
-* [Esfuerzo y deformación](/pdf/AP01_esfuerzo_deformacion.pdf)
-* [Torsión](/pdf/AP02_torsion.pdf)
-* [Flexión](/pdf/AP03_flexion.pdf)
+En esta sección se adjuntan presentaciones que resumen el contenido de cada unidad temática.
+
+* [Esfuerzo y deformación](/pdf/p01_esfuerzo_deformacion.pdf)
+* [Torsión](/pdf/p02_torsion.pdf)
+* [Flexión](/pdf/p03_flexion.pdf)
 
 
 ---
