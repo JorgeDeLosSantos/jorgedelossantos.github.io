@@ -108,6 +108,8 @@ En esta sección se adjuntan presentaciones que resumen el contenido de cada uni
 * [Esfuerzo y deformación](/pdf/p01_esfuerzo_deformacion.pdf)
 * [Torsión](/pdf/p02_torsion.pdf)
 * [Flexión](/pdf/p03_flexion.pdf)
+* [Esfuerzos combinados](/pdf/p04_esfuerzos_combinados.pdf)
+* [Elementos especiales](/pdf/p05_elementos_especiales.pdf)
 
 
 ---
