@@ -16,6 +16,8 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 ## Enlaces de interés
 
 * [Programa de la asignatura](/pdf/AED1043-Mecanismos.pdf)
+* [Reuleaux Collection of Kinematic Mechanisms, Cornell University](http://kmoddl.library.cornell.edu./model.php?m=reuleaux)
+
 
 ## Archivos de animaciones de mecanismos del Libro de Norton 3ed.
 
