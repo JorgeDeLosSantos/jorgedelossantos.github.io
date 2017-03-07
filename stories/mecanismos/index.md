@@ -18,7 +18,8 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 * [Programa de la asignatura](/pdf/AED1043-Mecanismos.pdf)
 * [Reuleaux Collection of Kinematic Mechanisms, Cornell University](http://kmoddl.library.cornell.edu./model.php?m=reuleaux)
 * [Mechanism Course - Middle East Technical University](http://ocw.metu.edu.tr/course/view.php?id=132)
-* [DESIGN AND ANALYSIS OF MACHINE ELEMENTS](http://staffhome.ecm.uwa.edu.au/~00052817/DANotes/)
+* [Kinematics of machines - National Programme on Technology Enhanced Learning](https://www.youtube.com/watch?v=MJeRFzs4oRU&list=PLBEA57F7E7560C8E8)
+
 
 ## Archivos de animaciones de mecanismos del Libro de Norton 3ed.
 
