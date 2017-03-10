@@ -25,6 +25,9 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 
 * [Diseño de maquinaria - Norton](https://www.dropbox.com/s/6vnzxtszprj7zkk/Dise%C3%B1o%20Maquinaria%20-%20Norton.pdf?dl=0)
 * [Teoría de máquinas y mecanismos - Shigley](https://www.dropbox.com/s/kffy5qjsj0rjypg/Teor%C3%ADa%20de%20m%C3%A1quinas%20y%20mecanismos%20-%20Shigley.pdf?dl=0)
+* [Fundamentals of Kinematics and Dynamics of Machines and Mechanisms - Oleg Vinogradov](https://www.dropbox.com/s/ncahewvwlcoseea/Oleg%20Vinogradov-Fundamentals%20of%20Kinematics%20and%20Dynamics%20of%20Machines%20and%20Mechanisms-CRC%20Press%20%282000%29.pdf?dl=0)
+* [Cinemática de las máquinas - UASLP](https://www.dropbox.com/s/bi48a1b5mel3ng4/Cinem%C3%A1tica%20de%20las%20M%C3%A1quinas%20-%20UASLP.pdf?dl=0)
+* [Analytical Kinematics. Analysis and Synthesis of Planar Mechanisms - Deborah Gans](https://www.dropbox.com/s/1u2j96vlkuh13y3/Deborah%20Gans%20Auth.%20Analytical%20Kinematics.%20Analysis%20and%20Synthesis%20of%20Planar%20Mechanisms.pdf?dl=0)
 
 ## Archivos de animaciones de mecanismos del Libro de Norton 3ed.
 
