@@ -23,7 +23,8 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 
 ## Libros
 
-* [Diseño de maquinaria - Norton](/mecanismos/Diseño Maquinaria - Norton.pdf)
+* [Diseño de maquinaria - Norton](https://www.dropbox.com/s/6vnzxtszprj7zkk/Dise%C3%B1o%20Maquinaria%20-%20Norton.pdf?dl=0)
+* [Teoría de máquinas y mecanismos - Shigley](https://www.dropbox.com/s/kffy5qjsj0rjypg/Teor%C3%ADa%20de%20m%C3%A1quinas%20y%20mecanismos%20-%20Shigley.pdf?dl=0)
 
 ## Archivos de animaciones de mecanismos del Libro de Norton 3ed.
 
