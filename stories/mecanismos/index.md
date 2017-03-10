@@ -21,6 +21,10 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 * [Kinematics of machines - National Programme on Technology Enhanced Learning](https://www.youtube.com/watch?v=MJeRFzs4oRU&list=PLBEA57F7E7560C8E8)
 * [Cinématica de las máquinas - UASLP](http://ingenieria.uaslp.mx/web2010/Estudiantes/apuntes/Cinem%C3%A1tica%20de%20las%20M%C3%A1quinas.pdf)
 
+## Libros
+
+* [Diseño de maquinaria - Norton](/mecanismos/Diseño Maquinaria - Norton.pdf)
+
 ## Archivos de animaciones de mecanismos del Libro de Norton 3ed.
 
 [Animaciones](/mecanismos/animations/Animation.html)
