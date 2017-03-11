@@ -37,6 +37,7 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
     - [Solución Problema 1](/pdf/EX01_MECAMAT_P1.pdf)
     - [Solución Problema 2](/pdf/EX01_MECAMAT_P2.pdf)
     - [Solución Problema 3](/pdf/EX01_MECAMAT_P3.pdf)
+* [Examen 2]
 
 ## Calificaciones
 
@@ -51,6 +52,8 @@ que las notas ahí colocadas se han calculado asumiendo una calificación máxim
 
 Porcentajes base:
 
+**Unidad I**
+
 | **Ítem** | **Porcentaje** |
 |----|----|
 | Examen | 60 % |
@@ -58,7 +61,18 @@ Porcentajes base:
 | Tareas | 25 % |
 
 
-Porcentajes adicionales:
+**Unidad II**
+
+| **Ítem** | **Porcentaje** |
+|----|----|
+| Examen | 50 % |
+| Examen rápido | 15 % |
+| Proyecto | 15 % |
+| Reporte | 10 % |
+| Problemario | 10 % |
+
+
+Porcentaje adicional:
 
 * **Asistencia**: 5 % 
 
