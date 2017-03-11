@@ -26,18 +26,18 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 
 ## Enlaces de interés
 
-* [Programa de la asignatura](/pdf/MTJ1020-Mecanica de Materiales.pdf)
+* [Programa de la asignatura](/pdf/mecamat/MTJ1020-Mecanica de Materiales.pdf)
 * [OCW - Mechanics of Materials](https://ocw.mit.edu/courses/materials-science-and-engineering/3-11-mechanics-of-materials-fall-1999/index.htm)
 
 ---
 
 ### Exámenes
 
-* [Examen 1](/pdf/Examen_01_MecaMat.pdf)
-    - [Solución Problema 1](/pdf/EX01_MECAMAT_P1.pdf)
-    - [Solución Problema 2](/pdf/EX01_MECAMAT_P2.pdf)
-    - [Solución Problema 3](/pdf/EX01_MECAMAT_P3.pdf)
-* [Examen 2](/pdf/Examen_02_MecaMat.pdf)
+* [Examen 1](/pdf/mecamat/EX01_MDM.pdf)
+    - [Solución Problema 1](/pdf/mecamat/SOL_EX01_MDM_P1.pdf)
+    - [Solución Problema 2](/pdf/mecamat/SOL_EX01_MDM_P2.pdf)
+    - [Solución Problema 3](/pdf/mecamat/SOL_EX01_MDM_P3.pdf)
+* [Examen 2](/pdf/mecamat/EX01_MDM.pdf)
 
 ## Calificaciones
 
@@ -117,15 +117,22 @@ En lo subsiguiente se describen los puntos anteriores:
 
 ---
 
+## Proyectos
+
+* [Proyecto 1](/pdf/mecamat/PROY01_MDM.pdf)
+
+
+---
+
 ## Apuntes (en desarrollo)
 
 En esta sección se adjuntan presentaciones que resumen el contenido de cada unidad temática.
 
-* [Esfuerzo y deformación](/pdf/p01_esfuerzo_deformacion.pdf)
-* [Torsión](/pdf/p02_torsion.pdf)
-* [Flexión](/pdf/p03_flexion.pdf)
-* [Esfuerzos combinados](/pdf/p04_esfuerzos_combinados.pdf)
-* [Elementos especiales](/pdf/p05_elementos_especiales.pdf)
+* [Esfuerzo y deformación](/pdf/mecamat/p01_esfuerzo_deformacion.pdf)
+* [Torsión](/pdf/mecamat/p02_torsion.pdf)
+* [Flexión](/pdf/mecamat/p03_flexion.pdf)
+* [Esfuerzos combinados](/pdf/mecamat/p04_esfuerzos_combinados.pdf)
+* [Elementos especiales](/pdf/mecamat/p05_elementos_especiales.pdf)
 
 
 ---
