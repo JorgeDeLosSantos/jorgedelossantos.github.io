@@ -39,10 +39,10 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 
 ## Tareas 
 
-* Tarea 1
-* Tarea 2
-* Tarea 3
-* Tarea 4
+* Tarea 1. Criterio de Grübler
+* Tarea 2. Condición de Grashof
+* Tarea 3. Ejercicios (Criterio de Grübler-Kutzbach)
+* Tarea 4. Análisis de posición utilizando el método gráfico
 * Tarea 5. Identidad de Euler
 * Tarea 6. Ejercicio (análisis de posición)
 * Tarea 7. Animación en MATLAB de un mecanismo de cuatro barras
