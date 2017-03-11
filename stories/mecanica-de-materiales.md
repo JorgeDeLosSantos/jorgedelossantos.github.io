@@ -37,7 +37,7 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
     - [Solución Problema 1](/pdf/EX01_MECAMAT_P1.pdf)
     - [Solución Problema 2](/pdf/EX01_MECAMAT_P2.pdf)
     - [Solución Problema 3](/pdf/EX01_MECAMAT_P3.pdf)
-* [Examen 2]
+* [Examen 2](/pdf/Examen_02_MecaMat.pdf)
 
 ## Calificaciones
 
@@ -50,7 +50,7 @@ que las notas ahí colocadas se han calculado asumiendo una calificación máxim
 
 ## Sobre los porcentajes de evaluación
 
-Porcentajes base:
+Porcentajes base: 
 
 **Unidad I**
 
@@ -60,6 +60,8 @@ Porcentajes base:
 | Examen rápido | 15 % |
 | Tareas | 25 % |
 
+<br>
+<br>
 
 **Unidad II**
 
