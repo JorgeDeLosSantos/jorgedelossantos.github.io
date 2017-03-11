@@ -37,13 +37,14 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
     - [Solución Problema 1](/pdf/EX01_MECAMAT_P1.pdf)
     - [Solución Problema 2](/pdf/EX01_MECAMAT_P2.pdf)
     - [Solución Problema 3](/pdf/EX01_MECAMAT_P3.pdf)
+* [Examen 2]
 
 ## Calificaciones
 
-En el siguiente link pueden descargar un archivo XLSX con el concentrado de calificaciones parciales/temporales, tome en cuenta 
-que las notas ahí colocadas se han calculado asumiendo algunas condiciones que se explican en el mismo archivo.
+En el siguiente link pueden descargar un archivo XLSM con el concentrado de calificaciones parciales/temporales, tome en cuenta 
+que las notas ahí colocadas se han calculado asumiendo una calificación máxima para lo no evaluado.
 
-[Concentrado de calificaciones](/xls/notas_mecamat_2017.xlsx)
+[Concentrado de calificaciones](/xls/notas_mecamat_2017.xlsm)
 
 ---
 
