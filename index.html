@@ -10,8 +10,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://jorgedelossantos.github.io/">
 <link rel="icon" href="favicon.ico" sizes="16x16">
-<link rel="next" href="index-1.html" type="text/html">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="stories/analisis-cinematico-de-un-mecanismo-plano-usando-maple/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/implementacion-fem-en-problemas-de-ingenieria/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
@@ -107,58 +106,7 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="stories/analisis-cinematico-de-un-mecanismo-plano-usando-maple/" class="u-url">Análisis cinemático de un mecanismo plano usando Maple</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">
-                Pedro Jorge De Los Santos
-            </span></p>
-            <p class="dateline"><a href="stories/analisis-cinematico-de-un-mecanismo-plano-usando-maple/" rel="bookmark"><time class="published dt-published" datetime="2017-03-19T21:09:11-06:00" title="2017-03-19 21:09">2017-03-19 21:09</time></a></p>
-                <p class="commentline">
-        
-    <a href="stories/analisis-cinematico-de-un-mecanismo-plano-usando-maple/#disqus_thread" data-disqus-identifier="cache/posts/analisis-cinematico-de-un-mecanismo-plano-usando-maple.html">Comments</a>
-
-
-        </p>
-</div>
-    </header><div class="e-content entry-content">
-    <div>
-<p align="left"></p>
-<table><tr>
-<td valign="top" align="center"><font color="#78000e" size="3" face="Courier New"><strong>&gt; </strong></font></td>
-<td valign="top"><img src="stories/analisis-cinematico-de-un-mecanismo-plano-usando-maple/videos/abc_1.gif" width="49" height="13" alt="restart; -1" align="center" border="0"></td>
-</tr></table> 
-
-<p align="left"></p>
-<table><tr>
-<td valign="top" align="center"><font color="#78000e" size="3" face="Courier New"><strong>&gt; </strong></font></td>
-<td valign="top"><img src="stories/analisis-cinematico-de-un-mecanismo-plano-usando-maple/videos/abc_2.gif" width="221" height="16" alt="evalc(`+`(`*`(a, `*`(exp(`*`(I, `*`(theta(t)))))), `*`(b, `*`(exp(`*`(I, `*`(theta[2](t))))))))" align="center" border="0"></td>
-</tr></table> 
-
-<p align="center"></p>
-<table width="100%"><tr>
-<td valign="top" align="center"><font color="#0000ff" size="3" face="Times New Roman"><img src="stories/analisis-cinematico-de-un-mecanismo-plano-usando-maple/videos/abc_3.gif" width="315" height="20" alt="`+`(`*`(a, `*`(cos(theta(t)))), `*`(b, `*`(cos(theta[2](t)))), `*`(I, `*`(`+`(`*`(a, `*`(sin(theta(t)))), `*`(b, `*`(sin(theta[2](t))))))))" align="center" border="0"></font></td>
-<td width="5%" align="center">(1)</td>
-</tr></table> 
-
-<p align="left"></p>
-<table><tr>
-<td valign="top" align="center"><font color="#78000e" size="3" face="Courier New"><strong>&gt; </strong></font></td>
-<td valign="top"><img src="stories/analisis-cinematico-de-un-mecanismo-plano-usando-maple/videos/abc_4.gif" width="87" height="13" alt="solve(`+`(`*`(a, `*`(cos(theta(t)))), `*`(b, `*`(cos(theta[2](t)))), `*`(I, `*`(`+`(`*`(a, `*`(sin(theta(t)))), `*`(b, `*`(sin(theta[2](t)))))))) = 0, a)" align="center" border="0"></td>
-</tr></table> 
-
-<p align="center"></p>
-<table width="100%"><tr>
-<td valign="top" align="center"><font color="#0000ff" size="3" face="Times New Roman"><img src="stories/analisis-cinematico-de-un-mecanismo-plano-usando-maple/videos/abc_5.gif" width="175" height="38" alt="`+`(`-`(`/`(`*`(b, `*`(`+`(`*`(I, `*`(sin(theta[2](t)))), cos(theta[2](t))))), `*`(`+`(cos(theta(t)), `*`(I, `*`(sin(theta(t)))))))))" align="center" border="0"></font></td>
-<td width="5%" align="center">(2)</td>
-</tr></table> 
-
-<p align="left"></p>
-<table><tr>
-<td valign="top" align="center"><font color="#78000e" size="3" face="Courier New"><strong>&gt; </strong></font></td>
-<td valign="top"></td>
-</tr></table> </div>
-    </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/implementacion-fem-en-problemas-de-ingenieria/" class="u-url">Implementación del MEF en problemas de ingeniería</a></h1>
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/implementacion-fem-en-problemas-de-ingenieria/" class="u-url">Implementación del MEF en problemas de ingeniería</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">
                 Pedro Jorge De Los Santos
@@ -492,14 +440,36 @@ plano.</p>
 <br>Ahora podemos acceder al valor guardado en un determinado campo de la Hashtable:<br><br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; ht.get(<span class="st" style="color: #4070a0;">'B'</span>)  <span class="co" style="color: #60a0b0; font-style: italic;">% Tomando el valor de la clave B</span><br>ans =<br><span class="fl" style="color: #40a070;">15</span></code></pre></div>
 <br><div style="text-align: justify;">Y bueno, hasta aquí un poco de este tema sobre cómo utilizar clases de la librería estándar de Java en MATLAB. En entradas posteriores veremos cómo añadir controles gráficos de la librería Swing en una GUI MATLAB.</div>
     </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/hola-mundo/" class="u-url">Hola mundo</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Pedro Jorge De Los Santos
+            </span></p>
+            <p class="dateline"><a href="posts/hola-mundo/" rel="bookmark"><time class="published dt-published" datetime="2015-09-13T23:27:09-05:00" title="2015-09-13 23:27">2015-09-13 23:27</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/hola-mundo/#disqus_thread" data-disqus-identifier="cache/posts/hola-mundo.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>Bueno, esta será la primera entrada del blog. Por supuesto, utilizando  <a class="reference external" href="https://getnikola.com">Nikola</a> como generador.</p>
+<p>Se hablará de lo que se pueda: ingeniería, programación, elemento finito, matemáticas, y esas cosas, y lo que no sean esas cosas.</p>
+<p>Bienvenido.</p>
+<ul class="simple">
+<li><strong>Pedro Jorge De Los Santos</strong></li>
+</ul>
+</div>
+    </div>
     </article>
 </div>
 
-        <nav class="postindexpager"><ul class="pager">
-<li class="next">
-                <a href="index-1.html" rel="next">Publicaciones anteriores</a>
-            </li>
-        </ul></nav><script>var disqus_shortname="jorge-de-los-santos";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script><script type="text/x-mathjax-config">
+
+
+        
+       <script>var disqus_shortname="jorge-de-los-santos";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script><script type="text/x-mathjax-config">
             MathJax.Hub.Config({tex2jax: {inlineMath: [['$latex ','$'], ['\\(','\\)']]}});
             </script>
 </div>
