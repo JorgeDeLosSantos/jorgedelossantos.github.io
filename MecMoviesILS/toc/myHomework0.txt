@@ -1,0 +1,86 @@
+subtitle=MecMovies Exercises&
+&A1=<M1.1>F640&comment=Normal, shear, and bearing stress&
+&A2=<M1.2>F440&comment=Normal stress basic problems&
+&A3=<M1.3>F480&comment=Shear stress basic problems&
+&A4=<M1.4>F600&comment=Load capacity of two-bar assembly&
+&A5=<M1.5>F240&comment=Pin-supported rigid bar: shear stress&
+&A6=<M1.6>F280&comment=Bolted pipe flanges&
+&A7=<M1.12>F325&comment=Stresses on inclined plane&
+&A8=<M1.13>F330&comment=Force based on inclined plane stresses&
+
+&A9=<M2.1>F360&comment=Normal strain in rod assembly&
+&A10=<M2.2>F400&comment=Normal strain - pinned rigid bar&
+&A11=<M2.3>F520&comment=Normal strain basic problems&
+
+&A12=<M3.3>F560&comment=Hookes law basic problems&
+
+&A13=<M4.1>F680&comment=Beam-strut factors of safety&
+&A14=<M4.2>F760&comment=Design bolts for splice plate&
+&B1=<M4.3>F720&comment=Load capacity of beam-strut&
+
+&B2=<M5.1>A110&comment=Axial deformation basic problems&
+&B3=<M5.2>A120&comment=Compound axial members basic problems&
+&B4=<M5.5>A240&comment=Two rods in series&
+&B5=<M5.6>A280&comment=Coaxial bars&
+&B6=<M5.7>A320&comment=Rigid bar and two axial members&
+&B7=<M5.8>A360&comment=Rigid bar with opposing members&
+&B8=<M5.13>A440&comment=End-to-end rods with temperature&
+&B9=<M5.14>A480&comment=Coaxial bars with temperature&
+
+&B10=<M6.1>M320&comment=Torsion concepts&
+&B11=<M6.9>M360&comment=Gear basics&
+&B12=<M6.10>M440&comment=Gear trains: torque/stress (two shafts)&
+&B13=<M6.11>M445&comment=Gear trains: torque/stress (three shafts)&
+&B14=<M6.12>M480&comment=Gear trains: angles of twist&
+&C1=<M6.14>M880&comment=Gear trains: power transmission (two shafts)&
+&C2=<M6.15>M885&comment=Gear trains: power transmission (three shafts)&
+&C3=<M6.19>M520&comment=Shear stresses in coaxial shafts&
+&C4=<M6.20>M600&comment=Shear stresses in end-to-end shafts&
+&C5=<M6.21>M640&comment=Maximum torque applied to composite shaft&
+
+&C6=<M7.1>N040&comment=6 Rules for V/M Diags&
+&C7=<M7.2>N120&comment=Following the rules&
+
+&C8=<M8.3>C080&comment=Bending stresses in a flanged shape&
+&C9=<M8.8>C120&comment=Moments and bending stress&
+&C10=<M8.9>C260&comment=Determine maximum bending stresses&
+&C11=<M8.10>C160&comment=Extruded aluminum beam&
+&C12=<M8.16>C320&comment=Introducing the transformed area method&
+&C13=<M8.17>C360&comment=Aluminum and brass composite beam&
+&C14=<M8.20>E040&comment=C-clamp normal stresses&
+&D1=<M8.21>E080&comment=Precast concrete beam and corbel&
+&D2=<M8.22>E120&comment=The tree&
+&D3=<M8.23>E160&comment=Jib crane boom&
+
+&D4=<M9.4>D140&comment=Shear stress in a standard steel shape&
+&D5=<M9.9>D320&comment=Nailing two box beams&
+&D6=<M9.10>D360&comment=Determine nail spacing for U beam&
+&D7=<M9.11>D400&comment=Bolt spacing in built-up steel beam&
+
+&D8=<M10.3>B120&comment=8 skills&
+&D9=<M10.4>B122&comment=8 skills&
+&D10=<M10.5>B160&comment=Superposition warm-up&
+&D11=<M10.6>B520&comment=One beam, one load, three cases&
+
+&D12=<M11.1>B560&comment=Propped cantilevers&
+&D13=<M11.2>B540&comment=Beam on three supports&
+
+&D14=<M12.1>K040&comment=The amazing stress camera&
+&E1=<M12.2>K160&comment=Top-drop-sweep the clock&
+&E2=<M12.5>K120&comment=Plane stress transformations - terminology&
+&E3=<M12.13>K720&comment=Absolute maximum shear stress&
+
+&E4=<M13.5>J120&comment=Strain measurement with rosettes&
+&E5=<M13.6>J240&comment=Principal stresses from rosette data&
+
+&E6=<M14.3>G120&comment=Cylindrical vessel weld stresses&
+&E7=<M14.4>G160&comment=Strain gage to measure tank pressure&
+&E8=<M14.5>G200&comment=Critical strain for pressure tank&
+
+&E9=<M15.2>E280&comment=Principal stresses in a tee beam&
+&E10=<M15.3>E400&comment=Principal stresses in a rectangular tube&
+&E11=<M15.4>E440&comment=Principal stresses in a wide-flange beam&
+&E12=<M15.5>E240&comment=Beams bending about two axes&
+&E13=<M15.6>E360&comment=Up periscope&
+
+&EndOfFile=1&

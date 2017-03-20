@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://jorgedelossantos.github.io/</loc>
-  <lastmod>2017-03-20T03:19:00Z</lastmod>
+  <lastmod>2017-03-20T19:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/2015/</loc>
@@ -18,8 +18,12 @@
   <lastmod>2017-02-16T10:37:00Z</lastmod>
  </url>
  <url>
-  <loc>https://jorgedelossantos.github.io/2017/</loc>
-  <lastmod>2017-03-20T03:19:00Z</lastmod>
+  <loc>https://jorgedelossantos.github.io/MecMoviesILS/</loc>
+  <lastmod>2017-03-20T19:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/MecMoviesILS/stress/sketch_stress_demo.htm</loc>
+  <lastmod>2005-03-18T03:55:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/archive.html</loc>
@@ -94,14 +98,6 @@
   <lastmod>2017-02-16T10:37:00Z</lastmod>
  </url>
  <url>
-  <loc>https://jorgedelossantos.github.io/index-1.html</loc>
-  <lastmod>2017-03-20T03:23:00Z</lastmod>
- </url>
- <url>
-  <loc>https://jorgedelossantos.github.io/posts/</loc>
-  <lastmod>2017-03-20T03:19:00Z</lastmod>
- </url>
- <url>
   <loc>https://jorgedelossantos.github.io/posts/2016/01/metodos-estaticos-en-una-clase-matlab/</loc>
   <lastmod>2017-02-16T10:37:00Z</lastmod>
  </url>
@@ -140,10 +136,6 @@
  <url>
   <loc>https://jorgedelossantos.github.io/posts/sobre-la-tesis/</loc>
   <lastmod>2017-02-16T10:37:00Z</lastmod>
- </url>
- <url>
-  <loc>https://jorgedelossantos.github.io/stories/</loc>
-  <lastmod>2017-03-20T03:23:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/stories/about/</loc>
