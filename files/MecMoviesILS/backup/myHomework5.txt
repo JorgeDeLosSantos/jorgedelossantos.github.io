@@ -1,0 +1,32 @@
+subtitle=BE 50 - Statics&
+&A1=<Jan 16>F240&comment=Pin-supported rigid bar&
+&B1=<Jan 23>F440&comment=Concepts of stress&
+&C1=<Jan 26>A120&comment=Axial members: basic concepts&
+&A2=<Feb 02a>M320&comment=Torsion concepts&
+&B2=<Feb 02b>M360&comment=Gear basics&
+&C2=<Feb 02c>M440&comment=Gear trains: torque/stress&
+&D2=<Feb 04>M480&comment=Gear trains: angles of twist&
+&E2=<Feb 06>M880&comment=Gear trains: power transmission&
+&A4=<Feb 11a>H200&comment=The centroids game: Learning the ropes&
+&B4=<Feb 11b>H280&comment=The moment of inertia: Starting from square one&
+&A5=<Feb 16a>C080&comment=Bending stresses in a flanged shape&
+&B5=<Feb 16b>C120&comment=Moments and bending stress&
+&C5=<Feb 16c>C160&comment=Extruded aluminum beam&
+&D5=<Feb 20>E120&comment=The tree&
+&A6=<Feb 27a>D320&comment=Nailing two box beams&
+&B6=<Feb 27b>D360&comment=Determine nail spacing for U beam&
+&C6=<Feb 27c>D400&comment=Bolt spacing in built-up steel beam&
+&D6=<Mar 1>D240&comment=Q-tile&
+&A8=<Mar 8a>K040&comment=The amazing stress camera&
+&B8=<Mar 8b>K120&comment=Plane stress transformations - terminology&
+&C8=<Mar 10a>K160&comment=Top-drop-sweep the clock&
+&D8=<Mar 10b>K200&comment=Sign, sign, everywhere a sign&
+&E8=<Mar 10c>K520&comment=Coach Mohr's circle of stress&
+&A9=<April 7a>K600&comment=Mohr's circle game: basic&
+&B9=<April 7b>K640&comment=Mohr's circle game: principal/max shear&
+&A11=<April 14>B040&comment=Beam boundary condition game&
+&A12=<April 21>B160&comment=Superposition warm-up&
+&B12=<April 23>B520&comment=One beam, one load, three cases&
+&C12=<April 26>B560&comment=Propped cantilevers&
+&A13=<April 30>E240&comment=Beams bending about two axes&
+&EndOfFile=1&

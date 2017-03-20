@@ -1,0 +1,58 @@
+subtitle=Movies with Concept Checkpoints or Try One Features&
+
+&comment=Concept Checkpoint movies&
+&A1=<CHECKPOINTS>LABEL&comment=Label&
+&B1=<Normal Stress Basics>F440&comment=Normal stress basic problems&
+&C1=<Direct Shear Stress>F480&comment=Shear stress basic problems&
+&A2=<Direct Shear Stress>F240&comment=Pin-supported rigid bar: shear stress&
+&B2=<Normal Strain Basics>F520&comment=Normal strain basic problems&
+&C2=<Hooke's Law>F560&comment=Hookes law basic problems&
+&D2=<Axial Members>A110&comment=Axial deformation basic problems&
+&E2=<Axial Members>A120&comment=Compound axial members basic problems&
+&A3=<Torsion>M320&comment=Torsion concepts&
+&B3=<Torsion w/Gears>M360&comment=Gear basics&
+&C3=<Torsion w/Gears>M440&comment=Gear trains: torque/stress&
+&D3=<Torsion w/Gears>M480&comment=Gear trains: angles of twist&
+&E3=<Torsion w/Gears>M880&comment=Gear trains: power transmission&
+&A4=<Bending Stresses>C080&comment=Bending stresses in a flanged shape&
+&B4=<Bending Stresses>C120&comment=Moments and bending stress&
+&C4=<Bending Stresses>C160&comment=Extruded aluminum beam&
+&A5=<Shear Flow>D320&comment=Nailing two box beams&
+&B5=<Shear Flow>D360&comment=Determine nail spacing for U beam&
+&C5=<Shear Flow>D400&comment=Bolt spacing in built-up steel beam&
+&A6=<Stress Transform>K120&comment=Plane stress transformations - terminology&
+&B6=<Stress Transform>K160&comment=Top-drop-sweep the clock&
+&C6=<Axial and Bending>E120&comment=The tree&
+&D6=<Axial Bend Shear>E240&comment=Beams bending about two axes&
+&E6=<General Combined>E360&comment=Up periscope&
+&A7=<Defl Superposition>B120&comment=8 skills&
+&B7=<Defl Superposition>B160&comment=Superposition warm-up&
+&C7=<Defl Superposition>B520&comment=One beam, one load, three cases&
+&D7=<Defl Superposition>B560&comment=Propped cantilevers&
+
+&comment=Try One movies&
+&A8=<TRY ONE>LABEL&comment=Label&
+&A9=<Pipe Flanges>F280&comment=Bolted pipe flanges&
+&B9=<Normal Strain>F360&comment=Normal strain in rod assembly&
+&C9=<Normal Strain>F400&comment=Normal strain in rod assembly - pinned rigid bar&
+&A10=<Indet Axial>A240&comment=Two rods in series&
+&B10=<Indet Axial>A280&comment=Coaxial bars&
+&C10=<Indet Axial>A320&comment=Rigid bar and two axial members&
+&D10=<Indet Axial>A360&comment=Rigid bar with opposing members&
+&A11=<Indet Axial w/Temp>A440&comment=End-to-end rods with temperature&
+&B11=<Indet Axial w/Temp>A480&comment=Coaxial bars with temperature&
+&C11=<Indet Axial w/Misfit>A520&comment=End-to-end bars with misfit&
+&A12=<Indet Torsion>M520&comment=Shear stresses in coaxial shafts&
+&B12=<Indet Torsion>M560&comment=Maximum torque applied to coaxial shaft&
+&C12=<Indet Torsion>M600&comment=Shear stresses in end-to-end shafts&
+&D12=<Indet Torsion>M640&comment=Maximum torque applied to composite shaft&
+&A13=<Non-homo Bending>C320&comment=Introducing the transformed area method&
+&B13=<Non-homo Bending>C360&comment=Aluminum and brass composite beam&
+&C13=<Beam Shear Stress>D080&comment=Transverse shear stress distribution - tee beam&
+&D13=<Beam Stresses>D200&comment=Normal and shear stresses at a point in a beam&
+&A14=<Stress Trans>K040&comment=The amazing stress camera&
+&B14=<Pressure Vessel>G120&comment=Cylindrical pressure vessel - stresses on a weld&
+&C14=<Axial and Bending>E040&comment=C-clamp normal stresses&
+&D14=<Axial and Bending>E160&comment=Jib crane boom&
+&E14=<Beam Defl Integ>B080&comment=Beam deflections - integration method&
+&EndOfFile=1&

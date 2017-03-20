@@ -1,0 +1,70 @@
+subtitle=MEGR 2144  Dr. Ronald Smelser&
+&A1=<Start of Semester>LABEL&comment=Label&
+&A2=<M1.1 (Jan 13)>F440&comment=Normal stress basic problems&
+&A3=<M1.2 (Jan 13)>F520&comment=Normal strain basic problems&
+&A4=<M1.3 (Jan 13)>F360&comment=Normal strain in rod assembly&
+&A5=<M1.4 (Jan 13)>F400&comment=Normal strain in rod assembly - pinned rigid bar&
+&A6=<M1.6 (Jan 18)>F560&comment=Hookes law basic problems&
+&A7=<M1.7 (Jan 20)>F240&comment=Pin-supported rigid bar: shear stress&
+&A8=<M1.8 (Jan 20)>F480&comment=Shear stress basic problems&
+&A9=<M1.15 (Jan 23)>F600&comment=Load capacity of two-bar assembly&
+&A10=<M1.16 (Jan 23)>F680&comment=Factors of safety for beam-strut structure&
+&A11=<M1.17 (Jan 23)>F720&comment=Load capacity of beam-strut structure&
+&A12=<M1.18 (Jan 23)>F760&comment=Bolt diameter based on factor of safety&
+&A13=<M2.1 (Jan 25)>A110&comment=Axial deformation basic problems&
+&A14=<M2.3 (Jan 25)>A120&comment=Compound axial members basic problems&
+
+&B1=<M2.5 (Jan 27)>A240&comment=Two rods in series&
+&B2=<M2.6 (Jan 27)>A280&comment=Coaxial tube and core&
+&B3=<M2.7 (Jan 27)>A320&comment=Rigid bar and two axial members&
+&B4=<M2.11 (Jan 30)>A440&comment=End-to-end rods with temperature&
+&B5=<M2.12 (Jan 30)>A480&comment=Coaxial bars with temperature&
+&B6=<Exam 1>LABEL&comment=Label&
+
+&B8=<M3.5 (Feb 10)>M320&comment=Torsion concepts&
+&B9=<M3.19 (Feb 13)>M520&comment=Shear stresses in coaxial shafts&
+&B10=<M3.20 (Feb 13)>M600&comment=Shear stresses in end-to-end shafts&
+&B11=<M4.1 (Feb 20)>N040&comment=Six rules for constructing shear and moment&
+&B12=<M4.2 (Feb 20)>N120&comment=Following the Rules&
+&B13=<Exam 2>LABEL&comment=Label&
+
+&C1=<M5.1 (Mar 3)>H200&comment=The centroids game: Learning the ropes&
+&C2=<M5.2 (Mar 3)>H280&comment=The moment of inertia: Starting from square one&
+&C3=<M5.8 (Mar 3)>C080&comment=Bending stresses in a flanged shape&
+&C4=<M5.9 (Mar 3)>C120&comment=Moments and bending stress&
+&C5=<M5.10 (Mar 3)>C160&comment=Extruded aluminum beam&
+&C6=<M5.18 (Mar 15)>D240&comment=Q-tile&
+&C7=<M5.19 (Mar 15)>D140&comment=Shear stress in a standard steel shape&
+&C8=<M5.24 (Mar 15)>D320&comment=Nailing two box beams&
+&C9=<M5.25 (Mar 15)>D360&comment=Determine nail spacing for U beam&
+&C10=<M5.26 (Mar 15)>D400&comment=Bolt spacing in built-up steel beam&
+&C11=<M5.29 (Mar 17)>E120&comment=The Tree&
+&C12=<M5.30 (Mar 17)>E040&comment=C-clamp normal stresses&
+&C13=<M5.32 (Mar 17)>E160&comment=Jib crane boom&
+
+&D1=<M6.1 (Mar 20)>C320&comment=Introducing the transformed area method&
+&D2=<M6.2 (Mar 20)>C360&comment=Aluminum and brass composite beam&
+&D3=<M7.1 (Mar 22)>K120&comment=Plane stress transformations - terminology&
+&D4=<M7.2 (Mar 22)>K040&comment=The amazing stress camera&
+&D5=<M7.4 (Mar 22)>K160&comment=Top-drop-sweep the clock&
+&D6=<M7.5 (Mar 22)>K200&comment=Sign, sign, everywhere a sign&
+&D7=<M7.14 (Mar 27)>K520&comment=Coach Mohr's circle of stress&
+&D8=<M7.16 (Mar 27)>K720&comment=Absolute maximum shear stress&
+&D9=<M7.17 (Mar 27)>K681&comment=Sketching stress transformation results&
+&D10=<M8.3 (Mar 31)>G120&comment=Cylindrical pressure vessel - stresses on a weld&
+&D11=<Exam 3>LABEL&comment=Label&
+
+&E1=<M8.6 (Apr 7)>E440&comment=Principal stresses in a wide-flange beam&
+&E2=<M8.7 (Apr 7)>E400&comment=Principal stresses in a rectangular tube beam&
+&E3=<M8.8 (Apr 7)>E280&comment=Principal stresses in a tee beam&
+&E4=<M9.1 (Apr 12)>B040&comment=Beam boundary condition game&
+&E5=<M9.3 (Apr 12)>B120&comment=8 skills: Part I&
+&E6=<M9.4 (Apr 12)>B122&comment=8 skills: Part II&
+&E7=<M9.6 (Apr 12)>B520&comment=One beam, one load, three cases&
+&E8=<M10.1 (Apr 21)>B560&comment=Propped cantilevers&
+&E9=<M10.2 (Apr 21)>B540&comment=Beam on three supports&
+&E10=<Exam 4>LABEL&comment=Label&
+
+&E11=<End of Semester>LABEL&comment=Label&
+
+&EndOfFile=1&
