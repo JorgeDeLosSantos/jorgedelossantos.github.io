@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Posts | While True</title>
+<link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta content="#14178D" name="theme-color">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+<link rel="canonical" href="https://jorgedelossantos.github.io/posts/">
+<link rel="icon" href="favicon.ico" sizes="16x16">
+<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://jorgedelossantos.github.io/">
+
+                <span id="blog-title">While True</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../archive.html">Archivo</a>
+            </li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blogs <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+<li>
+<a href="http://numython.github.io">Numython</a>
+                    </li>
+<li>
+<a href="http://matlab-typ.blogspot.mx/">MATLAB TYP</a>
+            </li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Asignaturas <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+<li>
+<a href="../stories/mecanismos/">Mecanismos</a>
+                    </li>
+<li>
+<a href="../stories/mecanica-de-materiales/">Mecánica de Materiales</a>
+                    </li>
+<li>
+<a href="../stories/cad-2d/">CAD - 2D</a>
+                    </li>
+<li>
+<a href="../stories/cad-2e/">CAD - 2E</a>
+                    </li>
+<li>
+<a href="../stories/iproy/">Ingeniería de Proyectos</a>
+                    </li>
+<li>
+<a href="../stories/tsrv/">Técnicas de Selección y RV</a>
+            </li>
+</ul>
+</li>
+<li>
+<a href="../categories/">Etiquetas</a>
+                </li>
+<li>
+<a href="../rss.xml">Canal RSS</a>
+
+                
+            </li>
+</ul>
+<!-- Google custom search --><form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
+<div class="form-group">
+<input type="text" name="q" class="form-control" placeholder="Search">
+</div>
+<button type="submit" class="btn btn-primary">
+  <span class="glyphicon glyphicon-search"></span>
+</button>
+<input type="hidden" name="sitesearch" value="https://jorgedelossantos.github.io/">
+</form>
+<!-- End of custom search -->
+
+
+            <ul class="nav navbar-nav navbar-right"></ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<div class="sectionindex">
+    <header><h2><a href=".">Posts</a></h2>
+    </header><div class="postindex">
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="implementacion-fem-en-problemas-de-ingenieria/" class="u-url">Implementación del MEF en problemas de ingeniería</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Pedro Jorge De Los Santos
+            </span></p>
+            <p class="dateline"><a href="implementacion-fem-en-problemas-de-ingenieria/" rel="bookmark"><time class="published dt-published" datetime="2016-10-09T00:42:31-05:00" title="2016-10-09 00:42">2016-10-09 00:42</time></a></p>
+                <p class="commentline">
+        
+    <a href="implementacion-fem-en-problemas-de-ingenieria/#disqus_thread" data-disqus-identifier="cache/posts/implementacion-fem-en-problemas-de-ingenieria.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>El método del elemento finito es utilizado para resolver problemas físicos en análisis de ingeniería
+y diseño. La figura mostrada enseguida esquematiza el proceso del análisis por elementos finitos.
+El problema físico típicamente involucra una estructura o ciertos elementos mecánicos sometidos
+a condiciones de cargas establecidas. La <em>conversión</em> del problema físico a un modelo matemático
+correspondiente requiere que se hagan consideraciones para la simplificación y resolución de las
+ecuaciones diferenciales resultantes. El análisis de elementos finitos resuelve ese modelo matemático
+resultante. Puesto que la solución por elemento finito involucra un procedimiento por técnicas de
+análisis numérico es necesario evaluar la exactitud de la solución. Si no existe un criterio de
+exactitud o punto de comparación, la solución numérica debe repetirse refinando algunos parámetros
+(como la densidad de malla) hasta que las variaciones entre soluciones sean aceptables.</p>
+<img alt="/img/fem_diagram.PNG" src="../img/fem_diagram.PNG"><p>Está claro que la solución por elementos finitos resolvera sólo el modelo matemático
+establecido y la respuesta del sistema reflejará las consideraciones o simplificaciones
+realizadas a este. La selección de un modelo matemático apropiado es crucial y determina
+completamente la percepción actual del fenómeno físico que puede obtenerse mediante el
+análisis. Luego, es claro que, naturalmente, la respuesta de problemas solucionados
+mediante técnicas de elemento finito no corresponderán exactamente con la situación real,
+dado que es casi imposible reproducir las condiciones de un entorno tomando en cuenta
+todas las variables que inciden en el proceso, en la mayoría de los casos se tendrá
+una comparación basada en la correlación o correspondencia entre la respuesta matemática
+y la experimental.</p>
+<p>Una vez que el modelo matemático ha sido resuelto y los resultados han sido interpretados,
+se puede entonces considerar la refinación o redefinición del modelo matemático para
+considerar otros factores que permitan obtener una solución más ajustada a la realidad.</p>
+<p>Para definir la confiabilidad y efectividad de un modelo seleccionado debemos pensar
+en un modelo matemático muy completo del problema físico y medir la respuesta de nuestro
+modelo seleccionado contra la respuesta del modelo completo. En general, un modelo matemático
+completo incluye una descripción tridimensional del problema e incluye efectos no-lineales.</p>
+<p>Para evaluar el resultado obtenido por la solución de un modelo matemático seleccionado,
+puede ser necesario también resolver problemas de modelado matemático de orden superior,
+e incluso ir incluyendo cada vez factores más complejos. Por ejemplo, una viga estructural
+puede primero analizarse usando la teoría de la viga de Bernoulli, luego usando
+la teoría de una viga de Timoshenko, siguiendo con una análisis bidimensional por la
+teoría de esfuerzo plano, y finalmente utilizando un modelo tridimensional continuo,
+y en cada caso la posibilidad de incluir efectos no lineales.</p>
+<p>Claramente con esa jerarquía de modelos, enunciada en el párrafo anterior, el análisis
+incluirá cada vez respuestas más complejas, incrementando consecuentemente el costo de
+la solución. Es conocido que un análisis tridimensional es alrededor de un orden de
+magnitud más costoso que el caso bidimensional, tanto en recursos computacionales
+como en el tiempo de ingeniería realizada.</p>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="programacion-matlab/" class="u-url">Programación en MATLAB, fundamentos y aplicaciones</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Pedro Jorge De Los Santos
+            </span></p>
+            <p class="dateline"><a href="programacion-matlab/" rel="bookmark"><time class="published dt-published" datetime="2016-10-04T10:08:38-05:00" title="2016-10-04 10:08">2016-10-04 10:08</time></a></p>
+                <p class="commentline">
+        
+    <a href="programacion-matlab/#disqus_thread" data-disqus-identifier="cache/posts/programacion-matlab.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>Desde el año pasado intento escribir unos apuntes/libro sobre  programación en MATLAB.
+El título: <strong>Programación en MATLAB, fundamentos y aplicaciones</strong>. Del cual la idea
+es abordar la programación en MATLAB en un nivel básico-intermedio, el libro se escribe para
+personas que tengan asimiladas las nociones básicas de programación, algoritmos y esas
+cosas necesarias para comenzar.</p>
+<p>Uno de los detalles/cuestionamientos constantes ha sido ¿cómo escribir/editar el libro?,
+las opciones: Sphinx con ResT, ResT + rst2pdf (una minilibrería creada por Alsina), un editor
+de textos tipo WYSIWYG, Markdown + pandoc, Markdown + LeanPub, o LaTeX. Y en esa experimentación
+he pasado por casi todas las opciones, para al finar llegar a quedar con el odioso LaTeX,
+pero qué le vamos a hacer, a día de hoy (y durante muchos años) es (será) la opción más madura
+para la edición a partir de texto plano. Claro está que de todos es el que tiene la sintaxis
+más <em>pesada</em>.</p>
+<p>Los apuntes en su versión incompleta están disponibles en la plataforma <a class="reference external" href="https://leanpub.com/programacionmatlab">LeanPub</a> , que permite
+escribir/editar y publicar/vender libros bajo un esquema muy simple. Cualquiera que guste descargar
+el libro ahí lo tendrá, gratis claro está. LeanPub, además, está pensado para que los lectores
+(o potenciales lectores) puedan acceder a libros en una etapa temprana de desarrollo y contribuir
+con retroalimentación sobre el mismo, lo cual suene por demás interesante, un ganar-ganar.</p>
+<p>Sin más, les dejo el link y la portada del libro en cuestión:</p>
+<img alt="https://s3.amazonaws.com/titlepages.leanpub.com/programacionmatlab/hero?1475359772" src="https://s3.amazonaws.com/titlepages.leanpub.com/programacionmatlab/hero?1475359772" style="width: 200px;"><p><a class="reference external" href="https://leanpub.com/programacionmatlab">Descargar</a></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="sobre-la-tesis/" class="u-url">Sobre la tesis</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Pedro Jorge De Los Santos
+            </span></p>
+            <p class="dateline"><a href="sobre-la-tesis/" rel="bookmark"><time class="published dt-published" datetime="2016-09-13T23:42:15-05:00" title="2016-09-13 23:42">2016-09-13 23:42</time></a></p>
+                <p class="commentline">
+        
+    <a href="sobre-la-tesis/#disqus_thread" data-disqus-identifier="cache/posts/sobre-la-tesis.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>Después de año y medio en la maestría llega el momento de esto: escribir o terminar de
+escribir la tesis. Y cómo no, con el escándalo del presidente y su manera incorrecta de
+referenciar y dar el crédito correspondiente a sus autores, claro está que no es
+tema menor ni mucho menos, así que estaré preocupado por citar correctamente a cada
+autor implicado, nunca se sabe.</p>
+<div class="section" id="y-de-que-va-la-tesis">
+<h2>¿Y de qué va la tesis?</h2>
+<p>Lo cierto es que no es un tema o proyecto con alto de grado de exigencia científica, (ni mediano),
+si no más orientado hacia cuestiones de mejoras en procesos de producción y manufactura.
+El título: <strong>Simulación por elementos finitos del proceso de formado de un tubo de
+acero AISI 1018</strong>. La idea más general sobre el proyecto es la implementación de un
+centro de diseño, manufactura y validación de herramentales de producción utilizando
+tecnología actualizada que permita un desarrollo ágil. Cuestiones más, cuestiones menos.</p>
+</div>
+<div class="section" id="estatus-actual">
+<h2>Estatus actual</h2>
+<p>Quizá un avance del 55%, espero en noviembre terminar con eso, porque la vida sigue
+y hay que medio planear lo venidero, que a como va el país tampoco es que se antoje
+plano.</p>
+</div>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="2016/04/matlab-poo-ii-definiendo-clases/" class="u-url">MATLAB POO II. Definiendo clases</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Pedro Jorge De Los Santos
+            </span></p>
+            <p class="dateline"><a href="2016/04/matlab-poo-ii-definiendo-clases/" rel="bookmark"><time class="published dt-published" datetime="2016-04-17T07:14:00-05:00" title="2016-04-17 07:14">2016-04-17 07:14</time></a></p>
+                <p class="commentline">
+        
+    <a href="2016/04/matlab-poo-ii-definiendo-clases/#disqus_thread" data-disqus-identifier="cache/posts/2016/04/matlab-poo-ii-definiendo-clases.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div style="text-align: justify;">Las clases son el <em>alma</em> de la POO, y suelen definirse en ficheros únicos. En MATLAB pueden crearse utilizando un fichero *.m ordinario y colocando en este la sintaxis para la definición de una clase, la cual se muestra enseguida:</div>
+<div style="text-align: justify;"><br></div>
+<div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">classdef nombreClase<br><span class="co" style="color: #60a0b0; font-style: italic;">% Descripción de la clase</span><br><br>    properties<br><span class="co" style="color: #60a0b0; font-style: italic;">% Atributos</span><br>    end<br><br>    methods<br><span class="co" style="color: #60a0b0; font-style: italic;">% Métodos</span><br>    end<br><br>end</code></pre></div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">En la mayoría de los lenguajes que soportan POO se utiliza la palabra clave class para definir una clase, pero en MATLAB <code style="white-space: pre;">class</code> se utiliza para identificar el tipo o clase de una variable u objeto, y en cambio se utiliza <code style="white-space: pre;">classdef</code> para definir una clase. Los atributos de una clase se definen en un bloque properties-end, y pueden simplemente ser declarados sin asignación de valores. Los métodos de la clase se especifican dentro de un bloque methods-end, incluyendo al constructor de la clase.</div>
+<div style="text-align: justify;"><br></div>
+<h3 id="el-constructor-de-la-clase">El constructor de la clase</h3>
+<br><div style="text-align: justify;">El constructor de una clase es parte esencial de la misma y en este se definen los argumentos o parámetros formales necesarios para crear un objeto de la clase, de ahí su importancia. En MATLAB el constructor se considera, de manera no estricta, un método y por tanto se define dentro del bloque correspondiente a los métodos. Así pues, incluyendo al constructor la definición de una clase sería algo similar a:</div>
+<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">classdef nombreClase<br><span class="co" style="color: #60a0b0; font-style: italic;">% Descripción de la clase</span><br><br>    properties<br><span class="co" style="color: #60a0b0; font-style: italic;">% Atributos</span><br>    end<br><br>    methods<br>        function obj = nombreClase(args)<br><span class="co" style="color: #60a0b0; font-style: italic;">% Constructor de la clase </span><br>        end<br><span class="co" style="color: #60a0b0; font-style: italic;">% ...</span><br><span class="co" style="color: #60a0b0; font-style: italic;">% Métodos</span><br><span class="co" style="color: #60a0b0; font-style: italic;">% ...</span><br>    end<br><br>end</code></pre></div>
+<br><div style="text-align: justify;">En lo anterior obj es, dentro la definición de la clase, una referencia al objeto instanciado y es obligatorio el colocarlo como <em>valor de salida</em> (en la terminología de funciones); claro que el identificador <code style="white-space: pre;">obj</code> puede cambiarlo por cualesquiera otro de su comodidad (<code style="white-space: pre;">this</code> o <code style="white-space: pre;">self</code> podrían ser buenas opciones, claro, mucho influye el hecho de haber programado en otro lenguaje de POO en este tipo de <em>adopciones</em> de estilo). Tal como se ejemplifica, el nombre de la función que funge como constructor debe ser el mismo que el de la clase, además deben especificarse los argumentos que se utilizarán para crear un objeto.</div>
+<br><h3 id="la-clase-persona-una-primera-aproximación">La clase Persona, una primera aproximación</h3>
+<br><div style="text-align: justify;">En la sección anterior hemos visto la sintaxis para definir una clase, pero como casi todo siempre es mejor asociar un concepto teórico con un ejemplo concreto. Para tal fin crearemos la clase Persona, de naturaleza muy sencilla pero significativa.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">En principio vamos a definir las propiedades o atributos que habrán de caracterizar a un objeto de la clase Persona, así pues, dada la simplicidad del caso solamente utilizaremos el nombre y la edad para <em>construir</em> un objeto de esta clase. Por ahora no definiremos método alguno, solamente el constructor de la clase. Véase la definición resultante:</div>
+<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">classdef Persona<br><span class="co" style="color: #60a0b0; font-style: italic;">% Persona</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%</span><br><span class="co" style="color: #60a0b0; font-style: italic;">% Ejemplo :</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%           p1 = Persona('Jorge',22);</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%           p2 = Persona('Anna',28);          </span><br><span class="co" style="color: #60a0b0; font-style: italic;">%</span><br><br>    properties <span class="co" style="color: #60a0b0; font-style: italic;">% Atributos de la clase</span><br>        nombre;<br>        edad;<br>    end<br><br>    methods<br>        function obj = Persona(nombre,edad) <span class="co" style="color: #60a0b0; font-style: italic;">% Constructor</span><br>            obj.edad=edad;<br>            obj.nombre=nombre;<br>        end<br>    end<br><br>end</code></pre></div>
+<br><div style="text-align: justify;">Para <em>testear</em> una clase podemos crear un script en donde colocar las instrucciones necesarias para crear un objeto de la misma. No obstante, por ahora haremos esto en la ventana de comandos de la siguiente manera:</div>
+<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; p = Persona(<span class="st" style="color: #4070a0;">'Ana'</span>,<span class="fl" style="color: #40a070;">25</span>);<br>&gt;&gt; whos<br>  Name      Size            Bytes  Class      Attributes<br>  p         <span class="fl" style="color: #40a070;">1</span>x1               <span class="fl" style="color: #40a070;">118</span>  Persona        </code></pre></div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="2016/04/matlab-poo-i-conceptos-basicos/" class="u-url">MATLAB POO I. Conceptos básicos</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Pedro Jorge De Los Santos
+            </span></p>
+            <p class="dateline"><a href="2016/04/matlab-poo-i-conceptos-basicos/" rel="bookmark"><time class="published dt-published" datetime="2016-04-17T07:04:00-05:00" title="2016-04-17 07:04">2016-04-17 07:04</time></a></p>
+                <p class="commentline">
+        
+    <a href="2016/04/matlab-poo-i-conceptos-basicos/#disqus_thread" data-disqus-identifier="cache/posts/2016/04/matlab-poo-i-conceptos-basicos.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <p>La programación orientada a objetos (POO) es un paradigma de programación que utiliza objetos como parte esencial de sus interacciones, para el desarrollo de aplicaciones y soluciones tecnológicas. La POO está soportada por técnicas de programación tales como la herencia, el polimorfismo, el encapsulamiento, entre otras, cada una de ellas proporciona herramientas que han permitido la proliferación de este modelo de programación en las últimas décadas. Actualmente existen una variedad de lenguajes que soportan la POO, siendo los más conocidos C++, Java y C#.<br><br>El soporte <em>moderno</em> de MATLAB para la POO es relativamente nuevo, siendo introducido a partir de la versión 7.6 (R2008a) con notables carencias respecto a los lenguajes de referencia en ese aspecto, pero evidentemente la mejora desde entonces ha sido considerable.<br><br></p>
+<blockquote>Con soporte <em>moderno</em> se hace alusión a la notación actual que se utiliza en la definición de clases, por ejemplo <code style="white-space: pre;">classdef</code> para crear una clase. Puesto que antes de la implementación de esta notación, existía la posibilidad de programar orientado a objetos haciendo uso de algunos <em>artilugios</em>, como el colocar la clase (definida mediante una función que hacía lo de un<em>constructor</em> de la clase) y sus métodos dentro de una carpeta cuyo nombre debería ser el de la clase misma anteponiéndole un arroba (@).</blockquote>
+<h3 id="clases-y-objetos"></h3>
+<h3 id="clases-y-objetos">Clases y objetos</h3>
+<br>Una clase es una definición de las propiedades y/o características de un determinado tipo de objetos, es decir, un modelo particular que sirve para crear objetos bajo esas mismas especificaciones.<br>Un objeto es la representación concreta derivada de una clase que está provisto de atributos y métodos, o en términos más formales: un objeto es la instancia de una clase.<br><br>A manera de ejemplo y un contexto más apegado a la realidad, consideremos a los perros como una determinada clase, es sencillo hacernos la idea de cómo es un perro y cuáles son sus características y apariencia general; luego, el perro que tenemos en casa (en caso de que así sea) es una instancia de esa clase o un objeto de la clase perro, con características más particulares pero que no les excluyen de ser un perro.<br><br><h3 id="atributos">Atributos</h3>
+<br>Los atributos son las propiedades asociadas a una clase de objetos. Siguiendo con el ejemplo de los perros, estos tienen atributos como el tamaño, color, raza, temperamento, etc. Es común en la POO diferenciar entre dos tipos de atributos acorde a su accesibilidad: los privados y los públicos. Los privados son atributos disponibles solo dentro de la definición de la clase, en cambio los públicos son accesibles desde cualquier otra clase o fichero de instrucciones.<br><br><h3 id="métodos">Métodos</h3>
+<br>Los métodos de una clase de objetos son algoritmos o bloques de programación que determinan el comportamiento de un objeto. Por lo general los métodos se usan para modificar los atributos de un objeto o bien generar un nuevo evento. En MATLAB los métodos son definidos mediante funciones.<br><br><h3 id="eventos">Eventos</h3>
+<br>Un evento es la <em>reacción</em> que tiene un objeto resultante de la interacción con el usuario o bien mediante la ejecución de los métodos.
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="2016/04/matlab-java-guis-i-una-introduccion/" class="u-url">MATLAB-Java GUIs I. Una introducción</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Pedro Jorge De Los Santos
+            </span></p>
+            <p class="dateline"><a href="2016/04/matlab-java-guis-i-una-introduccion/" rel="bookmark"><time class="published dt-published" datetime="2016-04-11T04:57:00-05:00" title="2016-04-11 04:57">2016-04-11 04:57</time></a></p>
+                <p class="commentline">
+        
+    <a href="2016/04/matlab-java-guis-i-una-introduccion/#disqus_thread" data-disqus-identifier="cache/posts/2016/04/matlab-java-guis-i-una-introduccion.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div style="text-align: justify;">Bienvenidos, esta será una mini-serie de entradas dedicadas a introducir a los usuarios de MATLAB en el desarrollo de interfaces gráficas utilizando una combinación de controles ordinarios de MATLAB con controles de la librería Swing de Java. Es necesario que el lector tenga conocimientos sólidos en el desarrollo de interfaces gráficas en MATLAB utilizando solamente código (no GUIDE), de programación orientada a objetos en MATLAB, y bueno, sería sensacional si conoce algo de Java.</div>
+<div style="text-align: justify;"><br></div>
+<h3 id="para-comenzar">Para comenzar</h3>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Las interfaces gráficas en MATLAB suelen considerarse hasta cierto punto muy limitadas en cuanto a apariencia, funcionalidad y sobre todo a la poca diversidad de controles gráficos disponibles en la librería estándar. Se extraña, por poner un ejemplo, que los <em>Static Text</em> tengan la posibilidad de añadir una imagen, o que a un botón le podamos agregar un ícono junto al texto, o bueno, varias de esas cosas que son posibles y relativamente sencillas de implementar en muchos otros toolkits de interfaces gráficas.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">No obstante, MATLAB tiene la posibilidad (y facilidad) de integrar controles gráficos de la librería Swing de Java de manera muy simple en una interfaz gráfica ordinaria. Esto puede lograrse utilizando la función <code style="white-space: pre;">javacomponent</code>, con la cual podemos <em>incrustar</em> controles gráficos de Java en una <em>figure</em> de MATLAB.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Para ir entrando un poco en el tema vamos a mostrar un código muy simple que coloca un JLabel (similar al <em>Static Text</em>) dentro de una GUI:</div>
+<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">import javax.swing.*<br><br>fig = figure(<span class="st" style="color: #4070a0;">'Name'</span>,<span class="st" style="color: #4070a0;">'Ejemplo MATLAB-Java'</span>,...<br><span class="st" style="color: #4070a0;">'NumberTitle'</span>,<span class="st" style="color: #4070a0;">'off'</span>,...<br><span class="st" style="color: #4070a0;">'MenuBar'</span>,<span class="st" style="color: #4070a0;">'none'</span>,...<br><span class="st" style="color: #4070a0;">'Position'</span>,[<span class="fl" style="color: #40a070;">0</span>,<span class="fl" style="color: #40a070;">0</span>,<span class="fl" style="color: #40a070;">200</span>,<span class="fl" style="color: #40a070;">100</span>]);<br>centerfig(fig);<br><br>lab = JLabel(<span class="st" style="color: #4070a0;">'JLabel Java'</span>);<br>hJlab = javacomponent(lab, <span class="st" style="color: #4070a0;">'East'</span>, fig);</code></pre></div>
+<br><div class="separator" style="clear: both; text-align: center;"></div>
+<br><div class="separator" style="clear: both; text-align: center;"><a href="https://2.bp.blogspot.com/-i61CZl7Uz0I/VwsgK6ojP0I/AAAAAAAACBk/EUM3No6tn54nFSsau_x8mkcFDNOIRVJ7Q/s1600/img_01.PNG" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-i61CZl7Uz0I/VwsgK6ojP0I/AAAAAAAACBk/EUM3No6tn54nFSsau_x8mkcFDNOIRVJ7Q/s1600/img_01.PNG"></a></div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Ahora vamos a <em>desmenuzar</em> el código anterior:</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Primero, importamos todas las clases de la librería Swing, también hubiese sido muy recomendable sólo importar la clase Java que vamos a utilizar: <code style="white-space: pre;">import javax.swing.JLabel</code>. Pero, normalmente (<em>en la vida rea</em>l) no sólo se utiliza una de las clases de Swing, así que podríamos dejarlo tal cual y ya está. Al importar con <code style="white-space: pre;">import javax.swing.*</code> tenemos disponibles todas las clases de Swing en el <em>workspace</em> de MATLAB, así, sólo necesitamos escribir <code style="white-space: pre;">JLabel</code> para instanciar una etiqueta en lugar del <code style="white-space: pre;">javax.swing.JLabel</code> que deberíamos colocar si no colocamos la instrucción de importar.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Lo que sigue es crear una ventana con la función <code style="white-space: pre;">figure</code>, en la cual colocaremos nuestros controles Java. Y claro, la función <code style="white-space: pre;">centerfig</code> para centrar la ventana en la pantalla.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Aquí viene la parte en donde instanciamos un objeto de la clase <code style="white-space: pre;">JLabel</code>. Normalmente, en Java, tendríamos que escribir algo como:</div>
+<br><div class="sourceCode"><pre class="sourceCode java"><code class="sourceCode java">JLabel lab = <span class="kw" style="color: #007020; font-weight: bold;">new</span> JLabel(<span class="st" style="color: #4070a0;">"JLabel Java"</span>);</code></pre></div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Pero en MATLAB la sintaxis es más sencilla.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Una vez tenemos creado un objeto de la clase <code style="white-space: pre;">JLabel</code>, tenemos que colocarlo dentro de la ventana que hemos definido con anterioridad, y para eso usaremos la función <code style="white-space: pre;">javacomponent</code>. Lo primero: la función <code style="white-space: pre;">javacomponent</code> tiene la siguiente sintaxis:</div>
+<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">[hJ, hM] = javacomponent(javaClassName, position, parent, callback);</code></pre></div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Donde <code style="white-space: pre;">javaClassName</code> puede ser un objeto o una clase de Java (en este caso la etiqueta que hemos instanciado), <code style="white-space: pre;">position</code> puede ser un vector de cuatro elementos típico de MATLAB o bien una cadena de texto: <em>South</em>, <em>West</em>, <em>North</em> o <em>East</em>, indicando la ubicación del elemento dentro de la ventana, <code style="white-space: pre;">parent</code> será la ventana o panel en el cual colocaremos el objeto gráfico, y finalmente<code style="white-space: pre;">callback</code> es un cell array de elementos <em>pareados</em> del tipo evento-handler y cuyo objetivo es especificar el comportamiento de un control gráfico ante un evento determinado, por ahora esto lo hemos dejado vacío, ya que no entraremos aún en el manejo de eventos.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">La función <code style="white-space: pre;">javacomponent</code> devuelve normalmente dos valores de salida: <code style="white-space: pre;">hJ</code> será la referencia a la clase Java del control gráfico y a través de este podremos modificar sus características; <code style="white-space: pre;">hM</code> es un handle cuasi ordinario de MATLAB y este nos servirá para modificar las propiedades de posición, unidades y visibilidad del objeto gráfico una vez que este haya sido agregado a la GUI MATLAB.</div>
+<div style="text-align: justify;"><br></div>
+<h3 id="modificando-las-propiedades-de-un-control-java-swing">Modificando las propiedades de un control Java Swing</h3>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Para modificar las propiedades de un componente creado con <code style="white-space: pre;">javacomponent</code> podemos hacerlo a través de su referencia, por ejemplo, para el JLabel que utilizamos al principio:</div>
+<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">clear;clc;<br>import javax.swing.*<br><br>fig = figure(<span class="st" style="color: #4070a0;">'Name'</span>,<span class="st" style="color: #4070a0;">'Ejemplo MATLAB-Java'</span>,...<br><span class="st" style="color: #4070a0;">'NumberTitle'</span>,<span class="st" style="color: #4070a0;">'off'</span>,...<br><span class="st" style="color: #4070a0;">'MenuBar'</span>,<span class="st" style="color: #4070a0;">'none'</span>,...<br><span class="st" style="color: #4070a0;">'Position'</span>,[<span class="fl" style="color: #40a070;">0</span>,<span class="fl" style="color: #40a070;">0</span>,<span class="fl" style="color: #40a070;">200</span>,<span class="fl" style="color: #40a070;">100</span>]);<br>centerfig(fig);<br><br>lab = JLabel(<span class="st" style="color: #4070a0;">'JLabel Java'</span>);<br>[hJLab,hMLab] = javacomponent(lab, <span class="st" style="color: #4070a0;">'North'</span>, fig);<br>hJLab.setOpaque(true);<br>hJLab.setForeground(java.awt.Color.RED);<br>hJLab.setBackground(java.awt.Color.YELLOW)<br>hJLab.setHorizontalAlignment(JLabel.CENTER);</code></pre></div>
+<br><div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-HXUt3BZSZEQ/VwsfrBbCL0I/AAAAAAAACBc/REz08amEw-Mygn57S58CYsJdLcf_u_eqw/s1600/img_02.PNG" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-HXUt3BZSZEQ/VwsfrBbCL0I/AAAAAAAACBc/REz08amEw-Mygn57S58CYsJdLcf_u_eqw/s1600/img_02.PNG"></a></div>
+<br><br><div style="text-align: justify;">Como puede notar, las propiedades se modifican a través de métodos. Todos estos métodos disponibles para los controles de Java Swing puede consultarlos en la <a href="https://docs.oracle.com/javase/7/docs/api/javax/swing/package-summary.html">documentación oficial de Java</a>.</div>
+<div style="text-align: justify;"><br></div>
+<h3 id="para-aprender-más..." style="text-align: justify;">Para aprender más...</h3>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">La referencia obligatoria y necesaria será siempre el blog <a href="http://undocumentedmatlab.com/"><strong>Undocumented MATLAB</strong></a> del gran Yair Altman, que es sin duda el lugar donde más información online encontraremos sobre la integración MATLAB-Java y muchas otras utilidades no documentadas de MATLAB.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">También existe el libro <strong>Undocumented Secrets of MATLAB-Java Programming</strong> del mismo Yair Altman, muy recomendable.</div>
+<div style="text-align: justify;"><br></div>
+<br><a href="https://www.crcpress.com/Undocumented-Secrets-of-MATLAB-Java-Programming/Altman/9781439869031"><img src="https://images.tandf.co.uk/common/jackets/amazon/978143986/9781439869031.jpg" width="15%"></a><br><h3 id="sumario-del-curso"><br></h3>
+<h3 id="sumario-del-curso">Sumario del curso</h3>
+<br>Esta lista de se irá actualizando conforme se publiquen nuevas entradas:<br><ul><li><a href="https://www.blogger.com/blogger.g?blogID=204088497223398789">MATLAB-Java GUIs I. Una introducción</a></li></ul>
+</div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="2016/03/en-este-post-vamos-ver-como-convertir/" class="u-url">Convirtiendo matrices MATLAB a formato LaTeX</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Pedro Jorge De Los Santos
+            </span></p>
+            <p class="dateline"><a href="2016/03/en-este-post-vamos-ver-como-convertir/" rel="bookmark"><time class="published dt-published" datetime="2016-03-27T03:42:00-06:00" title="2016-03-27 03:42">2016-03-27 03:42</time></a></p>
+                <p class="commentline">
+        
+    <a href="2016/03/en-este-post-vamos-ver-como-convertir/#disqus_thread" data-disqus-identifier="cache/posts/2016/03/en-este-post-vamos-ver-como-convertir.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div style="text-align: justify;">En este post vamos a ver cómo convertir una matriz de MATLAB a un string en formato LaTeX, proponiendo en primera instancia un código muy simple y poco robusto, y posteriormente les compartiré un <a href="http://www.mathworks.com/matlabcentral/fileexchange/2832-latex">código</a> desarrollado por <a href="http://www.mathworks.com/matlabcentral/profile/authors/631894-toby-driscoll">Toby Driscoll</a> que puede descargarse desde el File Exchange de MathWorks.</div>
+<br>Sabrá que las matrices/arreglos en LaTeX suelen tener la sintaxis:<br><br><pre><code>\begin{matrix}<br>  a &amp; b &amp; c \\<br>  d &amp; e &amp; f \\<br>  g &amp; h &amp; i<br> \end{matrix}</code></pre>
+<br><div style="text-align: justify;">Así, la idea en principio parece muy básica: recorrer todos los elementos de la matriz MATLAB por filas y columnas e ir formando el string final que se retornará como salida.</div>
+<br>Vamos mostrando el código:<br><br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">function out = matrix2latex(M,fmt)<br><span class="co" style="color: #60a0b0; font-style: italic;">% </span><br><span class="co" style="color: #60a0b0; font-style: italic;">% Argumentos de entrada:</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%       M    -   Matriz</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%       fmt  -   Cadena para especificar el formato ('%0.4f' default)</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%</span><br>if nargin&lt;<span class="fl" style="color: #40a070;">2</span>, fmt=<span class="st" style="color: #4070a0;">'%0.4f'</span>; end;<br>out = [<span class="st" style="color: #4070a0;">'begin{matrix}'</span>,sprintf(<span class="st" style="color: #4070a0;">'\n'</span>)];<br>for ii=<span class="fl" style="color: #40a070;">1</span>:size(M,<span class="fl" style="color: #40a070;">1</span>)<br>    for jj=<span class="fl" style="color: #40a070;">1</span>:size(M,<span class="fl" style="color: #40a070;">2</span>)<br>        ce = sprintf([fmt,blanks(<span class="fl" style="color: #40a070;">2</span>),<span class="st" style="color: #4070a0;">'&amp;'</span>,blanks(<span class="fl" style="color: #40a070;">2</span>)],M(ii,jj));<br>        out = [out,ce]; <span class="co" style="color: #60a0b0; font-style: italic;">%#ok</span><br>    end<br>    out = [out(<span class="fl" style="color: #40a070;">1</span>:end-<span class="fl" style="color: #40a070;">3</span>),<span class="st" style="color: #4070a0;">'\\'</span>,sprintf(<span class="st" style="color: #4070a0;">'\n'</span>)];<br>end<br>out = [out(<span class="fl" style="color: #40a070;">1</span>:end-<span class="fl" style="color: #40a070;">3</span>), sprintf(<span class="st" style="color: #4070a0;">'\n\\end{matrix}'</span>)];<br>end</code></pre></div>
+<br><div style="text-align: justify;">Esta función debe ejecutarse, pasando como argumento la matriz de la cual quiere obtenerse la representación LaTeX.</div>
+<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; A=rand(<span class="fl" style="color: #40a070;">3</span>)<br><br>A =<br><br><span class="fl" style="color: #40a070;">0.1067</span>    <span class="fl" style="color: #40a070;">0.7749</span>    <span class="fl" style="color: #40a070;">0.0844</span><br><span class="fl" style="color: #40a070;">0.9619</span>    <span class="fl" style="color: #40a070;">0.8173</span>    <span class="fl" style="color: #40a070;">0.3998</span><br><span class="fl" style="color: #40a070;">0.0046</span>    <span class="fl" style="color: #40a070;">0.8687</span>    <span class="fl" style="color: #40a070;">0.2599</span><br><br>&gt;&gt; matrix2latex(A)<br><br>ans =<br><br>begin{matrix}<br><span class="fl" style="color: #40a070;">0.1067</span>  &amp;  <span class="fl" style="color: #40a070;">0.7749</span>  &amp;  <span class="fl" style="color: #40a070;">0.0844</span>  \\<br><span class="fl" style="color: #40a070;">0.9619</span>  &amp;  <span class="fl" style="color: #40a070;">0.8173</span>  &amp;  <span class="fl" style="color: #40a070;">0.3998</span>  \\<br><span class="fl" style="color: #40a070;">0.0046</span>  &amp;  <span class="fl" style="color: #40a070;">0.8687</span>  &amp;  <span class="fl" style="color: #40a070;">0.2599</span>  <br>\end{matrix}</code></pre></div>
+<br><div style="text-align: justify;">¿Bastante bien, cierto?, sí, hasta cierto punto, pero es una porción de código sin testear más allá de algunos casos básicos considerados.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Por ello les adjunto enseguida un código compartido por Toby Driscoll en <a href="http://www.mathworks.com/matlabcentral/fileexchange/">File Exchange</a> el cual contiene al menos sentencias que verifican que los argumentos pasados sean del tipo esperado, y eso es bastante bueno, al menos para empezar.</div>
+<br><button class="btn-primary" href="2016/03/en-este-post-vamos-ver-como-convertir/">Mostrar código</button><br><div class="collapse" id="latex-fun-code"><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">function s = latex(M,varargin)<br><span class="co" style="color: #60a0b0; font-style: italic;">%LATEX   Print a matrix in LaTeX tabular format.</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   LATEX(M) prints out the numeric matrix M in a LaTeX tabular</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   format. The '&amp;' character appears between entries in a row, '\\'</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   is appended to the ends of rows, and each entry is set in math</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   mode. Complex numbers are understood, and exponentials will be</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   converted to a suitable format.</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   LATEX(M,'nomath') does not include the $$ needed to put each </span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   entry in math mode (e.g., for use with the amsmath matrix modes).</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   </span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   LATEX(M,FMT) uses a format specifier FMT of the SPRINTF type for</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   each entry.</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   </span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   LATEX(M,FMT1,FMT2,...) works through the given format specifiers</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   on each row of M. If fewer are given than the column size of M,</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   the last is used repeatedly for the rest of the row.</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   </span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   S = LATEX(M,...) does not display output but returns a character</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   array S.</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   </span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   Examples:</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%     latex( magic(4) )</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%     latex( magic(4), '%i', 'nomath' )</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%     latex( magic(4), '%i', '%.2f' )</span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   </span><br><span class="co" style="color: #60a0b0; font-style: italic;">%   See also SPRINTF, SYM/LATEX.</span><br><br><span class="co" style="color: #60a0b0; font-style: italic;">%   Copyright 2002 by Toby Driscoll. Last updated 12/06/02.</span><br><br>if ~isa(M,<span class="st" style="color: #4070a0;">'double'</span>)<br>  error(<span class="st" style="color: #4070a0;">'Works only for arrays of numbers.'</span>)<br>elseif ndims(M) &gt; <span class="fl" style="color: #40a070;">2</span><br>  error(<span class="st" style="color: #4070a0;">'Works only for 2D arrays.'</span>)<br>end<br><br>if nargin &lt; <span class="fl" style="color: #40a070;">2</span><br>  fmt = {<span class="st" style="color: #4070a0;">'%#.5g'</span>};<br>  mathstr = <span class="st" style="color: #4070a0;">'$'</span>;<br>else<br>  fmt = varargin;<br>  idx = strmatch(<span class="st" style="color: #4070a0;">'nomath'</span>,fmt);<br>  if isempty(idx)<br>    mathstr = <span class="st" style="color: #4070a0;">'$'</span>;<br>  else  <br>    mathstr = <span class="st" style="color: #4070a0;">''</span>;<br>    fmt = fmt([<span class="fl" style="color: #40a070;">1</span>:idx-<span class="fl" style="color: #40a070;">1</span> idx+<span class="fl" style="color: #40a070;">1</span>:end]);<br>    if isempty(fmt), fmt = {<span class="st" style="color: #4070a0;">'%#.5g'</span>}; end<br>  end <br>end<br><br><span class="co" style="color: #60a0b0; font-style: italic;">% Extend the format specifiers.</span><br>[m,n] = size(M);<br>if n &gt; length(fmt)<br>  [fmt{end:n}] = deal(fmt{end});<br>end<br><br><span class="co" style="color: #60a0b0; font-style: italic;">% Create one format for a row.</span><br>rowfmt = <span class="st" style="color: #4070a0;">''</span>;<br>for p = <span class="fl" style="color: #40a070;">1</span>:n<br><span class="co" style="color: #60a0b0; font-style: italic;">% Remove blanks.</span><br>  thisfmt = deblank(fmt{p});<br><br><span class="co" style="color: #60a0b0; font-style: italic;">% Add on imaginary part if needed.</span><br>  if ~isreal(M(:,p)) <br><span class="co" style="color: #60a0b0; font-style: italic;">% Use the same format as for the real part, but force a + sign for</span><br><span class="co" style="color: #60a0b0; font-style: italic;">% positive numbers. </span><br>    ifmt = thisfmt;<br>    j = findstr(ifmt,<span class="st" style="color: #4070a0;">'%'</span>);<br>    if ~any(strcmp(ifmt(j+<span class="fl" style="color: #40a070;">1</span>),[<span class="st" style="color: #4070a0;">'-'</span>;<span class="st" style="color: #4070a0;">'+'</span>;<span class="st" style="color: #4070a0;">' '</span>;<span class="st" style="color: #4070a0;">'#'</span>]))<br>      ifmt = [ifmt(<span class="fl" style="color: #40a070;">1</span>:j) <span class="st" style="color: #4070a0;">'+'</span> ifmt(j+<span class="fl" style="color: #40a070;">1</span>:end)];<br>    else<br>      ifmt(j+<span class="fl" style="color: #40a070;">1</span>) = <span class="st" style="color: #4070a0;">'+'</span>;<br>    end<br>    ifmt = [ifmt <span class="st" style="color: #4070a0;">'i'</span>];<br>    thisfmt = [thisfmt ifmt];<br>  end<br><br><span class="co" style="color: #60a0b0; font-style: italic;">% Add to row.</span><br>  rowfmt = [rowfmt mathstr thisfmt mathstr <span class="st" style="color: #4070a0;">' &amp; '</span>];<br>end<br><br><span class="co" style="color: #60a0b0; font-style: italic;">% After last column, remove column separator and put in newline.</span><br>rowfmt(end-<span class="fl" style="color: #40a070;">1</span>:end) = [];<br>rowfmt = [rowfmt <span class="st" style="color: #4070a0;">'\\\\\n'</span>];<br><br><span class="co" style="color: #60a0b0; font-style: italic;">% Use it.</span><br>A = M.';<br>if isreal(M)<br>  S = sprintf(rowfmt,A);<br>else<br>  S = sprintf(rowfmt,[real(A(:)) imag(A(:))].');<br>end<br><br><span class="co" style="color: #60a0b0; font-style: italic;">% Remove extraneous imaginary part for real entries.</span><br>if ~isreal(M)<br>  zi = sprintf(ifmt,<span class="fl" style="color: #40a070;">0</span>);<br>  S = strrep(S,zi,blanks(length(zi)));<br>end<br><br><span class="co" style="color: #60a0b0; font-style: italic;">% Remove NaNs.</span><br>S = strrep(S,<span class="st" style="color: #4070a0;">'$NaN$'</span>,<span class="st" style="color: #4070a0;">'--'</span>);<br>S = strrep(S,<span class="st" style="color: #4070a0;">'NaN'</span>,<span class="st" style="color: #4070a0;">'--'</span>);<br><br><span class="co" style="color: #60a0b0; font-style: italic;">% Convert 'e' exponents to LaTeX form. This is probably really slow, but</span><br><span class="co" style="color: #60a0b0; font-style: italic;">% what can you do without regular expressions?</span><br>S = strrep(S,<span class="st" style="color: #4070a0;">'e'</span>,<span class="st" style="color: #4070a0;">'E'</span>);<br>ex = min(findstr(S,<span class="st" style="color: #4070a0;">'E'</span>));<br>while ~isempty(ex)<br><span class="co" style="color: #60a0b0; font-style: italic;">% Find first non-digit character. Where is ISDIGIT?</span><br>  j = ex+<span class="fl" style="color: #40a070;">2</span>;<br>  while ~isempty(str2num(S(j))) &amp; ~strcmp(S(j),<span class="st" style="color: #4070a0;">'i'</span>)<br>    j = j+<span class="fl" style="color: #40a070;">1</span>;<br>  end<br><br><span class="co" style="color: #60a0b0; font-style: italic;">% This strips off leading '+' and zeros.</span><br>  num = sprintf(<span class="st" style="color: #4070a0;">'%i'</span>,str2num(S(ex+<span class="fl" style="color: #40a070;">1</span>:j-<span class="fl" style="color: #40a070;">1</span>)));<br><br>  ee = [<span class="st" style="color: #4070a0;">'\times 10^{'</span> num <span class="st" style="color: #4070a0;">'}'</span>];<br>  S = [S(<span class="fl" style="color: #40a070;">1</span>:ex-<span class="fl" style="color: #40a070;">1</span>) ee S(j:end)];<br><br>  ex = ex + min(findstr(S(ex+<span class="fl" style="color: #40a070;">1</span>:end),<span class="st" style="color: #4070a0;">'E'</span>));<br>end<br><br><span class="co" style="color: #60a0b0; font-style: italic;">% For good form, remove that last '\\'.</span><br>S(end-<span class="fl" style="color: #40a070;">2</span>:end-<span class="fl" style="color: #40a070;">1</span>) = <span class="st" style="color: #4070a0;">'  '</span>;<br><br><span class="co" style="color: #60a0b0; font-style: italic;">% Display or output?</span><br>if nargout==<span class="fl" style="color: #40a070;">0</span><br>  disp(S)<br>else<br>  s = S;<br>end</code></pre></div></div>
+<br>La ejecución de la función anterior es prácticamente similar a nuestra función propuesta:<br><br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; A=rand(<span class="fl" style="color: #40a070;">3</span>)<br><br>A =<br><br><span class="fl" style="color: #40a070;">0.5499</span>    <span class="fl" style="color: #40a070;">0.6221</span>    <span class="fl" style="color: #40a070;">0.4018</span><br><span class="fl" style="color: #40a070;">0.1450</span>    <span class="fl" style="color: #40a070;">0.3510</span>    <span class="fl" style="color: #40a070;">0.0760</span><br><span class="fl" style="color: #40a070;">0.8530</span>    <span class="fl" style="color: #40a070;">0.5132</span>    <span class="fl" style="color: #40a070;">0.2399</span><br><br>&gt;&gt; latex(A)<br>$<span class="fl" style="color: #40a070;">0.54986</span>$ &amp; $<span class="fl" style="color: #40a070;">0.62206</span>$ &amp; $<span class="fl" style="color: #40a070;">0.40181</span>$ \\<br>$<span class="fl" style="color: #40a070;">0.14495</span>$ &amp; $<span class="fl" style="color: #40a070;">0.35095</span>$ &amp; $<span class="fl" style="color: #40a070;">0.075967</span>$ \\<br>$<span class="fl" style="color: #40a070;">0.85303</span>$ &amp; $<span class="fl" style="color: #40a070;">0.51325</span>$ &amp; $<span class="fl" style="color: #40a070;">0.23992</span>$   </code></pre></div>
+<br><div style="text-align: justify;">La salida, un tanto similar, si, cosas más cosas menos, pero la idea central es la misma.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Y bueno, en el siguiente link podrá encontrar más funciones similares que exportan cosas de MATLAB a código LaTeX, lo cual nunca está de más.</div>
+<br><a class="uri" href="http://www.mathworks.com/matlabcentral/fileexchange/?term=latex&amp;sort=ratings_desc">http://www.mathworks.com/matlabcentral/fileexchange/?term=latex&amp;sort=ratings_desc</a>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="2016/01/metodos-estaticos-en-una-clase-matlab/" class="u-url">Métodos estáticos en una clase MATLAB</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Pedro Jorge De Los Santos
+            </span></p>
+            <p class="dateline"><a href="2016/01/metodos-estaticos-en-una-clase-matlab/" rel="bookmark"><time class="published dt-published" datetime="2016-01-27T05:45:00-06:00" title="2016-01-27 05:45">2016-01-27 05:45</time></a></p>
+                <p class="commentline">
+        
+    <a href="2016/01/metodos-estaticos-en-una-clase-matlab/#disqus_thread" data-disqus-identifier="cache/posts/2016/01/metodos-estaticos-en-una-clase-matlab.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div style="text-align: justify;">Los métodos estáticos son aquellos que pueden ser ejecutados sin necesidad de crear una instancia de la clase. En MATLAB pueden utilizarse para agrupar funciones dentro de una misma clase que haga las veces de una <em>librería</em> de funciones.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">En la definición de una clase MATLAB se pueden crear diversos bloques de metodos (<code style="white-space: pre;">methods</code>) o propiedades (<code style="white-space: pre;">properties</code>), con diferentes configuraciones, por ejemplo, se puede definir un bloque de métodos ordinarios y otro bloque de métodos estáticos. Un bloque de métodos estáticos se indica colocando el modificador <code style="white-space: pre;">(Static=true)</code> como sigue:</div>
+<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">classdef Clase<br><br>    properties<br><span class="co" style="color: #60a0b0; font-style: italic;">% Propiedades de clase</span><br>    end<br><br>    methods<br><span class="co" style="color: #60a0b0; font-style: italic;">% Métodos ordinarios</span><br>    end<br><br>    methods (Static=true)<br><span class="co" style="color: #60a0b0; font-style: italic;">% Métodos estáticos</span><br>    end<br>end</code></pre></div>
+<br><div style="text-align: justify;">Para ejemplificar cómo funcionan los métodos estáticos vamos a crear una clase <code style="white-space: pre;">Math</code> que contendrá los métodos estáticos <code style="white-space: pre;">minimo</code> y <code style="white-space: pre;">maximo</code>, que calcularán el valor mínimo y máximo de dos valores pasados como argumento. A continuación se coloca el contenido del fichero de la clase Math que hemos creado:</div>
+<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">classdef Math<br><br>    properties (Constant=true)<br>        PI = pi; <span class="co" style="color: #60a0b0; font-style: italic;">% Constante "pi"</span><br>        E = exp(<span class="fl" style="color: #40a070;">1</span>); <span class="co" style="color: #60a0b0; font-style: italic;">% Constante "e"</span><br>    end<br><br>    methods (Static=true)<br>        function m = maximo(a,b)<br><span class="co" style="color: #60a0b0; font-style: italic;">% Determina el máximo de dos valores</span><br>            if a&gt;b<br>                m = a;<br>            else<br>                m = b;<br>            end<br>        end<br><br>        function m = minimo(a,b)<br><span class="co" style="color: #60a0b0; font-style: italic;">% Determina el mínimo de dos valores</span><br>            if a&lt;b<br>                m = a;<br>            else<br>                m = b;<br>            end<br>        end<br>    end<br>end</code></pre></div>
+<br><div style="text-align: justify;">Podemos entonces <em>llamar</em> a los métodos <code style="white-space: pre;">maximo</code> y <code style="white-space: pre;">minimo</code> sin necesidad de crear una instancia:</div>
+<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; Math.minimo(<span class="fl" style="color: #40a070;">10</span>,<span class="fl" style="color: #40a070;">20</span>)<br>ans =<br><span class="fl" style="color: #40a070;">10</span><br>&gt;&gt; Math.maximo(<span class="fl" style="color: #40a070;">10</span>,<span class="fl" style="color: #40a070;">20</span>)<br>ans =<br><span class="fl" style="color: #40a070;">20</span></code></pre></div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="2016/01/test/" class="u-url">Utilizando clases de la librería estándar de Java en MATLAB</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Pedro Jorge De Los Santos
+            </span></p>
+            <p class="dateline"><a href="2016/01/test/" rel="bookmark"><time class="published dt-published" datetime="2016-01-25T19:57:00-06:00" title="2016-01-25 19:57">2016-01-25 19:57</time></a></p>
+                <p class="commentline">
+        
+    <a href="2016/01/test/#disqus_thread" data-disqus-identifier="cache/posts/2016/01/test.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div style="text-align: justify;">MATLAB tiene una facilidad inherente para la integración simple de código Java en un script ordinario. Es posible instanciar objetos de una clase Java de la librería estándar o de terceros, y utilizarlas dentro del espacio de trabajo.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Lo anterior puede resultar muy útil en casos donde ciertas características del lenguaje Java no implementadas nativamente en MATLAB sean requeridas. En este caso vamos a ver cómo importar, instanciar y utilizar algunas clases y sus métodos de la librería estándar de Java.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Lo primero que debemos hacer para utilizar una clase Java es importar esta en nuestro espacio de trabajo, por ejemplo, si queremos utilizar las clases de la librería <code style="white-space: pre;">lang</code> de Java:</div>
+<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; import java.lang.*;</code></pre></div>
+<br>Ahora instanciaremos un objeto de la clase String de Java:<br><br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; cadena=String(<span class="st" style="color: #4070a0;">'Hola Java'</span>)<br>cadena =<br>Hola Java</code></pre></div>
+<br>Podemos verificar la clase del objeto <code style="white-space: pre;">cadena</code> utilizando la función class de MATLAB.<br><br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; class(cadena)<br>ans =<br>java.lang.String</code></pre></div>
+<br>O directamente utilizando el método <code style="white-space: pre;">getClass</code>:<br><br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; cadena.getClass()<br>ans =<br>class java.lang.String</code></pre></div>
+<br>De la misma forma podemos utilizar algunos de los métodos disponibles para este objeto:<br><br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; cadena.length() <span class="co" style="color: #60a0b0; font-style: italic;">% Longitud de la cadena</span><br>ans =<br><span class="fl" style="color: #40a070;">9</span><br>&gt;&gt; cadena.replace(<span class="st" style="color: #4070a0;">'a'</span>,<span class="st" style="color: #4070a0;">'o'</span>) <span class="co" style="color: #60a0b0; font-style: italic;">% Remplazando caracteres</span><br>ans =<br>Holo Jovo<br>&gt;&gt; cadena.toUpperCase()  <span class="co" style="color: #60a0b0; font-style: italic;">% Todas mayúsculas</span><br>ans =<br>HOLA JAVA<br>&gt;&gt; cadena.concat(<span class="st" style="color: #4070a0;">' y MATLAB'</span>)  <span class="co" style="color: #60a0b0; font-style: italic;">% Concatenando caracteres al final</span><br>ans =<br>Hola Java y MATLAB</code></pre></div>
+<br><div style="text-align: justify;">Es posible instanciar un objeto Java sin necesidad de importar las librerías, en cambio es necesario indicar el nombre/ruta completo de la clase:</div>
+<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; cad=java.lang.String(<span class="st" style="color: #4070a0;">'Hola!!!'</span>)<br>cad =<br>Hola<span class="bn" style="color: #40a070;">!!!</span></code></pre></div>
+<br><div style="text-align: justify;">Bueno, pero, ¿no tiene MATLAB un tipo de dato String nativo que hace lo mismo? o ¿para qué nos servirá entonces utilizar objetos Java?.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Si, MATLAB tiene un tipo <code style="white-space: pre;">char</code> equivalente al String de MATLAB, pero existen algunos estructuras de datos como las <em>Hashtables</em> que no tienen un equivalente en MATLAB, y es ahí donde podríamos aprovechar algunas versatilidades proporcionadas por Java.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">¿Y qué es una Hashtable?, en resumen, es un estructura que permite almacenar variables mediante las características clave-valor (como un diccionario en Python, por si vienen de Python). Por ejemplo:</div>
+<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; import java.util.*; <span class="co" style="color: #60a0b0; font-style: italic;">% Importamos las clases de java.util</span><br>&gt;&gt; ht=Hashtable(); <span class="co" style="color: #60a0b0; font-style: italic;">% Instanciamos un objeto de la clase Hashtable</span><br>&gt;&gt; ht.put(<span class="st" style="color: #4070a0;">'A'</span>,<span class="fl" style="color: #40a070;">10</span>); <span class="co" style="color: #60a0b0; font-style: italic;">% Agregamos un clave-valor</span><br>&gt;&gt; ht.put(<span class="st" style="color: #4070a0;">'B'</span>,<span class="fl" style="color: #40a070;">15</span>); <span class="co" style="color: #60a0b0; font-style: italic;">% Agregamos un clave-valor</span><br>&gt;&gt; ht.put(<span class="st" style="color: #4070a0;">'C'</span>,<span class="fl" style="color: #40a070;">5</span>); <span class="co" style="color: #60a0b0; font-style: italic;">% Agregamos un clave-valor</span><br>&gt;&gt; ht<br>ht =<br>{A=<span class="fl" style="color: #40a070;">10.0</span>, C=<span class="fl" style="color: #40a070;">5.0</span>, B=<span class="fl" style="color: #40a070;">15.0</span>}<br>&gt;&gt; class(ht)<br>ans =<br>java.util.Hashtable</code></pre></div>
+<br>Ahora podemos acceder al valor guardado en un determinado campo de la Hashtable:<br><br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; ht.get(<span class="st" style="color: #4070a0;">'B'</span>)  <span class="co" style="color: #60a0b0; font-style: italic;">% Tomando el valor de la clave B</span><br>ans =<br><span class="fl" style="color: #40a070;">15</span></code></pre></div>
+<br><div style="text-align: justify;">Y bueno, hasta aquí un poco de este tema sobre cómo utilizar clases de la librería estándar de Java en MATLAB. En entradas posteriores veremos cómo añadir controles gráficos de la librería Swing en una GUI MATLAB.</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="hola-mundo/" class="u-url">Hola mundo</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Pedro Jorge De Los Santos
+            </span></p>
+            <p class="dateline"><a href="hola-mundo/" rel="bookmark"><time class="published dt-published" datetime="2015-09-13T23:27:09-05:00" title="2015-09-13 23:27">2015-09-13 23:27</time></a></p>
+                <p class="commentline">
+        
+    <a href="hola-mundo/#disqus_thread" data-disqus-identifier="cache/posts/hola-mundo.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>Bueno, esta será la primera entrada del blog. Por supuesto, utilizando  <a class="reference external" href="https://getnikola.com">Nikola</a> como generador.</p>
+<p>Se hablará de lo que se pueda: ingeniería, programación, elemento finito, matemáticas, y esas cosas, y lo que no sean esas cosas.</p>
+<p>Bienvenido.</p>
+<ul class="simple">
+<li><strong>Pedro Jorge De Los Santos</strong></li>
+</ul>
+</div>
+    </div>
+    </article>
+</div>
+
+
+
+        
+       <script>var disqus_shortname="jorge-de-los-santos";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script><script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$latex ','$'], ['\\(','\\)']]}});
+            </script>
+</div>
+
+        </div>
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2017         <a href="mailto:delossantosmfq@gmail.com">Pedro Jorge De Los Santos</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>
+            
+        </footer>
+</div>
+</div>
+
+
+            <script src="../assets/js/all-nocdn.js"></script><script src="../assets/js/colorbox-i18n/jquery.colorbox-es.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+    moment.locale("es");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><!-- Start of StatCounter Code for Default Guide --><script type="text/javascript">
+var sc_project=11236072; 
+var sc_invisible=0; 
+var sc_security="3e0fbb07"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script><noscript><div class="statcounter"><a title="web stats" href="http://statcounter.com/" target="_blank"><img class="statcounter" src="//c.statcounter.com/11236072/0/3e0fbb07/0/" alt="web
+stats"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+
+</body>
+</html>

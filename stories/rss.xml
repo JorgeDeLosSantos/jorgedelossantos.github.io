@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>While True</title><link>https://jorgedelossantos.github.io/</link><description>Blog personal</description><atom:link href="https://jorgedelossantos.github.io/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>es</language><lastBuildDate>Mon, 20 Mar 2017 03:19:44 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Ingeniería de Proyectos</title><link>https://jorgedelossantos.github.io/stories/iproy/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;p&gt;Test Text&lt;/p&gt;</description><category>asignaturas</category><category>mathjax</category><guid>https://jorgedelossantos.github.io/stories/iproy/</guid><pubDate>Sun, 05 Feb 2017 17:19:15 GMT</pubDate></item><item><title>Técnicas de selección y renovación vehicular</title><link>https://jorgedelossantos.github.io/stories/tsrv/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;p&gt;Escriba su página aquí.&lt;/p&gt;</description><guid>https://jorgedelossantos.github.io/stories/tsrv/</guid><pubDate>Sun, 05 Feb 2017 17:19:00 GMT</pubDate></item><item><title>Diseño Asistido por Computadora (2D)</title><link>https://jorgedelossantos.github.io/stories/cad-2d/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;h3&gt;Normas y simbología&lt;/h3&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>While True</title><link>https://jorgedelossantos.github.io/</link><description></description><atom:link href="https://jorgedelossantos.github.io/stories/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>es</language><lastBuildDate>Mon, 20 Mar 2017 03:19:44 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Ingeniería de Proyectos</title><link>https://jorgedelossantos.github.io/stories/iproy/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;p&gt;Test Text&lt;/p&gt;</description><category>asignaturas</category><category>mathjax</category><guid>https://jorgedelossantos.github.io/stories/iproy/</guid><pubDate>Sun, 05 Feb 2017 17:19:15 GMT</pubDate></item><item><title>Técnicas de selección y renovación vehicular</title><link>https://jorgedelossantos.github.io/stories/tsrv/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;p&gt;Escriba su página aquí.&lt;/p&gt;</description><guid>https://jorgedelossantos.github.io/stories/tsrv/</guid><pubDate>Sun, 05 Feb 2017 17:19:00 GMT</pubDate></item><item><title>Diseño Asistido por Computadora (2D)</title><link>https://jorgedelossantos.github.io/stories/cad-2d/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;h3&gt;Normas y simbología&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://jorgedelossantos.github.io/pdf/NOM-Z3.pdf"&gt;NOM-Z-3-1986 Dibujo Técnico-Vistas&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://jorgedelossantos.github.io/pdf/NOM-Z4-Z5-Z25.pdf"&gt;NOM-Z-4-1986 Dibujo Técnico-Líneas, NOM-Z-5-1986 Dibujo Técnico-Rayados y NOM-Z-25-1986 Dibujo Técnico-Acotaciones&lt;/a&gt;&lt;/li&gt;
@@ -298,81 +298,4 @@ ponderación: &lt;/p&gt;
 &lt;h3&gt;Libros&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://mega.nz/#F!O1twhbQK!zPVkDumNVmi-qjngZV9LGw"&gt;Colección de libros de física y matemática [MEGA]&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://jorgedelossantos.github.io/stories/links/</guid><pubDate>Tue, 11 Oct 2016 15:10:35 GMT</pubDate></item><item><title>Implementación del MEF en problemas de ingeniería</title><link>https://jorgedelossantos.github.io/posts/implementacion-fem-en-problemas-de-ingenieria/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;p&gt;El método del elemento finito es utilizado para resolver problemas físicos en análisis de ingeniería
-y diseño. La figura mostrada enseguida esquematiza el proceso del análisis por elementos finitos.
-El problema físico típicamente involucra una estructura o ciertos elementos mecánicos sometidos
-a condiciones de cargas establecidas. La &lt;em&gt;conversión&lt;/em&gt; del problema físico a un modelo matemático
-correspondiente requiere que se hagan consideraciones para la simplificación y resolución de las
-ecuaciones diferenciales resultantes. El análisis de elementos finitos resuelve ese modelo matemático
-resultante. Puesto que la solución por elemento finito involucra un procedimiento por técnicas de
-análisis numérico es necesario evaluar la exactitud de la solución. Si no existe un criterio de
-exactitud o punto de comparación, la solución numérica debe repetirse refinando algunos parámetros
-(como la densidad de malla) hasta que las variaciones entre soluciones sean aceptables.&lt;/p&gt;
-&lt;img alt="/img/fem_diagram.PNG" src="https://jorgedelossantos.github.io/img/fem_diagram.PNG"&gt;
-&lt;p&gt;Está claro que la solución por elementos finitos resolvera sólo el modelo matemático
-establecido y la respuesta del sistema reflejará las consideraciones o simplificaciones
-realizadas a este. La selección de un modelo matemático apropiado es crucial y determina
-completamente la percepción actual del fenómeno físico que puede obtenerse mediante el
-análisis. Luego, es claro que, naturalmente, la respuesta de problemas solucionados
-mediante técnicas de elemento finito no corresponderán exactamente con la situación real,
-dado que es casi imposible reproducir las condiciones de un entorno tomando en cuenta
-todas las variables que inciden en el proceso, en la mayoría de los casos se tendrá
-una comparación basada en la correlación o correspondencia entre la respuesta matemática
-y la experimental.&lt;/p&gt;
-&lt;p&gt;Una vez que el modelo matemático ha sido resuelto y los resultados han sido interpretados,
-se puede entonces considerar la refinación o redefinición del modelo matemático para
-considerar otros factores que permitan obtener una solución más ajustada a la realidad.&lt;/p&gt;
-&lt;p&gt;Para definir la confiabilidad y efectividad de un modelo seleccionado debemos pensar
-en un modelo matemático muy completo del problema físico y medir la respuesta de nuestro
-modelo seleccionado contra la respuesta del modelo completo. En general, un modelo matemático
-completo incluye una descripción tridimensional del problema e incluye efectos no-lineales.&lt;/p&gt;
-&lt;p&gt;Para evaluar el resultado obtenido por la solución de un modelo matemático seleccionado,
-puede ser necesario también resolver problemas de modelado matemático de orden superior,
-e incluso ir incluyendo cada vez factores más complejos. Por ejemplo, una viga estructural
-puede primero analizarse usando la teoría de la viga de Bernoulli, luego usando
-la teoría de una viga de Timoshenko, siguiendo con una análisis bidimensional por la
-teoría de esfuerzo plano, y finalmente utilizando un modelo tridimensional continuo,
-y en cada caso la posibilidad de incluir efectos no lineales.&lt;/p&gt;
-&lt;p&gt;Claramente con esa jerarquía de modelos, enunciada en el párrafo anterior, el análisis
-incluirá cada vez respuestas más complejas, incrementando consecuentemente el costo de
-la solución. Es conocido que un análisis tridimensional es alrededor de un orden de
-magnitud más costoso que el caso bidimensional, tanto en recursos computacionales
-como en el tiempo de ingeniería realizada.&lt;/p&gt;&lt;/div&gt;</description><category>FEA</category><category>Mechanical Engineering</category><guid>https://jorgedelossantos.github.io/posts/implementacion-fem-en-problemas-de-ingenieria/</guid><pubDate>Sun, 09 Oct 2016 05:42:31 GMT</pubDate></item><item><title>Programación en MATLAB, fundamentos y aplicaciones</title><link>https://jorgedelossantos.github.io/posts/programacion-matlab/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;p&gt;Desde el año pasado intento escribir unos apuntes/libro sobre  programación en MATLAB.
-El título: &lt;strong&gt;Programación en MATLAB, fundamentos y aplicaciones&lt;/strong&gt;. Del cual la idea
-es abordar la programación en MATLAB en un nivel básico-intermedio, el libro se escribe para
-personas que tengan asimiladas las nociones básicas de programación, algoritmos y esas
-cosas necesarias para comenzar.&lt;/p&gt;
-&lt;p&gt;Uno de los detalles/cuestionamientos constantes ha sido ¿cómo escribir/editar el libro?,
-las opciones: Sphinx con ResT, ResT + rst2pdf (una minilibrería creada por Alsina), un editor
-de textos tipo WYSIWYG, Markdown + pandoc, Markdown + LeanPub, o LaTeX. Y en esa experimentación
-he pasado por casi todas las opciones, para al finar llegar a quedar con el odioso LaTeX,
-pero qué le vamos a hacer, a día de hoy (y durante muchos años) es (será) la opción más madura
-para la edición a partir de texto plano. Claro está que de todos es el que tiene la sintaxis
-más &lt;em&gt;pesada&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Los apuntes en su versión incompleta están disponibles en la plataforma &lt;a class="reference external" href="https://leanpub.com/programacionmatlab"&gt;LeanPub&lt;/a&gt; , que permite
-escribir/editar y publicar/vender libros bajo un esquema muy simple. Cualquiera que guste descargar
-el libro ahí lo tendrá, gratis claro está. LeanPub, además, está pensado para que los lectores
-(o potenciales lectores) puedan acceder a libros en una etapa temprana de desarrollo y contribuir
-con retroalimentación sobre el mismo, lo cual suene por demás interesante, un ganar-ganar.&lt;/p&gt;
-&lt;p&gt;Sin más, les dejo el link y la portada del libro en cuestión:&lt;/p&gt;
-&lt;img alt="https://s3.amazonaws.com/titlepages.leanpub.com/programacionmatlab/hero?1475359772" src="https://s3.amazonaws.com/titlepages.leanpub.com/programacionmatlab/hero?1475359772" style="width: 200px;"&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://leanpub.com/programacionmatlab"&gt;Descargar&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>books</category><category>mathjax</category><category>MATLAB</category><category>programming</category><guid>https://jorgedelossantos.github.io/posts/programacion-matlab/</guid><pubDate>Tue, 04 Oct 2016 15:08:38 GMT</pubDate></item><item><title>Sobre la tesis</title><link>https://jorgedelossantos.github.io/posts/sobre-la-tesis/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;p&gt;Después de año y medio en la maestría llega el momento de esto: escribir o terminar de
-escribir la tesis. Y cómo no, con el escándalo del presidente y su manera incorrecta de
-referenciar y dar el crédito correspondiente a sus autores, claro está que no es
-tema menor ni mucho menos, así que estaré preocupado por citar correctamente a cada
-autor implicado, nunca se sabe.&lt;/p&gt;
-&lt;div class="section" id="y-de-que-va-la-tesis"&gt;
-&lt;h2&gt;¿Y de qué va la tesis?&lt;/h2&gt;
-&lt;p&gt;Lo cierto es que no es un tema o proyecto con alto de grado de exigencia científica, (ni mediano),
-si no más orientado hacia cuestiones de mejoras en procesos de producción y manufactura.
-El título: &lt;strong&gt;Simulación por elementos finitos del proceso de formado de un tubo de
-acero AISI 1018&lt;/strong&gt;. La idea más general sobre el proyecto es la implementación de un
-centro de diseño, manufactura y validación de herramentales de producción utilizando
-tecnología actualizada que permita un desarrollo ágil. Cuestiones más, cuestiones menos.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="estatus-actual"&gt;
-&lt;h2&gt;Estatus actual&lt;/h2&gt;
-&lt;p&gt;Quizá un avance del 55%, espero en noviembre terminar con eso, porque la vida sigue
-y hay que medio planear lo venidero, que a como va el país tampoco es que se antoje
-plano.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>otros</category><category>personal</category><guid>https://jorgedelossantos.github.io/posts/sobre-la-tesis/</guid><pubDate>Wed, 14 Sep 2016 04:42:15 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;&lt;/div&gt;</description><guid>https://jorgedelossantos.github.io/stories/links/</guid><pubDate>Tue, 11 Oct 2016 15:10:35 GMT</pubDate></item></channel></rss>

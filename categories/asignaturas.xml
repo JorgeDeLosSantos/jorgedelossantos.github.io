@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>While True (mathjax)</title><link>https://jorgedelossantos.github.io/</link><description></description><atom:link href="https://jorgedelossantos.github.io/categories/mathjax.xml" type="application/rss+xml" rel="self"></atom:link><language>es</language><lastBuildDate>Mon, 20 Mar 2017 03:19:45 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Ingeniería de Proyectos</title><link>https://jorgedelossantos.github.io/stories/iproy/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;p&gt;Test Text&lt;/p&gt;</description><category>asignaturas</category><category>mathjax</category><guid>https://jorgedelossantos.github.io/stories/iproy/</guid><pubDate>Sun, 05 Feb 2017 17:19:15 GMT</pubDate></item><item><title>Diseño Asistido por Computadora (2D)</title><link>https://jorgedelossantos.github.io/stories/cad-2d/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;h3&gt;Normas y simbología&lt;/h3&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>While True (asignaturas)</title><link>https://jorgedelossantos.github.io/</link><description></description><atom:link href="https://jorgedelossantos.github.io/categories/asignaturas.xml" type="application/rss+xml" rel="self"></atom:link><language>es</language><lastBuildDate>Mon, 20 Mar 2017 03:19:45 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Ingeniería de Proyectos</title><link>https://jorgedelossantos.github.io/stories/iproy/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;p&gt;Test Text&lt;/p&gt;</description><category>asignaturas</category><category>mathjax</category><guid>https://jorgedelossantos.github.io/stories/iproy/</guid><pubDate>Sun, 05 Feb 2017 17:19:15 GMT</pubDate></item><item><title>Diseño Asistido por Computadora (2D)</title><link>https://jorgedelossantos.github.io/stories/cad-2d/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;h3&gt;Normas y simbología&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://jorgedelossantos.github.io/pdf/NOM-Z3.pdf"&gt;NOM-Z-3-1986 Dibujo Técnico-Vistas&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://jorgedelossantos.github.io/pdf/NOM-Z4-Z5-Z25.pdf"&gt;NOM-Z-4-1986 Dibujo Técnico-Líneas, NOM-Z-5-1986 Dibujo Técnico-Rayados y NOM-Z-25-1986 Dibujo Técnico-Acotaciones&lt;/a&gt;&lt;/li&gt;
@@ -185,23 +185,4 @@ ponderación: &lt;/p&gt;
 &lt;li&gt;Beer And Johnston, Mecánica de Materiales, Última Edición. Ed. Mc Graw Hill&lt;/li&gt;
 &lt;li&gt;James M. Gere, Barry J Goodno. Mecánica de Materiales. Septima Edición. Ed. Cengage Learning Editores, 2009&lt;/li&gt;
 &lt;li&gt;Rusel Hibbeler, Mecánica de Materiales, Última Edición. Ed. Prentice Hall &lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><category>asignaturas</category><category>mathjax</category><guid>https://jorgedelossantos.github.io/stories/mecanica-de-materiales/</guid><pubDate>Fri, 20 Jan 2017 23:57:08 GMT</pubDate></item><item><title>Programación en MATLAB, fundamentos y aplicaciones</title><link>https://jorgedelossantos.github.io/posts/programacion-matlab/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;p&gt;Desde el año pasado intento escribir unos apuntes/libro sobre  programación en MATLAB.
-El título: &lt;strong&gt;Programación en MATLAB, fundamentos y aplicaciones&lt;/strong&gt;. Del cual la idea
-es abordar la programación en MATLAB en un nivel básico-intermedio, el libro se escribe para
-personas que tengan asimiladas las nociones básicas de programación, algoritmos y esas
-cosas necesarias para comenzar.&lt;/p&gt;
-&lt;p&gt;Uno de los detalles/cuestionamientos constantes ha sido ¿cómo escribir/editar el libro?,
-las opciones: Sphinx con ResT, ResT + rst2pdf (una minilibrería creada por Alsina), un editor
-de textos tipo WYSIWYG, Markdown + pandoc, Markdown + LeanPub, o LaTeX. Y en esa experimentación
-he pasado por casi todas las opciones, para al finar llegar a quedar con el odioso LaTeX,
-pero qué le vamos a hacer, a día de hoy (y durante muchos años) es (será) la opción más madura
-para la edición a partir de texto plano. Claro está que de todos es el que tiene la sintaxis
-más &lt;em&gt;pesada&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Los apuntes en su versión incompleta están disponibles en la plataforma &lt;a class="reference external" href="https://leanpub.com/programacionmatlab"&gt;LeanPub&lt;/a&gt; , que permite
-escribir/editar y publicar/vender libros bajo un esquema muy simple. Cualquiera que guste descargar
-el libro ahí lo tendrá, gratis claro está. LeanPub, además, está pensado para que los lectores
-(o potenciales lectores) puedan acceder a libros en una etapa temprana de desarrollo y contribuir
-con retroalimentación sobre el mismo, lo cual suene por demás interesante, un ganar-ganar.&lt;/p&gt;
-&lt;p&gt;Sin más, les dejo el link y la portada del libro en cuestión:&lt;/p&gt;
-&lt;img alt="https://s3.amazonaws.com/titlepages.leanpub.com/programacionmatlab/hero?1475359772" src="https://s3.amazonaws.com/titlepages.leanpub.com/programacionmatlab/hero?1475359772" style="width: 200px;"&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://leanpub.com/programacionmatlab"&gt;Descargar&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>books</category><category>mathjax</category><category>MATLAB</category><category>programming</category><guid>https://jorgedelossantos.github.io/posts/programacion-matlab/</guid><pubDate>Tue, 04 Oct 2016 15:08:38 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;&lt;/div&gt;</description><category>asignaturas</category><category>mathjax</category><guid>https://jorgedelossantos.github.io/stories/mecanica-de-materiales/</guid><pubDate>Fri, 20 Jan 2017 23:57:08 GMT</pubDate></item></channel></rss>
