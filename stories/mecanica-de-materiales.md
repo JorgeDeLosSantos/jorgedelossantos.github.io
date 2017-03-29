@@ -141,8 +141,6 @@ En esta sección se adjuntan presentaciones que resumen el contenido de cada uni
 * [Funciones de discontinuidad (Tabla)](/pdf/mecamat/Funciones de discontinuidad.pdf)
 
 
-
-
 ---
 
 
