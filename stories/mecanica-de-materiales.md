@@ -14,11 +14,11 @@ Aquí encontrará información relacionada con el desarrollo del curso: criterio
 enlaces de interés, notas parciales, observaciones generales, entre otros.
 
 ---
-## Información general
+## Sobre el curso
 
 * **Nombre del curso:** Mecánica de Materiales
 * **Horario:** Lunes (15:00-17:00) - Miércoles (15:00-17:00) - Viernes (15:00-17:00)
-* **Profesor:** Pedro Jorge De Los Santos Lara
+<!-- * **Profesor:** Pedro Jorge De Los Santos Lara -->
 * **E-mail para el envío de tareas:** delossantosmfq@gmail.com
 
 
@@ -124,18 +124,27 @@ En lo subsiguiente se describen los puntos anteriores:
 
 ---
 
-## Apuntes (en desarrollo)
+## Apuntes, presentaciones e información general
 
 En esta sección se adjuntan presentaciones que resumen el contenido de cada unidad temática.
 
-* [Esfuerzo y deformación](/pdf/mecamat/p01_esfuerzo_deformacion.pdf)
-* [Torsión](/pdf/mecamat/p02_torsion.pdf)
-* [Flexión](/pdf/mecamat/p03_flexion.pdf)
+**Diapositivas**
+
+* [Esfuerzo y deformación (Diapositivas)](/pdf/mecamat/p01_esfuerzo_deformacion.pdf)
+* [Torsión (Diapositivas)](/pdf/mecamat/p02_torsion.pdf)
+* [Flexión (Diapositivas)](/pdf/mecamat/p03_flexion.pdf)
 * [Esfuerzos combinados](/pdf/mecamat/p04_esfuerzos_combinados.pdf)
 * [Elementos especiales](/pdf/mecamat/p05_elementos_especiales.pdf)
 
+**Apuntes**
+
+* [Funciones de discontinuidad (Tabla)](/pdf/mecamat/Funciones de discontinuidad.pdf)
+
+
+
 
 ---
+
 
 ## Bibliografía básica
 
