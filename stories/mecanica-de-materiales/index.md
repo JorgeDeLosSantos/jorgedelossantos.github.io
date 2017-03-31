@@ -126,9 +126,14 @@ En lo subsiguiente se describen los puntos anteriores:
 
 ## Apuntes, presentaciones e información general
 
-En esta sección se adjuntan presentaciones que resumen el contenido de cada unidad temática.
+**General**
+
+* [Propiedades de áreas planas](/pdf/mecamat/Propiedades de áreas.pdf)
+* [Propiedades de perfiles laminados de acero](/pdf/mecamat/Propiedades de perfiles.pdf)
 
 **Diapositivas**
+
+En esta sección se adjuntan presentaciones que resumen el contenido de cada unidad temática.
 
 * [Esfuerzo y deformación (Diapositivas)](/pdf/mecamat/p01_esfuerzo_deformacion.pdf)
 * [Torsión (Diapositivas)](/pdf/mecamat/p02_torsion.pdf)
@@ -139,6 +144,7 @@ En esta sección se adjuntan presentaciones que resumen el contenido de cada uni
 **Apuntes**
 
 * [Funciones de discontinuidad (Tabla)](/pdf/mecamat/Funciones de discontinuidad.pdf)
+
 
 
 ---
