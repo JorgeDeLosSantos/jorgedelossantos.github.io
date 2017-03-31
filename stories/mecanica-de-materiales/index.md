@@ -128,7 +128,7 @@ En lo subsiguiente se describen los puntos anteriores:
 
 **General**
 
-* [Propiedades de áreas planas](/pdf/mecamat/Propiedades de áreas.pdf)
+* [Propiedades de áreas planas](/pdf/mecamat/Propiedades de areas.pdf)
 * [Propiedades de perfiles laminados de acero](/pdf/mecamat/Propiedades de perfiles.pdf)
 
 **Diapositivas**
