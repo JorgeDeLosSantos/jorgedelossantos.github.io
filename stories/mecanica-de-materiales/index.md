@@ -9,6 +9,7 @@
 .. type: text
 -->
 
+
 Bienvenidos a la página del curso de **Mecánica de Materiales** para Ingeniería Mecatrónica del ITC. 
 Aquí encontrará información relacionada con el desarrollo del curso: criterios de evaluación, referencias, 
 enlaces de interés, notas parciales, observaciones generales, entre otros.
@@ -131,10 +132,6 @@ computacionales.
 
 ## Apuntes, presentaciones e información general (en borrador permanente)
 
-**Libros/Apuntes de Mecánica de Materiales**
-
-> NO libros comerciales
-
 **General**
 
 * [Propiedades de áreas planas](/pdf/mecamat/Propiedades de areas.pdf)
@@ -153,6 +150,9 @@ En esta sección se adjuntan presentaciones que resumen el contenido de cada uni
 **Apuntes**
 
 * [Funciones de discontinuidad (Tabla)](/pdf/mecamat/Funciones de discontinuidad.pdf)
+
+**Libros/Apuntes de Mecánica de Materiales**
+
 
 
 
