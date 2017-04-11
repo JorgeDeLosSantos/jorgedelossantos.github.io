@@ -117,14 +117,23 @@ En lo subsiguiente se describen los puntos anteriores:
 
 ---
 
-## Proyectos
+## Mini-Proyectos
+
+En esta sección se listan los mini-proyectos asignados durante el curso. Para propósitos de esta asignatura, entiéndase mini-proyecto como 
+un problema o situación específica de la mecánica de materiales que involucre una generalización en la resolución mediante herramientas 
+computacionales.
 
 * [Proyecto 1](/pdf/mecamat/PROY01_MDM.pdf)
+* [Proyecto 2](/pdf/mecamat/PROY02_MDM.pdf)
 
 
 ---
 
-## Apuntes, presentaciones e información general
+## Apuntes, presentaciones e información general (en borrador permanente)
+
+**Libros/Apuntes de Mecánica de Materiales**
+
+> NO libros comerciales
 
 **General**
 
