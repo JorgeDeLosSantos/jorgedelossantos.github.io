@@ -28,18 +28,24 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
     <div class="item active">
       <img src="/img/slider_crank.PNG" alt="Chania">
       <div class="carousel-caption">
-        <h3>Chania</h3>
-        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        <h3>Slider-crank mechanism (Codex Madrid I)</h3>
       </div>
     </div>
 
     <div class="item">
-      <img src="/img/fem_diagram.PNG" alt="Chania">
+      <img src="/img/babbage_machine.PNG" alt="Chania">
       <div class="carousel-caption">
-        <h3>Chania</h3>
-        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        <h3>Babbage’s Difference Machine calculator</h3>
       </div>
     </div>
+
+    <div class="item">
+      <img src="/img/gear_01.PNG" alt="Chania">
+      <div class="carousel-caption">
+        <h3>Da Vinci Gear</h3>
+      </div>
+    </div>
+
   </div>
 
   <!-- Left and right controls -->
