@@ -13,6 +13,9 @@ Bienvenido a la página del curso de **Mecanismos** para Ingeniería Mecánica d
 Aquí encontrará información relacionada con el desarrollo del curso: criterios de evaluación, referencias, 
 enlaces de interés, notas parciales, observaciones generales, entre otros.
 
+.. post-list::
+   :stop: 5
+
 <img src="/img/slider_crank.PNG" align="middle">
 
 ## Enlaces de interés
