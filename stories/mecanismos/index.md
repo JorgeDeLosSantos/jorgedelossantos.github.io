@@ -13,6 +13,8 @@ Bienvenido a la página del curso de **Mecanismos** para Ingeniería Mecánica d
 Aquí encontrará información relacionada con el desarrollo del curso: criterios de evaluación, referencias, 
 enlaces de interés, notas parciales, observaciones generales, entre otros.
 
+![](/img/slider_crank.PNG)
+
 ## Enlaces de interés
 
 * [Programa de la asignatura](/pdf/AED1043-Mecanismos.pdf)
