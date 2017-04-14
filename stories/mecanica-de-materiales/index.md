@@ -30,6 +30,10 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 * [Programa de la asignatura](/pdf/mecamat/MTJ1020-Mecanica de Materiales.pdf)
 * [OCW - Mechanics of Materials](https://ocw.mit.edu/courses/materials-science-and-engineering/3-11-mechanics-of-materials-fall-1999/index.htm)
 
+## Mecánica de Materiales (Interactivo)
+
+* [Mecánica de Materiales (Interactivo)](/MecMoviesILS/)
+
 ---
 
 ### Exámenes
@@ -152,6 +156,11 @@ En esta sección se adjuntan presentaciones que resumen el contenido de cada uni
 * [Funciones de discontinuidad (Tabla)](/pdf/mecamat/Funciones de discontinuidad.pdf)
 
 **Libros/Apuntes de Mecánica de Materiales**
+
+* [Resistencia de Materiales y Estructuras - CIMNE](https://portal.camins.upc.edu/materials_guia/250120/2012/Resistencia%20de%20materiales%20y%20estructuras.pdf)
+* [Mecánica de estructuras I. Resistencia de Materiales - Cervera (UPC)](http://cervera.rmee.upc.edu/libros/Mec%C3%A1nica_de_estructuras_I_Resistencia_de_Materiales.pdf)
+* [Resistencia de Materiales Aplicada - Mayori](http://www.cartagena99.com/recursos/otros/apuntes/Resistencia_de_Materiales_Aplicada.pdf)
+* [Resistencia de Materiales y temas relacionados - Universidad de Valladolid](http://www.eii.uva.es/reic/RMgrado/docs_varios/apuntes_RMgrado.pdf)
 
 
 
