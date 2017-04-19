@@ -42,12 +42,12 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
     - [Solución Problema 1](/pdf/mecamat/SOL_EX01_MDM_P1.pdf)
     - [Solución Problema 2](/pdf/mecamat/SOL_EX01_MDM_P2.pdf)
     - [Solución Problema 3](/pdf/mecamat/SOL_EX01_MDM_P3.pdf)
-* [Examen 2](/pdf/mecamat/EX01_MDM.pdf)
+* [Examen 2](/pdf/mecamat/EX02_MDM.pdf)
 
 ## Calificaciones
 
-En el siguiente link pueden descargar un archivo XLSM con el concentrado de calificaciones parciales/temporales, tome en cuenta 
-que las notas ahí colocadas se han calculado asumiendo una calificación máxima para lo no evaluado.
+En el siguiente link pueden descargar un archivo XLSM con el concentrado de calificaciones parciales/temporales, 
+tome en cuenta que las notas ahí colocadas se han calculado asumiendo una calificación máxima para lo no evaluado.
 
 [Concentrado de calificaciones](/xls/notas_mecamat_2017.xlsm)
 
@@ -128,8 +128,8 @@ En esta sección se listan los mini-proyectos asignados durante el curso. Para p
 un problema o situación específica de la mecánica de materiales que involucre una generalización en la resolución mediante herramientas 
 computacionales.
 
-* [Proyecto 1](/pdf/mecamat/PROY01_MDM.pdf)
-* [Proyecto 2](/pdf/mecamat/PROY02_MDM.pdf)
+* [Proyecto 1 (Equipos)](/pdf/mecamat/PROY01_MDM.pdf)
+* [Proyecto 2 (Individual)](/pdf/mecamat/PROY02_MDM.pdf)
 
 
 ---
