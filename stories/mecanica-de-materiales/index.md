@@ -124,9 +124,8 @@ En lo subsiguiente se describen los puntos anteriores:
 
 ## Mini-Proyectos
 
-En esta sección se listan los mini-proyectos asignados durante el curso. Para propósitos de esta asignatura, entiéndase mini-proyecto como 
-un problema o situación específica de la mecánica de materiales que involucre una generalización en la resolución mediante herramientas 
-computacionales.
+En esta sección se listan los mini-proyectos asignados durante el curso. Para propósitos de esta asignatura, 
+entiéndase mini-proyecto como un problema o situación específica de la mecánica de materiales que involucre una generalización en la resolución mediante herramientas computacionales.
 
 * [Proyecto 1 (Equipos)](/pdf/mecamat/PROY01_MDM.pdf)
 * [Proyecto 2 (Individual)](/pdf/mecamat/PROY02_MDM.pdf)
