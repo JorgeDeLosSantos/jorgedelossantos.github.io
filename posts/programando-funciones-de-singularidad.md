@@ -2,7 +2,7 @@
 .. title: Programando funciones de singularidad
 .. slug: programando-funciones-de-singularidad
 .. date: 2017-05-01 17:05:27 UTC-05:00
-.. tags: mathjax, mecánica, 
+.. tags: mathjax, mecánica, python,
 .. category: 
 .. link: 
 .. description: 
