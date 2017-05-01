@@ -15,7 +15,7 @@ un intervalo. De manera específica una función de singularidad se define como:
 
 $$
 < x -a >^n = 
-\left\{
+\left\\{
 \begin{matrix}
 (x-a)^n & \text{para } x \geq a \\
 0 & \text{para } x < a
