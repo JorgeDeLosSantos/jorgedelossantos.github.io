@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>While True</title><link>https://jorgedelossantos.github.io/</link><description>Blog personal</description><atom:link href="https://jorgedelossantos.github.io/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>es</language><lastBuildDate>Mon, 01 May 2017 22:45:04 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Programando funciones de singularidad</title><link>https://jorgedelossantos.github.io/posts/programando-funciones-de-singularidad/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;p&gt;Las funciones de singularidad son un tipo de funciones que se caracterizan por la notación 
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>While True</title><link>https://jorgedelossantos.github.io/</link><description>Blog personal</description><atom:link href="https://jorgedelossantos.github.io/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>es</language><lastBuildDate>Mon, 01 May 2017 22:51:43 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Programando funciones de singularidad</title><link>https://jorgedelossantos.github.io/posts/programando-funciones-de-singularidad/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;p&gt;Las funciones de singularidad son un tipo de funciones que se caracterizan por la notación 
 de paréntesis angulares y por definirse como una función a trozos para diversos valores en 
 un intervalo. De manera específica una función de singularidad se define como:&lt;/p&gt;
 &lt;p&gt;$$
 &amp;lt; x -a &amp;gt;^n = 
-\left{
+\left\{
 \begin{matrix}
 (x-a)^n &amp;amp; \text{para } x \geq a \
 0 &amp;amp; \text{para } x &amp;lt; a
