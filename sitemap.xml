@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://jorgedelossantos.github.io/</loc>
-  <lastmod>2017-04-04T01:52:00Z</lastmod>
+  <lastmod>2017-05-01T22:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/2015/</loc>
@@ -16,6 +16,10 @@
  <url>
   <loc>https://jorgedelossantos.github.io/2016/</loc>
   <lastmod>2017-02-16T10:37:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/2017/</loc>
+  <lastmod>2017-05-01T22:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/MecMoviesILS/</loc>
@@ -27,7 +31,7 @@
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/archive.html</loc>
-  <lastmod>2017-03-20T04:31:00Z</lastmod>
+  <lastmod>2017-05-01T22:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/categories/</loc>
@@ -98,6 +102,14 @@
   <lastmod>2017-02-16T10:37:00Z</lastmod>
  </url>
  <url>
+  <loc>https://jorgedelossantos.github.io/index-1.html</loc>
+  <lastmod>2017-05-01T22:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/posts/</loc>
+  <lastmod>2017-05-01T22:26:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://jorgedelossantos.github.io/posts/2016/01/metodos-estaticos-en-una-clase-matlab/</loc>
   <lastmod>2017-02-16T10:37:00Z</lastmod>
  </url>
@@ -138,6 +150,10 @@
   <lastmod>2017-02-16T10:37:00Z</lastmod>
  </url>
  <url>
+  <loc>https://jorgedelossantos.github.io/stories/</loc>
+  <lastmod>2017-05-01T22:26:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://jorgedelossantos.github.io/stories/about/</loc>
   <lastmod>2017-02-16T10:37:00Z</lastmod>
  </url>
@@ -172,6 +188,10 @@
  <url>
   <loc>https://jorgedelossantos.github.io/stories/mecanismos/</loc>
   <lastmod>2017-02-16T10:37:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/stories/programando-funciones-de-singularidad/</loc>
+  <lastmod>2017-05-01T22:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/stories/tsrv/</loc>
