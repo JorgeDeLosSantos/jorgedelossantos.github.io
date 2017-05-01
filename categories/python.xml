@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>While True (python)</title><link>https://jorgedelossantos.github.io/</link><description></description><atom:link href="https://jorgedelossantos.github.io/categories/python.xml" type="application/rss+xml" rel="self"></atom:link><language>es</language><lastBuildDate>Mon, 01 May 2017 22:29:08 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Programando funciones de singularidad</title><link>https://jorgedelossantos.github.io/stories/programando-funciones-de-singularidad/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;p&gt;Las funciones de singularidad son un tipo de funciones que se caracterizan por la notación 
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>While True (python)</title><link>https://jorgedelossantos.github.io/</link><description></description><atom:link href="https://jorgedelossantos.github.io/categories/python.xml" type="application/rss+xml" rel="self"></atom:link><language>es</language><lastBuildDate>Mon, 01 May 2017 22:36:32 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Programando funciones de singularidad</title><link>https://jorgedelossantos.github.io/posts/programando-funciones-de-singularidad/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;p&gt;Las funciones de singularidad son un tipo de funciones que se caracterizan por la notación 
 de paréntesis angulares y por definirse como una función a trozos para diversos valores en 
-un intervalo. &lt;/p&gt;</description><category>mathjax</category><category>mecánica</category><category>python</category><guid>https://jorgedelossantos.github.io/stories/programando-funciones-de-singularidad/</guid><pubDate>Mon, 01 May 2017 22:05:27 GMT</pubDate></item></channel></rss>
+un intervalo. De manera específica una función de singularidad se define como:&lt;/p&gt;
+&lt;p&gt;$$
+\langle x -a \rangle^n = 
+\left{
+\begin{matrix}
+(x-a)^n &amp;amp; \text{para } x \geq a
+0 &amp;amp; \text{para } x &amp;lt; a
+\end{matrix}
+\right.
+$$&lt;/p&gt;&lt;/div&gt;</description><category>mathjax</category><category>mecánica</category><category>python</category><guid>https://jorgedelossantos.github.io/posts/programando-funciones-de-singularidad/</guid><pubDate>Mon, 01 May 2017 22:05:27 GMT</pubDate></item></channel></rss>

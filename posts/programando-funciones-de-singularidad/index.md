@@ -11,6 +11,16 @@
 
 Las funciones de singularidad son un tipo de funciones que se caracterizan por la notación 
 de paréntesis angulares y por definirse como una función a trozos para diversos valores en 
-un intervalo. 
+un intervalo. De manera específica una función de singularidad se define como:
+
+$$
+\langle x -a \rangle^n = 
+\left\{
+\begin{matrix}
+(x-a)^n & \text{para } x \geq a
+0 & \text{para } x < a
+\end{matrix}
+\right.
+$$
 
 
