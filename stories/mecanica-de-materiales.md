@@ -131,7 +131,6 @@ entiéndase mini-proyecto como un problema o situación específica de la mecán
 * [Proyecto 2 (Individual)](/pdf/mecamat/PROY02_MDM.pdf)
     - [Propuesta de solución](/posts/propuesta-de-solucion-proyecto-02/)
 
-
 ---
 
 ## Apuntes, presentaciones e información general (en borrador permanente)
