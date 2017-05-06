@@ -84,10 +84,10 @@ def main():
     c = input("Distancia al eje neutro (c)= ")
     Su = input("Esfuerzo ultimo (Su)= ")
     x0 = input("Coordenada de interes (x0)= ")
-    #~ P = np.array([10e3,10e3,20e3,5e3]) # for testing
+    #~ P = np.array([1000,800,750,1200]) # for testing
     #~ a = np.array([0.3,0.525,0.825,1.05])
     #~ L = 1.05
-    #~ E, I, c, Su, x0 = 200e9, 200e-6, 5e-3, 400e6, L/2
+    #~ E, I, c, Su, x0 = 200e9, 4.16e-7, 25e-3, 450e6, L/2
     MA = np.sum(P*a)
     RA = np.sum(P)
     
@@ -111,4 +111,9 @@ def main():
 
 if __name__=='__main__':
     main()
+
 ```
+
+Para ciertos valores de prueba el programa produce una gráfica como la mostrada a continuación:
+
+![](/img/beam_diagram.PNG)
