@@ -129,6 +129,7 @@ entiéndase mini-proyecto como un problema o situación específica de la mecán
 
 * [Proyecto 1 (Equipos)](/pdf/mecamat/PROY01_MDM.pdf)
 * [Proyecto 2 (Individual)](/pdf/mecamat/PROY02_MDM.pdf)
+    - [Propuesta de solución](/posts/propuesta-de-solucion-proyecto-02/)
 
 
 ---
