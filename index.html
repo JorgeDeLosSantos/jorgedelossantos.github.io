@@ -11,7 +11,7 @@
 <link rel="canonical" href="https://jorgedelossantos.github.io/">
 <link rel="icon" href="favicon.ico" sizes="16x16">
 <link rel="next" href="index-1.html" type="text/html">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/programando-funciones-de-singularidad/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/propuesta-de-solucion-proyecto-02/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
@@ -107,7 +107,29 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/programando-funciones-de-singularidad/" class="u-url">Programando funciones de singularidad</a></h1>
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/propuesta-de-solucion-proyecto-02/" class="u-url">Propuesta de solución: Proyecto 02, Mecánica de Materiales</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Pedro Jorge De Los Santos
+            </span></p>
+            <p class="dateline"><a href="posts/propuesta-de-solucion-proyecto-02/" rel="bookmark"><time class="published dt-published" datetime="2017-05-06T17:29:55-05:00" title="2017-05-06 17:29">2017-05-06 17:29</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/propuesta-de-solucion-proyecto-02/#disqus_thread" data-disqus-identifier="cache/posts/propuesta-de-solucion-proyecto-02.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>Lo siguiente constituye una propuesta de solución para el problema planteado como 
+proyecto de la unidad III. </p>
+<p style=" margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block;">   <a title="View Problema C1 MDM Flexión on Scribd" href="https://www.scribd.com/document/347549656/Problema-C1-MDM-Flexion#from_embed" style="text-decoration: underline;">Problema C1 MDM Flexión</a> by <a title="View Pedro Jorge De los Santos's profile on Scribd" href="https://es.scribd.com/user/34098898/Pedro-Jorge-De-los-Santos#from_embed" style="text-decoration: underline;">Pedro Jorge De los Santos</a> on Scribd</p>
+
+<iframe class="scribd_iframe_embed" src="https://www.scribd.com/embeds/347549656/content?start_page=1&amp;view_mode=scroll&amp;access_key=key-peUXuJri0mgZRhXdEZdt&amp;show_recommendations=true" data-auto-height="false" data-aspect-ratio="0.7068965517241379" scrolling="no" id="doc_50549" width="100%" height="600" frameborder="0"></iframe>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/programando-funciones-de-singularidad/" class="u-url">Programando funciones de singularidad</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">
                 Pedro Jorge De Los Santos
@@ -134,6 +156,13 @@ un intervalo. De manera específica una función de singularidad se define como:
 \end{matrix}
 \right.
 $$</p>
+<p>Programar (en computadora, claro) una función de singularidad es algo bastante intuitivo. En 
+el enfoque más simplista podemos concebirla como una simple estructura de bifurcación, algo como:</p>
+<pre class="code literal-block"><span></span>Si x mayor o igual que a entonces
+    Devolver (x-a)^n
+Si no
+    Devolver 0
+</pre>
 </div>
     </div>
     </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/implementacion-fem-en-problemas-de-ingenieria/" class="u-url">Implementación del MEF en problemas de ingeniería</a></h1>
@@ -434,41 +463,6 @@ plano.</p>
 <br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">classdef Math<br><br>    properties (Constant=true)<br>        PI = pi; <span class="co" style="color: #60a0b0; font-style: italic;">% Constante "pi"</span><br>        E = exp(<span class="fl" style="color: #40a070;">1</span>); <span class="co" style="color: #60a0b0; font-style: italic;">% Constante "e"</span><br>    end<br><br>    methods (Static=true)<br>        function m = maximo(a,b)<br><span class="co" style="color: #60a0b0; font-style: italic;">% Determina el máximo de dos valores</span><br>            if a&gt;b<br>                m = a;<br>            else<br>                m = b;<br>            end<br>        end<br><br>        function m = minimo(a,b)<br><span class="co" style="color: #60a0b0; font-style: italic;">% Determina el mínimo de dos valores</span><br>            if a&lt;b<br>                m = a;<br>            else<br>                m = b;<br>            end<br>        end<br>    end<br>end</code></pre></div>
 <br><div style="text-align: justify;">Podemos entonces <em>llamar</em> a los métodos <code style="white-space: pre;">maximo</code> y <code style="white-space: pre;">minimo</code> sin necesidad de crear una instancia:</div>
 <br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; Math.minimo(<span class="fl" style="color: #40a070;">10</span>,<span class="fl" style="color: #40a070;">20</span>)<br>ans =<br><span class="fl" style="color: #40a070;">10</span><br>&gt;&gt; Math.maximo(<span class="fl" style="color: #40a070;">10</span>,<span class="fl" style="color: #40a070;">20</span>)<br>ans =<br><span class="fl" style="color: #40a070;">20</span></code></pre></div>
-    </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/2016/01/test/" class="u-url">Utilizando clases de la librería estándar de Java en MATLAB</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">
-                Pedro Jorge De Los Santos
-            </span></p>
-            <p class="dateline"><a href="posts/2016/01/test/" rel="bookmark"><time class="published dt-published" datetime="2016-01-25T19:57:00-06:00" title="2016-01-25 19:57">2016-01-25 19:57</time></a></p>
-                <p class="commentline">
-        
-    <a href="posts/2016/01/test/#disqus_thread" data-disqus-identifier="cache/posts/2016/01/test.html">Comments</a>
-
-
-        </p>
-</div>
-    </header><div class="e-content entry-content">
-    <div style="text-align: justify;">MATLAB tiene una facilidad inherente para la integración simple de código Java en un script ordinario. Es posible instanciar objetos de una clase Java de la librería estándar o de terceros, y utilizarlas dentro del espacio de trabajo.</div>
-<div style="text-align: justify;"><br></div>
-<div style="text-align: justify;">Lo anterior puede resultar muy útil en casos donde ciertas características del lenguaje Java no implementadas nativamente en MATLAB sean requeridas. En este caso vamos a ver cómo importar, instanciar y utilizar algunas clases y sus métodos de la librería estándar de Java.</div>
-<div style="text-align: justify;"><br></div>
-<div style="text-align: justify;">Lo primero que debemos hacer para utilizar una clase Java es importar esta en nuestro espacio de trabajo, por ejemplo, si queremos utilizar las clases de la librería <code style="white-space: pre;">lang</code> de Java:</div>
-<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; import java.lang.*;</code></pre></div>
-<br>Ahora instanciaremos un objeto de la clase String de Java:<br><br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; cadena=String(<span class="st" style="color: #4070a0;">'Hola Java'</span>)<br>cadena =<br>Hola Java</code></pre></div>
-<br>Podemos verificar la clase del objeto <code style="white-space: pre;">cadena</code> utilizando la función class de MATLAB.<br><br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; class(cadena)<br>ans =<br>java.lang.String</code></pre></div>
-<br>O directamente utilizando el método <code style="white-space: pre;">getClass</code>:<br><br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; cadena.getClass()<br>ans =<br>class java.lang.String</code></pre></div>
-<br>De la misma forma podemos utilizar algunos de los métodos disponibles para este objeto:<br><br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; cadena.length() <span class="co" style="color: #60a0b0; font-style: italic;">% Longitud de la cadena</span><br>ans =<br><span class="fl" style="color: #40a070;">9</span><br>&gt;&gt; cadena.replace(<span class="st" style="color: #4070a0;">'a'</span>,<span class="st" style="color: #4070a0;">'o'</span>) <span class="co" style="color: #60a0b0; font-style: italic;">% Remplazando caracteres</span><br>ans =<br>Holo Jovo<br>&gt;&gt; cadena.toUpperCase()  <span class="co" style="color: #60a0b0; font-style: italic;">% Todas mayúsculas</span><br>ans =<br>HOLA JAVA<br>&gt;&gt; cadena.concat(<span class="st" style="color: #4070a0;">' y MATLAB'</span>)  <span class="co" style="color: #60a0b0; font-style: italic;">% Concatenando caracteres al final</span><br>ans =<br>Hola Java y MATLAB</code></pre></div>
-<br><div style="text-align: justify;">Es posible instanciar un objeto Java sin necesidad de importar las librerías, en cambio es necesario indicar el nombre/ruta completo de la clase:</div>
-<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; cad=java.lang.String(<span class="st" style="color: #4070a0;">'Hola!!!'</span>)<br>cad =<br>Hola<span class="bn" style="color: #40a070;">!!!</span></code></pre></div>
-<br><div style="text-align: justify;">Bueno, pero, ¿no tiene MATLAB un tipo de dato String nativo que hace lo mismo? o ¿para qué nos servirá entonces utilizar objetos Java?.</div>
-<div style="text-align: justify;"><br></div>
-<div style="text-align: justify;">Si, MATLAB tiene un tipo <code style="white-space: pre;">char</code> equivalente al String de MATLAB, pero existen algunos estructuras de datos como las <em>Hashtables</em> que no tienen un equivalente en MATLAB, y es ahí donde podríamos aprovechar algunas versatilidades proporcionadas por Java.</div>
-<div style="text-align: justify;"><br></div>
-<div style="text-align: justify;">¿Y qué es una Hashtable?, en resumen, es un estructura que permite almacenar variables mediante las características clave-valor (como un diccionario en Python, por si vienen de Python). Por ejemplo:</div>
-<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; import java.util.*; <span class="co" style="color: #60a0b0; font-style: italic;">% Importamos las clases de java.util</span><br>&gt;&gt; ht=Hashtable(); <span class="co" style="color: #60a0b0; font-style: italic;">% Instanciamos un objeto de la clase Hashtable</span><br>&gt;&gt; ht.put(<span class="st" style="color: #4070a0;">'A'</span>,<span class="fl" style="color: #40a070;">10</span>); <span class="co" style="color: #60a0b0; font-style: italic;">% Agregamos un clave-valor</span><br>&gt;&gt; ht.put(<span class="st" style="color: #4070a0;">'B'</span>,<span class="fl" style="color: #40a070;">15</span>); <span class="co" style="color: #60a0b0; font-style: italic;">% Agregamos un clave-valor</span><br>&gt;&gt; ht.put(<span class="st" style="color: #4070a0;">'C'</span>,<span class="fl" style="color: #40a070;">5</span>); <span class="co" style="color: #60a0b0; font-style: italic;">% Agregamos un clave-valor</span><br>&gt;&gt; ht<br>ht =<br>{A=<span class="fl" style="color: #40a070;">10.0</span>, C=<span class="fl" style="color: #40a070;">5.0</span>, B=<span class="fl" style="color: #40a070;">15.0</span>}<br>&gt;&gt; class(ht)<br>ans =<br>java.util.Hashtable</code></pre></div>
-<br>Ahora podemos acceder al valor guardado en un determinado campo de la Hashtable:<br><br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; ht.get(<span class="st" style="color: #4070a0;">'B'</span>)  <span class="co" style="color: #60a0b0; font-style: italic;">% Tomando el valor de la clave B</span><br>ans =<br><span class="fl" style="color: #40a070;">15</span></code></pre></div>
-<br><div style="text-align: justify;">Y bueno, hasta aquí un poco de este tema sobre cómo utilizar clases de la librería estándar de Java en MATLAB. En entradas posteriores veremos cómo añadir controles gráficos de la librería Swing en una GUI MATLAB.</div>
     </div>
     </article>
 </div>

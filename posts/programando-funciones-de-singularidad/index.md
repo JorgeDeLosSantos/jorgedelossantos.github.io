@@ -2,7 +2,7 @@
 .. title: Programando funciones de singularidad
 .. slug: programando-funciones-de-singularidad
 .. date: 2017-05-01 17:05:27 UTC-05:00
-.. tags: mathjax, mecánica, python,
+.. tags: mathjax, mecánica, python, draft,
 .. category: 
 .. link: 
 .. description: 
@@ -23,4 +23,12 @@ $$
 \right.
 $$
 
+Programar (en computadora, claro) una función de singularidad es algo bastante intuitivo. En 
+el enfoque más simplista podemos concebirla como una simple estructura de bifurcación, algo como:
 
+```
+Si x mayor o igual que a entonces
+    Devolver (x-a)^n
+Si no
+    Devolver 0
+```

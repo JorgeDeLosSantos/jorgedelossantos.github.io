@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>While True (mathjax)</title><link>https://jorgedelossantos.github.io/</link><description></description><atom:link href="https://jorgedelossantos.github.io/categories/mathjax.xml" type="application/rss+xml" rel="self"></atom:link><language>es</language><lastBuildDate>Mon, 01 May 2017 22:51:42 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Programando funciones de singularidad</title><link>https://jorgedelossantos.github.io/posts/programando-funciones-de-singularidad/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;p&gt;Las funciones de singularidad son un tipo de funciones que se caracterizan por la notación 
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>While True (mathjax)</title><link>https://jorgedelossantos.github.io/</link><description></description><atom:link href="https://jorgedelossantos.github.io/categories/mathjax.xml" type="application/rss+xml" rel="self"></atom:link><language>es</language><lastBuildDate>Sat, 06 May 2017 22:42:21 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Programando funciones de singularidad</title><link>https://jorgedelossantos.github.io/posts/programando-funciones-de-singularidad/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;p&gt;Las funciones de singularidad son un tipo de funciones que se caracterizan por la notación 
 de paréntesis angulares y por definirse como una función a trozos para diversos valores en 
 un intervalo. De manera específica una función de singularidad se define como:&lt;/p&gt;
 &lt;p&gt;$$
@@ -10,7 +10,14 @@ un intervalo. De manera específica una función de singularidad se define como:
 0 &amp;amp; \text{para } x &amp;lt; a
 \end{matrix}
 \right.
-$$&lt;/p&gt;&lt;/div&gt;</description><category>mathjax</category><category>mecánica</category><category>python</category><guid>https://jorgedelossantos.github.io/posts/programando-funciones-de-singularidad/</guid><pubDate>Mon, 01 May 2017 22:05:27 GMT</pubDate></item><item><title>Programación en MATLAB, fundamentos y aplicaciones</title><link>https://jorgedelossantos.github.io/posts/programacion-matlab/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;p&gt;Desde el año pasado intento escribir unos apuntes/libro sobre  programación en MATLAB.
+$$&lt;/p&gt;
+&lt;p&gt;Programar (en computadora, claro) una función de singularidad es algo bastante intuitivo. En 
+el enfoque más simplista podemos concebirla como una simple estructura de bifurcación, algo como:&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;Si x mayor o igual que a entonces
+    Devolver (x-a)^n
+Si no
+    Devolver 0
+&lt;/pre&gt;&lt;/div&gt;</description><category>mathjax</category><category>mecánica</category><category>python</category><guid>https://jorgedelossantos.github.io/posts/programando-funciones-de-singularidad/</guid><pubDate>Mon, 01 May 2017 22:05:27 GMT</pubDate></item><item><title>Programación en MATLAB, fundamentos y aplicaciones</title><link>https://jorgedelossantos.github.io/posts/programacion-matlab/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;p&gt;Desde el año pasado intento escribir unos apuntes/libro sobre  programación en MATLAB.
 El título: &lt;strong&gt;Programación en MATLAB, fundamentos y aplicaciones&lt;/strong&gt;. Del cual la idea
 es abordar la programación en MATLAB en un nivel básico-intermedio, el libro se escribe para
 personas que tengan asimiladas las nociones básicas de programación, algoritmos y esas

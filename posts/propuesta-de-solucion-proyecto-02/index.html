@@ -3,26 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Programando funciones de singularidad | While True</title>
+<title>Propuesta de solución: Proyecto 02, Mecánica de Materiales | While True</title>
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <meta content="#14178D" name="theme-color">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
-<link rel="canonical" href="https://jorgedelossantos.github.io/posts/programando-funciones-de-singularidad/">
+<link rel="canonical" href="https://jorgedelossantos.github.io/posts/propuesta-de-solucion-proyecto-02/">
 <link rel="icon" href="favicon.ico" sizes="16x16">
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Pedro Jorge De Los Santos">
-<link rel="prev" href="../implementacion-fem-en-problemas-de-ingenieria/" title="Implementación del MEF en problemas de ingeniería" type="text/html">
-<link rel="next" href="../propuesta-de-solucion-proyecto-02/" title="Propuesta de solución: Proyecto 02, Mecánica de Materiales" type="text/html">
+<link rel="prev" href="../programando-funciones-de-singularidad/" title="Programando funciones de singularidad" type="text/html">
 <meta property="og:site_name" content="While True">
-<meta property="og:title" content="Programando funciones de singularidad">
-<meta property="og:url" content="https://jorgedelossantos.github.io/posts/programando-funciones-de-singularidad/">
-<meta property="og:description" content="Las funciones de singularidad son un tipo de funciones que se caracterizan por la notación 
-de paréntesis angulares y por definirse como una función a trozos para diversos valores en 
-un intervalo. De">
+<meta property="og:title" content="Propuesta de solución: Proyecto 02, Mecánica de Materiales">
+<meta property="og:url" content="https://jorgedelossantos.github.io/posts/propuesta-de-solucion-proyecto-02/">
+<meta property="og:description" content="Lo siguiente constituye una propuesta de solución para el problema planteado como 
+proyecto de la unidad III. 
+   Problema C1 MDM Flexión by Pedro Jorge De los Santos on Scribd">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2017-05-01T17:05:27-05:00">
-<meta property="article:tag" content="mathjax">
-<meta property="article:tag" content="mecánica">
-<meta property="article:tag" content="python">
+<meta property="article:published_time" content="2017-05-06T17:29:55-05:00">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
@@ -121,16 +117,16 @@ un intervalo. De">
         <div class="row">
             
             
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Programando funciones de singularidad</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Propuesta de solución: Proyecto 02, Mecánica de Materiales</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">
                     Pedro Jorge De Los Santos
             </span></p>
-            <p class="dateline"><a href="." rel="bookmark"><time class="published dt-published" datetime="2017-05-01T17:05:27-05:00" itemprop="datePublished" title="2017-05-01 17:05">2017-05-01 17:05</time></a></p>
+            <p class="dateline"><a href="." rel="bookmark"><time class="published dt-published" datetime="2017-05-06T17:29:55-05:00" itemprop="datePublished" title="2017-05-06 17:29">2017-05-06 17:29</time></a></p>
                 <p class="commentline">
         
-    <a href="#disqus_thread" data-disqus-identifier="cache/posts/programando-funciones-de-singularidad.html">Comments</a>
+    <a href="#disqus_thread" data-disqus-identifier="cache/posts/propuesta-de-solucion-proyecto-02.html">Comments</a>
 
 
             
@@ -142,37 +138,16 @@ un intervalo. De">
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>Las funciones de singularidad son un tipo de funciones que se caracterizan por la notación 
-de paréntesis angulares y por definirse como una función a trozos para diversos valores en 
-un intervalo. De manera específica una función de singularidad se define como:</p>
-<p>$$
-&lt; x -a &gt;^n = 
-\left\{
-\begin{matrix}
-(x-a)^n &amp; \text{para } x \geq a \
-0 &amp; \text{para } x &lt; a
-\end{matrix}
-\right.
-$$</p>
-<p>Programar (en computadora, claro) una función de singularidad es algo bastante intuitivo. En 
-el enfoque más simplista podemos concebirla como una simple estructura de bifurcación, algo como:</p>
-<pre class="code literal-block"><span></span>Si x mayor o igual que a entonces
-    Devolver (x-a)^n
-Si no
-    Devolver 0
-</pre>
+<p>Lo siguiente constituye una propuesta de solución para el problema planteado como 
+proyecto de la unidad III. </p>
+<p style=" margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block;">   <a title="View Problema C1 MDM Flexión on Scribd" href="https://www.scribd.com/document/347549656/Problema-C1-MDM-Flexion#from_embed" style="text-decoration: underline;">Problema C1 MDM Flexión</a> by <a title="View Pedro Jorge De los Santos's profile on Scribd" href="https://es.scribd.com/user/34098898/Pedro-Jorge-De-los-Santos#from_embed" style="text-decoration: underline;">Pedro Jorge De los Santos</a> on Scribd</p>
+
+<iframe class="scribd_iframe_embed" src="https://www.scribd.com/embeds/347549656/content?start_page=1&amp;view_mode=scroll&amp;access_key=key-peUXuJri0mgZRhXdEZdt&amp;show_recommendations=true" data-auto-height="false" data-aspect-ratio="0.7068965517241379" scrolling="no" id="doc_50549" width="100%" height="600" frameborder="0"></iframe>
 </div>
     </div>
-    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
-<li><a class="tag p-category" href="../../categories/mecanica/" rel="tag">mecánica</a></li>
-            <li><a class="tag p-category" href="../../categories/python/" rel="tag">python</a></li>
-        </ul>
-<ul class="pager hidden-print">
+    <aside class="postpromonav"><nav><ul class="pager hidden-print">
 <li class="previous">
-                <a href="../implementacion-fem-en-problemas-de-ingenieria/" rel="prev" title="Implementación del MEF en problemas de ingeniería">Publicación anterior</a>
-            </li>
-            <li class="next">
-                <a href="../propuesta-de-solucion-proyecto-02/" rel="next" title="Propuesta de solución: Proyecto 02, Mecánica de Materiales">Siguiente publicación</a>
+                <a href="../programando-funciones-de-singularidad/" rel="prev" title="Programando funciones de singularidad">Publicación anterior</a>
             </li>
         </ul></nav></aside><section class="comments hidden-print"><h2>Comentarios</h2>
         
@@ -180,9 +155,9 @@ Si no
         <div id="disqus_thread"></div>
         <script>
         var disqus_shortname ="jorge-de-los-santos",
-            disqus_url="https://jorgedelossantos.github.io/posts/programando-funciones-de-singularidad/",
-        disqus_title="Programando funciones de singularidad",
-        disqus_identifier="cache/posts/programando-funciones-de-singularidad.html",
+            disqus_url="https://jorgedelossantos.github.io/posts/propuesta-de-solucion-proyecto-02/",
+        disqus_title="Propuesta de soluci\u00f3n: Proyecto 02, Mec\u00e1nica de Materiales",
+        disqus_identifier="cache/posts/propuesta-de-solucion-proyecto-02.html",
         disqus_config = function () {
             this.language = "es_ES";
         };
@@ -196,9 +171,7 @@ Si no
     <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
-        </section><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script><script type="text/x-mathjax-config">
-            MathJax.Hub.Config({tex2jax: {inlineMath: [['$latex ','$'], ['\\(','\\)']]}});
-            </script></article><script>var disqus_shortname="jorge-de-los-santos";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+        </section></article><script>var disqus_shortname="jorge-de-los-santos";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
 </div>
         <!--End of body content-->
 
