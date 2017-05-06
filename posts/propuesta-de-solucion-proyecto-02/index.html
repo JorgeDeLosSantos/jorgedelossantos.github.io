@@ -10,13 +10,14 @@
 <link rel="canonical" href="https://jorgedelossantos.github.io/posts/propuesta-de-solucion-proyecto-02/">
 <link rel="icon" href="favicon.ico" sizes="16x16">
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Pedro Jorge De Los Santos">
-<link rel="prev" href="../programando-funciones-de-singularidad/" title="Programando funciones de singularidad" type="text/html">
+<link rel="prev" href="../implementacion-fem-en-problemas-de-ingenieria/" title="Implementación del MEF en problemas de ingeniería" type="text/html">
 <meta property="og:site_name" content="While True">
 <meta property="og:title" content="Propuesta de solución: Proyecto 02, Mecánica de Materiales">
 <meta property="og:url" content="https://jorgedelossantos.github.io/posts/propuesta-de-solucion-proyecto-02/">
 <meta property="og:description" content="Lo siguiente constituye una propuesta de solución para el problema planteado como 
 proyecto de la unidad III. 
-   Problema C1 MDM Flexión by Pedro Jorge De los Santos on Scribd">
+En el siguiente PDF incrustado se plantea de forma generalizada el problema y se 
+estable">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2017-05-06T17:29:55-05:00">
 </head>
@@ -140,14 +141,109 @@ proyecto de la unidad III.
     <div>
 <p>Lo siguiente constituye una propuesta de solución para el problema planteado como 
 proyecto de la unidad III. </p>
+<p>En el siguiente PDF incrustado se plantea de forma generalizada el problema y se 
+establecen las ecuaciones de cortante, momento, pendiente y deflexión.</p>
 <p style=" margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block;">   <a title="View Problema C1 MDM Flexión on Scribd" href="https://www.scribd.com/document/347549656/Problema-C1-MDM-Flexion#from_embed" style="text-decoration: underline;">Problema C1 MDM Flexión</a> by <a title="View Pedro Jorge De los Santos's profile on Scribd" href="https://es.scribd.com/user/34098898/Pedro-Jorge-De-los-Santos#from_embed" style="text-decoration: underline;">Pedro Jorge De los Santos</a> on Scribd</p>
 
-<iframe class="scribd_iframe_embed" src="https://www.scribd.com/embeds/347549656/content?start_page=1&amp;view_mode=scroll&amp;access_key=key-peUXuJri0mgZRhXdEZdt&amp;show_recommendations=true" data-auto-height="false" data-aspect-ratio="0.7068965517241379" scrolling="no" id="doc_50549" width="100%" height="600" frameborder="0"></iframe>
+<iframe class="scribd_iframe_embed" src="https://www.scribd.com/embeds/347549656/content?start_page=1&amp;view_mode=slideshow&amp;access_key=key-peUXuJri0mgZRhXdEZdt&amp;show_recommendations=true" data-auto-height="true" data-aspect-ratio="0.7068965517241379" scrolling="no" id="doc_82014" width="null" height="null" frameborder="0"></iframe>
+
+<script type="text/javascript">(function() { var scribd = document.createElement("script"); scribd.type = "text/javascript"; scribd.async = true; scribd.src = "https://www.scribd.com/javascripts/embed_code/inject.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(scribd, s); })();</script><p>Basado en el desarrollo anterior se hace una programa de linea de comandos utilizando Python, 
+el cual tiene la capacidad de trabajar para N cargas puntuales y trazar el diagrama de fuerza 
+cortante, el diagrama de momentos y la curva de la elástica de la viga.</p>
+<pre class="code literal-block"><span></span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">division</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">matplotlib</span> <span class="kn">as</span> <span class="nn">mpl</span>
+<span class="n">mpl</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s2">"font.size"</span><span class="p">]</span> <span class="o">=</span> <span class="mi">6</span>
+
+<span class="k">def</span> <span class="nf">sifu</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">n</span><span class="p">):</span>
+    <span class="sd">""" Funcion de singularidad -&gt; piecewise form """</span>
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">piecewise</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="p">[</span><span class="n">a</span> <span class="o">&gt;</span> <span class="n">x</span><span class="p">,</span> <span class="n">a</span> <span class="o">&lt;=</span> <span class="n">x</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="k">lambda</span> <span class="n">a</span><span class="p">:(</span><span class="n">x</span><span class="o">-</span><span class="n">a</span><span class="p">)</span><span class="o">**</span><span class="n">n</span><span class="p">])</span>
+
+<span class="k">def</span> <span class="nf">leer_fuerzas</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="sd">""" Lee las fuerzas puntuales aplicadas """</span>
+    <span class="n">F</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span> <span class="n">F</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">"P{0}= "</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="mi">1</span><span class="p">)))</span>
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">F</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">leer_coordenadas</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="sd">""" Lee las coordenadas en que se aplican las fuerzas """</span>
+    <span class="n">A</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span> <span class="n">A</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">"a{0}= "</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="mi">1</span><span class="p">)))</span>
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">FV</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">MA</span><span class="p">,</span><span class="n">RA</span><span class="p">,</span><span class="n">P</span><span class="p">,</span><span class="n">a</span><span class="p">):</span> 
+    <span class="sd">""" Devuelve el cortante para un punto x """</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">RA</span><span class="p">)</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">0</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">((</span><span class="n">P</span><span class="p">)</span><span class="o">*</span><span class="n">sifu</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="mi">0</span><span class="p">))</span>
+
+<span class="k">def</span> <span class="nf">FM</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">MA</span><span class="p">,</span><span class="n">RA</span><span class="p">,</span><span class="n">P</span><span class="p">,</span><span class="n">a</span><span class="p">):</span> 
+    <span class="sd">""" Devuelve el momento para un punto x """</span>
+    <span class="k">return</span> <span class="o">-</span><span class="p">(</span><span class="n">MA</span><span class="p">)</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">0</span> <span class="o">+</span> <span class="p">(</span><span class="n">RA</span><span class="p">)</span><span class="o">*</span><span class="n">x</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">((</span><span class="n">P</span><span class="p">)</span><span class="o">*</span><span class="n">sifu</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
+
+<span class="k">def</span> <span class="nf">Fm</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">E</span><span class="p">,</span><span class="n">I</span><span class="p">,</span><span class="n">MA</span><span class="p">,</span><span class="n">RA</span><span class="p">,</span><span class="n">P</span><span class="p">,</span><span class="n">a</span><span class="p">):</span> 
+    <span class="sd">""" Devuelve la pendiente para un punto x """</span>
+    <span class="k">return</span> <span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="p">(</span><span class="n">E</span><span class="o">*</span><span class="n">I</span><span class="p">))</span><span class="o">*</span><span class="p">(</span><span class="o">-</span><span class="p">(</span><span class="n">MA</span><span class="p">)</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="p">(</span><span class="n">RA</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">((</span><span class="n">P</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">sifu</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="mi">2</span><span class="p">)))</span>
+
+<span class="k">def</span> <span class="nf">Fy</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">E</span><span class="p">,</span><span class="n">I</span><span class="p">,</span><span class="n">MA</span><span class="p">,</span><span class="n">RA</span><span class="p">,</span><span class="n">P</span><span class="p">,</span><span class="n">a</span><span class="p">):</span>
+    <span class="sd">""" Devuelve la deflexión para un punto x """</span>
+    <span class="k">return</span> <span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="p">(</span><span class="n">E</span><span class="o">*</span><span class="n">I</span><span class="p">))</span><span class="o">*</span><span class="p">(</span><span class="o">-</span><span class="p">(</span><span class="n">MA</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="p">(</span><span class="n">RA</span><span class="o">/</span><span class="mi">6</span><span class="p">)</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">3</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">((</span><span class="n">P</span><span class="o">/</span><span class="mi">6</span><span class="p">)</span><span class="o">*</span><span class="n">sifu</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="mi">3</span><span class="p">)))</span>
+
+<span class="k">def</span> <span class="nf">mostrar_info</span><span class="p">(</span><span class="n">x0</span><span class="p">,</span><span class="n">E</span><span class="p">,</span><span class="n">I</span><span class="p">,</span><span class="n">MA</span><span class="p">,</span><span class="n">RA</span><span class="p">,</span><span class="n">P</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">c</span><span class="p">,</span><span class="n">Su</span><span class="p">):</span>
+    <span class="sd">""" Imprime en consola la información del punto de interés y general"""</span>
+    <span class="k">print</span><span class="p">(</span><span class="s2">"V= {0}"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">FV</span><span class="p">(</span><span class="n">x0</span><span class="p">,</span><span class="n">MA</span><span class="p">,</span><span class="n">RA</span><span class="p">,</span><span class="n">P</span><span class="p">,</span><span class="n">a</span><span class="p">)))</span>
+    <span class="k">print</span><span class="p">(</span><span class="s2">"M= {0}"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">FM</span><span class="p">(</span><span class="n">x0</span><span class="p">,</span><span class="n">MA</span><span class="p">,</span><span class="n">RA</span><span class="p">,</span><span class="n">P</span><span class="p">,</span><span class="n">a</span><span class="p">)))</span>
+    <span class="k">print</span><span class="p">(</span><span class="s2">"m= {0}"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Fm</span><span class="p">(</span><span class="n">x0</span><span class="p">,</span><span class="n">E</span><span class="p">,</span><span class="n">I</span><span class="p">,</span><span class="n">MA</span><span class="p">,</span><span class="n">RA</span><span class="p">,</span><span class="n">P</span><span class="p">,</span><span class="n">a</span><span class="p">)))</span>
+    <span class="k">print</span><span class="p">(</span><span class="s2">"y= {0}"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Fy</span><span class="p">(</span><span class="n">x0</span><span class="p">,</span><span class="n">E</span><span class="p">,</span><span class="n">I</span><span class="p">,</span><span class="n">MA</span><span class="p">,</span><span class="n">RA</span><span class="p">,</span><span class="n">P</span><span class="p">,</span><span class="n">a</span><span class="p">)))</span>
+    <span class="n">Sm</span> <span class="o">=</span> <span class="n">MA</span><span class="o">*</span><span class="n">c</span><span class="o">/</span><span class="n">I</span>
+    <span class="n">FS</span> <span class="o">=</span> <span class="n">Su</span><span class="o">/</span><span class="n">Sm</span>
+    <span class="k">print</span><span class="p">(</span><span class="s2">"Esfuerzo max= {0}"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Sm</span><span class="p">))</span>
+    <span class="k">print</span><span class="p">(</span><span class="s2">"Factor de seguridad= {0}"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">FS</span><span class="p">))</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="sd">""" Programa principal """</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Cantidad de fuerzas puntuales a aplicar: "</span><span class="p">)</span>
+    <span class="n">P</span> <span class="o">=</span> <span class="n">leer_fuerzas</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="n">leer_coordenadas</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+    <span class="n">E</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Modulo de elasticidad (E)= "</span><span class="p">)</span>
+    <span class="n">I</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Momento de inercia (I)= "</span><span class="p">)</span>
+    <span class="n">L</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Longitud de la viga (L)= "</span><span class="p">)</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Distancia al eje neutro (c)= "</span><span class="p">)</span>
+    <span class="n">Su</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Esfuerzo ultimo (Su)= "</span><span class="p">)</span>
+    <span class="n">x0</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Coordenada de interes (x0)= "</span><span class="p">)</span>
+    <span class="c1">#~ P = np.array([10e3,10e3,20e3,5e3]) # for testing</span>
+    <span class="c1">#~ a = np.array([0.3,0.525,0.825,1.05])</span>
+    <span class="c1">#~ L = 1.05</span>
+    <span class="c1">#~ E, I, c, Su, x0 = 200e9, 200e-6, 5e-3, 400e6, L/2</span>
+    <span class="n">MA</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">P</span><span class="o">*</span><span class="n">a</span><span class="p">)</span>
+    <span class="n">RA</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">P</span><span class="p">)</span>
+
+    <span class="n">xx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">L</span><span class="p">,</span><span class="mi">2000</span><span class="p">)</span>
+    <span class="n">V</span><span class="p">,</span><span class="n">M</span><span class="p">,</span><span class="n">m</span><span class="p">,</span><span class="n">y</span> <span class="o">=</span> <span class="p">[],[],[],[]</span>
+    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">xx</span><span class="p">:</span>
+        <span class="n">V</span> <span class="o">+=</span> <span class="p">[</span><span class="n">FV</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">MA</span><span class="p">,</span><span class="n">RA</span><span class="p">,</span><span class="n">P</span><span class="p">,</span><span class="n">a</span><span class="p">)]</span>
+        <span class="n">M</span> <span class="o">+=</span> <span class="p">[</span><span class="n">FM</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">MA</span><span class="p">,</span><span class="n">RA</span><span class="p">,</span><span class="n">P</span><span class="p">,</span><span class="n">a</span><span class="p">)]</span>
+        <span class="n">m</span> <span class="o">+=</span> <span class="p">[</span><span class="n">Fm</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">E</span><span class="p">,</span><span class="n">I</span><span class="p">,</span><span class="n">MA</span><span class="p">,</span><span class="n">RA</span><span class="p">,</span><span class="n">P</span><span class="p">,</span><span class="n">a</span><span class="p">)]</span>
+        <span class="n">y</span> <span class="o">+=</span> <span class="p">[</span><span class="n">Fy</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">E</span><span class="p">,</span><span class="n">I</span><span class="p">,</span><span class="n">MA</span><span class="p">,</span><span class="n">RA</span><span class="p">,</span><span class="n">P</span><span class="p">,</span><span class="n">a</span><span class="p">)]</span>
+
+    <span class="n">mostrar_info</span><span class="p">(</span><span class="n">x0</span><span class="p">,</span><span class="n">E</span><span class="p">,</span><span class="n">I</span><span class="p">,</span><span class="n">MA</span><span class="p">,</span><span class="n">RA</span><span class="p">,</span><span class="n">P</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">c</span><span class="p">,</span><span class="n">Su</span><span class="p">)</span>
+    <span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">sharex</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">fill_between</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">V</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">"#1E90FF"</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">fill_between</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">M</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">"#E35E5E"</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">"V(x)"</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">"M(x)"</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">"y(x)"</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="k">if</span> <span class="n">__name__</span><span class="o">==</span><span class="s1">'__main__'</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</pre>
 </div>
     </div>
     <aside class="postpromonav"><nav><ul class="pager hidden-print">
 <li class="previous">
-                <a href="../programando-funciones-de-singularidad/" rel="prev" title="Programando funciones de singularidad">Publicación anterior</a>
+                <a href="../implementacion-fem-en-problemas-de-ingenieria/" rel="prev" title="Implementación del MEF en problemas de ingeniería">Publicación anterior</a>
             </li>
         </ul></nav></aside><section class="comments hidden-print"><h2>Comentarios</h2>
         

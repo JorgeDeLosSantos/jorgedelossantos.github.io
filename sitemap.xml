@@ -31,11 +31,11 @@
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/archive.html</loc>
-  <lastmod>2017-05-06T22:42:00Z</lastmod>
+  <lastmod>2017-05-06T22:52:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/categories/</loc>
-  <lastmod>2017-05-01T22:29:00Z</lastmod>
+  <lastmod>2017-05-06T22:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/categories/blog/</loc>
@@ -82,10 +82,6 @@
   <lastmod>2017-02-16T10:37:00Z</lastmod>
  </url>
  <url>
-  <loc>https://jorgedelossantos.github.io/categories/mecanica/</loc>
-  <lastmod>2017-05-01T22:29:00Z</lastmod>
- </url>
- <url>
   <loc>https://jorgedelossantos.github.io/categories/mechanical-engineering/</loc>
   <lastmod>2017-02-16T10:37:00Z</lastmod>
  </url>
@@ -106,12 +102,8 @@
   <lastmod>2017-02-16T10:37:00Z</lastmod>
  </url>
  <url>
-  <loc>https://jorgedelossantos.github.io/categories/python/</loc>
-  <lastmod>2017-05-01T22:29:00Z</lastmod>
- </url>
- <url>
   <loc>https://jorgedelossantos.github.io/index-1.html</loc>
-  <lastmod>2017-05-06T22:42:00Z</lastmod>
+  <lastmod>2017-05-06T22:52:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/posts/2016/01/metodos-estaticos-en-una-clase-matlab/</loc>
