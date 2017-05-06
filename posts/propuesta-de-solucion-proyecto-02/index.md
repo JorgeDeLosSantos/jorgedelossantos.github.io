@@ -116,4 +116,4 @@ if __name__=='__main__':
 
 Para ciertos valores de prueba el programa produce una gráfica como la mostrada a continuación:
 
-![](/img/beam_diagram.PNG)
+![](/img/beam_diagram.png)
