@@ -146,10 +146,9 @@ NAVIGATION_LINKS = {
             (
                 ("/stories/mecanismos/", "Mecanismos"),
                 ("/stories/mecanica-de-materiales/", "Mecánica de Materiales"),
-                ("/stories/cad-2d/", "CAD - 2D"),
-                ("/stories/cad-2e/", "CAD - 2E"),
-                ("/stories/iproy/", "Ingeniería de Proyectos"),
-                ("/stories/tsrv/", "Técnicas de Selección y RV"),
+                ("/stories/mecanismos-upgto/", "Mecanismos UPG"),
+                ("/stories/estatica-3a", "Estática IRO03A"),
+                ("/stories/estatica-3b/", "Estática IRO03B"),
             ),
             'Asignaturas'
         ),        
