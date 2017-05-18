@@ -43,6 +43,13 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
     - [Solución Problema 2](/pdf/mecamat/SOL_EX01_MDM_P2.pdf)
     - [Solución Problema 3](/pdf/mecamat/SOL_EX01_MDM_P3.pdf)
 * [Examen 2](/pdf/mecamat/EX02_MDM.pdf)
+* [Examen 3](/pdf/mecamat/EX03_MDM.pdf)
+    - [Solución Problema 1](/pdf/mecamat/SOL_EX03_MDM_P1.pdf)
+    - [Solución Problema 2](/pdf/mecamat/SOL_EX03_MDM_P2.pdf)
+    - [Solución Problema 3](/pdf/mecamat/SOL_EX03_MDM_P3.pdf)
+    - [Solución Problema 4](/pdf/mecamat/SOL_EX03_MDM_P4.pdf)
+    - [Solución Problema 5](/pdf/mecamat/SOL_EX03_MDM_P5.pdf)
+
 
 ## Calificaciones
 
