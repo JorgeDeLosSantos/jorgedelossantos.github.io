@@ -59,7 +59,7 @@ tome en cuenta que las notas ahí colocadas se han calculado asumiendo una calif
 [Concentrado de calificaciones](/xls/notas_mecamat_2017.xlsm)
 
 ---
-
+ 
 ## Sobre los porcentajes de evaluación
 
 Porcentajes base: 
@@ -75,7 +75,20 @@ Porcentajes base:
 <br>
 <br>
 
-**Unidad II**
+**Unidad II. Torsión**
+
+| **Ítem** | **Porcentaje** |
+|----|----|
+| Examen | 50 % |
+| Examen rápido | 15 % |
+| Proyecto | 15 % |
+| Reporte | 10 % |
+| Problemario | 10 % |
+
+<br>
+<br>
+
+**Unidad III. Flexión**
 
 | **Ítem** | **Porcentaje** |
 |----|----|
