@@ -10,7 +10,7 @@
 -->
 
 Lo siguiente constituye una propuesta de solución para el problema planteado como 
-proyecto de la unidad III. 
+proyecto de la unidad III para la asignatura de mecánica de materiales. 
 
 En el siguiente PDF incrustado se plantea de forma generalizada el problema y se 
 establecen las ecuaciones de cortante, momento, pendiente y deflexión.

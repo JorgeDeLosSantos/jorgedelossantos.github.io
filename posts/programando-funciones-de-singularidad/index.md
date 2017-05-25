@@ -17,7 +17,7 @@ $$
 < x -a >^n = 
 \left\\{
 \begin{matrix}
-(x-a)^n & \text{para } x \geq a \\
+(x-a)^n & \text{para } x \geq a \\\
 0 & \text{para } x < a
 \end{matrix}
 \right.
@@ -32,3 +32,4 @@ Si x mayor o igual que a entonces
 Si no
     Devolver 0
 ```
+
