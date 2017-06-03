@@ -58,7 +58,7 @@ tome en cuenta que las notas ahí colocadas se han calculado asumiendo una calif
 
 **Actualizado 03/06/2017 - 15:41:00**
 
-[Concentrado de calificaciones](/xls/notas_mecamat_2017.xlsm)
+[Concentrado de calificaciones](https://drive.google.com/open?id=0B1IQgGWJ6Ld7SWhWWXFSaFBPZzQ)
 
 ---
  
