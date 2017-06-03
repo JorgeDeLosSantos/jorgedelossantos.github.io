@@ -56,6 +56,8 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 En el siguiente link pueden descargar un archivo XLSM con el concentrado de calificaciones parciales/temporales, 
 tome en cuenta que las notas ahí colocadas se han calculado asumiendo una calificación máxima para lo no evaluado.
 
+**Actualizado 03/06/2017 - 12:28:00**
+
 [Concentrado de calificaciones](/xls/notas_mecamat_2017.xlsm)
 
 ---
