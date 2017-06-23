@@ -15,8 +15,6 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 
 ## Sobre los porcentajes de evaluación
 
-Porcentajes base: 
-
 **Parcial I**
 
 | **Ítem** | **Porcentaje** |
@@ -27,6 +25,7 @@ Porcentajes base:
 
 <br>
 
+
 ## Tareas 
 
 En esta sección se listan las tareas del curso y su fecha de entrega:
@@ -35,6 +34,8 @@ En esta sección se listan las tareas del curso y su fecha de entrega:
 * [Tarea 2. Problemas de conversiones (19/05/2017)](/pdf/estatica/T2.pdf)
 * [Tarea 3. Problemas de vectores fuerza (22/05/2017)](/pdf/estatica/T3.pdf)
     - [Solución](/pdf/estatica/T3-SOL.pdf)
+* [Tarea 4. Problemas de estática de partículas (22/05/2017)](/pdf/estatica/T4.pdf)
+* [Tarea 5. Problemas de momentos (22/05/2017)](/pdf/estatica/T5.pdf)
 
 **¿Cómo se calificarán las tareas?**
 
@@ -63,7 +64,8 @@ En lo subsiguiente se describen los puntos anteriores:
 
 ## Problemario
 
-* [**Problemario**](/pdf/estatica/Problemario.pdf)
+* [**Problemario Parcial I**](/pdf/estatica/Problemario I.pdf)
+* [**Problemario Parcial II**](/pdf/estatica/Problemario II.pdf)
 
 
 ## Bibliografía básica

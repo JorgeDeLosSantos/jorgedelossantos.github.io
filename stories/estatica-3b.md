@@ -31,10 +31,18 @@ Porcentajes base:
 
 En esta sección se listan las tareas del curso y su fecha de entrega:
 
+**Parcial I**
+
 * Tarea 1. Metodología para la solución de problemas (16/03/2017)
-* Tarea 2. Problemas de conversiones (19/05/2017)
+* [Tarea 2. Problemas de conversiones (19/05/2017)](/pdf/estatica/T2.pdf)
 * [Tarea 3. Problemas de vectores fuerza (22/05/2017)](/pdf/estatica/T3.pdf)
     - [Solución](/pdf/estatica/T3-SOL.pdf)
+* [Tarea 4. Problemas de vectores fuerza (22/05/2017)](/pdf/estatica/T4.pdf)
+* [Tarea 5. Problemas de vectores fuerza (22/05/2017)](/pdf/estatica/T5.pdf)
+
+**Parcial II**
+
+
 
 **¿Cómo se calificarán las tareas?**
 
