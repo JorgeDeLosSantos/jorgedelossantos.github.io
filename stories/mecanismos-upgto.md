@@ -38,6 +38,10 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 * [ADAMS Guide](http://www.me.unm.edu/~starr/teaching/me314/ADAMSguide.pdf)
 * [Slider crank tutorial](/pdf/mecanismos/Slider_crank_tutorial.ppt)
 
+## Información MATLAB
+
+
+
 ## Tareas 
 
 * Tarea 1. Ejercicios de diagramas cinemáticos y GDL
@@ -73,6 +77,14 @@ En lo subsiguiente se describen los puntos anteriores:
 
 > *En el caso que la tarea corresponda a la resolución de ejercicios, la calificación estará basada en el procedimiento y solución del mismo.*
 
+## Apuntes (en borrador permanente)
+
+* [I. Introducción a los mecanismos](/pdf/mecanismos-upg/i-mecanismos-basicos.pdf)
+* [Análisis cinemático de mecanismos planos](/pdf/mecanismos-upg/apuntes-mem.pdf)
+
+## Exámenes
+
+* **Examen Parcial I**
 
 ## Bibliografía básica
 
