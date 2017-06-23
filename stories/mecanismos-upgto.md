@@ -43,6 +43,11 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 * Tarea 1. Ejercicios de diagramas cinemáticos y GDL
 * Tarea 2. Números complejos
 * Tarea 3. Ejercicio análisis cinemático: MBC.
+* Tarea 4. Condición de Grashof
+* Tarea 5. Aceleración de Coriolis
+* Tarea 6. Análisis gráfico usando SW
+* Tarea 7. Movimiento plano general
+* Tarea 8. Ejercicios: análisis cinemático
 
 **¿Cómo se calificarán las tareas?**
 
