@@ -44,7 +44,7 @@ En esta sección se listan las tareas del curso y su fecha de entrega:
 
 
 
-**¿Cómo se calificarán las tareas?**
+<!-- **¿Cómo se calificarán las tareas?**
 
 La aportación de cada tarea a la calificación parcial será de forma equitativa, a menos que se especifique 
 de forma explícita una ponderación diferente.
@@ -66,11 +66,13 @@ En lo subsiguiente se describen los puntos anteriores:
 * **Redacción y ortografía**: Autodescriptivo.
 * **Referencias**:  Se califica dependiendo el estilo y claridad de las referencias incluidas.
 
-> *En el caso que la tarea corresponda a la resolución de ejercicios, la calificación estará basada en el procedimiento y solución del mismo.*
+> *En el caso que la tarea corresponda a la resolución de ejercicios, la calificación estará basada en el procedimiento y solución del mismo.* -->
+
 
 ## Problemario
 
-* [**Problemario**](/pdf/estatica/Problemario.pdf)
+* [**Problemario Parcial I**](/pdf/estatica/Problemario I.pdf)
+* [**Problemario Parcial II**](/pdf/estatica/Problemario II.pdf)
 
 ## Bibliografía básica
 

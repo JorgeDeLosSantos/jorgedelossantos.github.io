@@ -53,29 +53,13 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 * Tarea 7. Movimiento plano general
 * Tarea 8. Ejercicios: análisis cinemático
 
-**¿Cómo se calificarán las tareas?**
+## Prácticas 
 
-La aportación de cada tarea a la calificación parcial será de forma equitativa, a menos que se especifique 
-de forma explícita una ponderación diferente.
+* Práctica 1. Introducción a MATLAB
+* Práctica 2. Introducción a MSC Adams.
+* Práctica 3. Análisis de un mecanismo de MBC.
+* Práctica 4. Análisis de un mecanismo de cuatro barras.
 
-Enseguida, se listan los puntos tomados en cuenta para asignar una calificación a las tareas y su correspondiente 
-ponderación: 
-
-* Presentación (10)
-* Estructura (10)
-* Contenido (60)
-* Redacción y ortografía (10)
-* Referencias (10)
-
-En lo subsiguiente se describen los puntos anteriores: 
-
-* **Presentación**: Todo lo relativo con el formato del documento: márgenes, distribución de espacios, colores, fuentes utilizadas, etc.
-* **Estructura**: Manera en la que se distribuye el contenido: temas y subtemas u otro tipo de ítems necesarios para comunicar las ideas planteadas de manera efectiva.
-* **Contenido**: Referente a la información contenida en el trabajo, sobre todo que esta corresponda con lo que se ha pedido.
-* **Redacción y ortografía**: Autodescriptivo.
-* **Referencias**:  Se califica dependiendo el estilo y claridad de las referencias incluidas.
-
-> *En el caso que la tarea corresponda a la resolución de ejercicios, la calificación estará basada en el procedimiento y solución del mismo.*
 
 ## Apuntes (en borrador permanente)
 
