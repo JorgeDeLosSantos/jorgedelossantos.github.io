@@ -93,6 +93,14 @@ En lo subsiguiente se describen los puntos anteriores:
 * [**Problemario Parcial I**](/pdf/estatica/Problemario I.pdf)
 * [**Problemario Parcial II**](/pdf/estatica/Problemario II.pdf)
 
+## Actividad de formación integral
+
+* [Presentación innovación y competitividad](http://www.upgto.edu.mx/docs/mfi/c3/competitividad/anexo_innovacion_competitividad.pdf)
+* [CDA Competitividad](http://www.upgto.edu.mx/docs/mfi/c3/competitividad/CDA_competitividad.pdf)
+
+**Lista de proyectos**
+
+
 ## Bibliografía básica
 
 * Hibbeler, R.C. (2010). Mecánica Vectorial Para Ingenieros: Estática. México: Pearson Educación.
