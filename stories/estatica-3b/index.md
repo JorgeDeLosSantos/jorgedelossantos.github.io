@@ -13,9 +13,8 @@ Bienvenidos a la página del curso de **Estática (IRO03B)** para Ingeniería Ro
 Aquí encontrará información relacionada con el desarrollo del curso: criterios de evaluación, referencias, 
 enlaces de interés, notas parciales, observaciones generales, entre otros.
 
-## Sobre los porcentajes de evaluación
 
-Porcentajes base: 
+## Sobre los porcentajes de evaluación
 
 **Parcial I**
 
@@ -26,6 +25,26 @@ Porcentajes base:
 | Problemario | 10 % |
 
 <br>
+
+**Parcial II**
+
+| **Ítem** | **Porcentaje** |
+|----|----|
+| Examen | 40 % |
+| Actividad en clase | 20 % |
+| Tareas | 20 % |
+| Problemario | 10 % |
+| Desempeño | 10 % |
+
+<br>
+
+Rubros evaluados:
+
+* **EC** (60%)
+* **EP** (30%)
+* **ED** (10%)
+
+
 
 ## Tareas 
 

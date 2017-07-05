@@ -25,6 +25,26 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 
 <br>
 
+**Parcial II**
+
+| **Ítem** | **Porcentaje** |
+|----|----|
+| Examen | 40 % |
+| Actividad en clase | 20 % |
+| Tareas | 20 % |
+| Problemario | 10 % |
+| Desempeño | 10 % |
+
+<br>
+
+Rubros evaluados:
+
+* **EC** (60%)
+* **EP** (30%)
+* **ED** (10%)
+
+
+
 ## Tareas
 
 En esta sección se listan las tareas del curso y su fecha de entrega:
@@ -39,7 +59,6 @@ En esta sección se listan las tareas del curso y su fecha de entrega:
 * [Tarea 5. Problemas de vectores fuerza (22/05/2017)](/pdf/estatica/T5.pdf)
 
 **Parcial II**
-
 
 
 <!-- **¿Cómo se calificarán las tareas?**
