@@ -95,6 +95,7 @@ En lo subsiguiente se describen los puntos anteriores:
 
 ## Actividad de formación integral
 
+* [Entregables de Actividad de formación integral](/pdf/estatica/AFI.pdf)
 * [Presentación innovación y competitividad](http://www.upgto.edu.mx/docs/mfi/c3/competitividad/anexo_innovacion_competitividad.pdf)
 * [CDA Competitividad](http://www.upgto.edu.mx/docs/mfi/c3/competitividad/CDA_competitividad.pdf)
 
