@@ -44,6 +44,14 @@ Rubros evaluados:
 * **ED** (10%)
 
 
+<br>
+
+
+## Exámenes 
+
+* [**Examen Parcial I**](/pdf/examen-i-a.pdf)
+* [**Examen Parcial II**](/pdf/examen-ii-a.pdf)
+
 
 ## Tareas
 
