@@ -48,8 +48,8 @@ Rubros evaluados:
 
 ## Exámenes 
 
-* [**Examen Parcial I**](/pdf/examen-i-b.pdf)
-* [**Examen Parcial II**](/pdf/examen-ii-b.pdf)
+* [**Examen Parcial I**](/pdf/estatica/examen-i-b.pdf)
+* [**Examen Parcial II**](/pdf/estatica/examen-ii-b.pdf)
 
 
 
