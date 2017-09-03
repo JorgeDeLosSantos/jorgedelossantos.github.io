@@ -144,11 +144,14 @@ NAVIGATION_LINKS = {
         # ("/stories/about/", "Acerca de"),
         (
             (
-                ("/stories/mecanismos/", "Mecanismos"),
-                ("/stories/mecanica-de-materiales/", "Mecánica de Materiales"),
-                ("/stories/mecanismos-upgto/", "Mecanismos UPG"),
-                ("/stories/estatica-3a", "Estática IRO03A"),
-                ("/stories/estatica-3b/", "Estática IRO03B"),
+                ("/stories/dinamica-4a/", "Dinámica 4A"),
+                ("/stories/dinamica-4b/", "Dinámica 4B"),
+                ("/stories/mecanismos-upg/", "Mecanismos"),
+                ("/stories/fur/", "Fundamentos de robótica"),
+                # ("/stories/mecanismos/", "Mecanismos"),
+                # ("/stories/mecanica-de-materiales/", "Mecánica de Materiales"),
+                # ("/stories/estatica-3a", "Estática IRO03A"),
+                # ("/stories/estatica-3b/", "Estática IRO03B"),
             ),
             'Asignaturas'
         ),        
