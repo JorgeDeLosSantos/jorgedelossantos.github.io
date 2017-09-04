@@ -9,4 +9,60 @@
 .. type: text
 -->
 
-Escriba su página aquí.
+Bienvenidos a la página del curso de **Dinámica (IRO04A)** para Ingeniería Robótica de la UPGTO.
+Aquí encontrará información relacionada con el desarrollo del curso: criterios de evaluación, referencias, 
+enlaces de interés, notas parciales, observaciones generales, entre otros.
+
+## Sobre los porcentajes de evaluación
+
+**Parcial I**
+
+| **Ítem** | **Porcentaje** |
+|----|----|
+| Examen | 40 % |
+| Actividad en clase | 20 % |
+| Tareas | 20 % |
+| Problemario | 10 % |
+| Desempeño | 10 % |
+
+<br>
+
+**Parcial II**
+
+
+
+<br>
+
+Rubros evaluados:
+
+* **EC** (60%)
+* **EP** (30%)
+* **ED** (10%)
+
+<br>
+
+## Exámenes 
+
+* [**Examen Parcial I**](/pdf/estatica/examen-i-a.pdf)
+* [**Examen Parcial II**](/pdf/estatica/examen-ii-a.pdf)
+
+## Tareas
+
+En esta sección se listan las tareas del curso y su fecha de entrega:
+
+**Parcial I**
+
+**Parcial II**
+
+
+## Problemario
+
+
+## Actividad de formación integral
+
+
+## Bibliografía básica
+
+* Hibbeler, R.C. (2010). Mecánica Vectorial Para Ingenieros: Estática. México: Pearson Educación.
+* Beer, F.P., Johnston, E.R., et. al. (2010). Mecánica Vectorial Para Ingenieros: Estática. México: McGraw-Hill.
+* Meriam, J.L. & L. G. Kraige (2002). Engineering Mechanics Vol. 1 Statics. USA: Wiley.
