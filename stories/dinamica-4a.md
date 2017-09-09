@@ -43,8 +43,6 @@ Rubros evaluados:
 
 ## Exámenes 
 
-* [**Examen Parcial I**](/pdf/estatica/examen-i-a.pdf)
-* [**Examen Parcial II**](/pdf/estatica/examen-ii-a.pdf)
 
 ## Tareas
 
