@@ -7,16 +7,16 @@
 .. description: 
 .. type: text
 
-De manera casi formal soy Jorge De Los Santos, ingeniero mecánico y actualmente estudiante 
-de posgrado. Me atrae mucho el mundo de la programación 
+De manera casi formal soy Jorge De Los Santos, Ingeniero Mecánico y actualmente docente universitario,
+impartiendo cursos relacionados con la mecánica del cuerpo rígido. Soy muy de la programación 
 orientada a la resolución de problemas de ingeniería y el modelado de sistemas y/o procesos físicos. 
-Afín al software libre y convencido de que compartir la información y el conocimiento es un acto muy 
-noble y una necesidad básica.
+Afín al software libre (y todo la cultura/movimiento inherente) y convencido de que compartir la 
+información y el conocimiento es un acto muy noble y una necesidad básica.
 
-Escribo en algunos blogs cuya temática normalmente es la programación en MATLAB y Python (sí, los 
-lenguajes que domino desde hace más tiempo). A continuación se detallan:
+Escribo en algunos blogs cuya temática normalmente es la programación en MATLAB y Python. 
+A continuación se detallan:
 
-**MATLAB-TYP**: Es mi primer blog de programación, creo que las primeras entradas son de allá por 2013. 
+**MATLAB-TYP**: Es mi primer blog de programación, creo que las primeras entradas son de allá por 2012(13). 
 Actualmente en estado cuasi inactivo. La temática es bastante limitada, plana y simple, pero que va, 
 a más de uno le ha sido útil, en resumen: MATLAB muy básico.
 
