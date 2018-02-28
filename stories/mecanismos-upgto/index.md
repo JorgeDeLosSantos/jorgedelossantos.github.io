@@ -51,13 +51,13 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 
 ## Apuntes (en borrador permanente)
 
-<!-- * [I. Introducción a los mecanismos](/pdf/mecanismos-upg/i-mecanismos-basicos.pdf) -->
-<!-- * [Análisis cinemático de mecanismos planos](/pdf/mecanismos-upg/apuntes-mem.pdf) -->
+* [I. Introducción a los mecanismos](/pdf/mecanismos-upgto/i-intro-mecanismos.pdf)
+* [Análisis cinemático de mecanismos planos](/pdf/mecanismos-upgto/nosrc.pdf)
 
 ## Exámenes
 
-* [**Examen Parcial I**](/pdf/mecanismos-upgto/examen-i.pdf)
-* [**Examen Parcial II**](/pdf/mecanismos-upgto/nodisp.pdf)
+* [**Examen Parcial I**](/pdf/mecanismos-upgto/EOP1-MEM-1801.pdf)
+* [**Examen Parcial II**](/pdf/mecanismos-upgto/nosrc.pdf)
 
 ## Bibliografía básica
 
