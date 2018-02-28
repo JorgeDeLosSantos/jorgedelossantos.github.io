@@ -40,7 +40,8 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 
 ## Información: Python & Jupyter
 
-* [Introducción a la programación con Python 3](repositori.uji.es/xmlui/bitstream/10234/102653/1/s93.pdf)
+* [Introducción a la programación con Python 3](http://repositori.uji.es/xmlui/bitstream/10234/102653/1/s93.pdf)
+* [Matemáticas y programación con Python](/pdf/book/Matemáticas y programación con Python.pdf)
 
 ## Tareas 
 
