@@ -42,6 +42,8 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 
 * [Introducción a la programación con Python 3](http://repositori.uji.es/xmlui/bitstream/10234/102653/1/s93.pdf)
 * [Matemáticas y programación con Python](/pdf/book/Matemáticas y programación con Python.pdf)
+* [A Primer on Scientific Programming with Python](/pdf/book/A Primer on Scientific Programming with Python.pdf)
+* [Curso Python para ingenieros:](https://www.youtube.com/watch?v=ox09Jko1ErM&list=PLoGFizEtm_6iheDXw2-8onKClyxgstBO1)
 
 ## Tareas 
 
