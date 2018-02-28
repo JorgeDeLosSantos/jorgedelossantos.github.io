@@ -146,7 +146,7 @@ NAVIGATION_LINKS = {
             (
                 ("/stories/dinamica-4a/", "Dinámica 4A"),
                 ("/stories/dinamica-4b/", "Dinámica 4B"),
-                ("/stories/mecanismos-upg/", "Mecanismos"),
+                ("/stories/mecanismos-upgto/", "Mecanismos"),
                 ("/stories/fur/", "Fundamentos de robótica"),
                 # ("/stories/mecanismos/", "Mecanismos"),
                 # ("/stories/mecanica-de-materiales/", "Mecánica de Materiales"),
