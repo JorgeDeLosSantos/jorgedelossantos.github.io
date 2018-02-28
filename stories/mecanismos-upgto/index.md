@@ -20,7 +20,7 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 * [Mechanism Course - Middle East Technical University](http://ocw.metu.edu.tr/course/view.php?id=132)
 * [Kinematics of machines - National Programme on Technology Enhanced Learning](https://www.youtube.com/watch?v=MJeRFzs4oRU&list=PLBEA57F7E7560C8E8)
 
-## Libros
+## Libros de Mecanismos y máquinas
 
 * [Diseño de maquinaria - Norton](https://www.dropbox.com/s/6vnzxtszprj7zkk/Dise%C3%B1o%20Maquinaria%20-%20Norton.pdf?dl=0)
 * [Teoría de máquinas y mecanismos - Shigley](https://www.dropbox.com/s/kffy5qjsj0rjypg/Teor%C3%ADa%20de%20m%C3%A1quinas%20y%20mecanismos%20-%20Shigley.pdf?dl=0)
@@ -38,38 +38,26 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 * [ADAMS Guide](http://www.me.unm.edu/~starr/teaching/me314/ADAMSguide.pdf)
 * [Slider crank tutorial](/pdf/mecanismos/Slider_crank_tutorial.ppt)
 
-## Información MATLAB
+## Información: Python & Jupyter
 
-
+* [Introducción a la programación con Python 3](repositori.uji.es/xmlui/bitstream/10234/102653/1/s93.pdf)
 
 ## Tareas 
 
-* Tarea 1. Ejercicios de diagramas cinemáticos y GDL
-* Tarea 2. Números complejos
-* Tarea 3. Ejercicio análisis cinemático: MBC.
-* Tarea 4. Condición de Grashof
-* Tarea 5. Aceleración de Coriolis
-* Tarea 6. Análisis gráfico usando SW
-* Tarea 7. Movimiento plano general
-* Tarea 8. Ejercicios: análisis cinemático
+
 
 ## Prácticas 
-
-* Práctica 1. Introducción a MATLAB
-* Práctica 2. Introducción a MSC Adams.
-* Práctica 3. Análisis de un mecanismo de MBC.
-* Práctica 4. Análisis de un mecanismo de cuatro barras.
 
 
 ## Apuntes (en borrador permanente)
 
-* [I. Introducción a los mecanismos](/pdf/mecanismos-upg/i-mecanismos-basicos.pdf)
+<!-- * [I. Introducción a los mecanismos](/pdf/mecanismos-upg/i-mecanismos-basicos.pdf) -->
 <!-- * [Análisis cinemático de mecanismos planos](/pdf/mecanismos-upg/apuntes-mem.pdf) -->
 
 ## Exámenes
 
-* [**Examen Parcial I**](/pdf/mecanismos-upg/examen-i.pdf)
-* [**Examen Parcial II**](/pdf/mecanismos-upg/examen-ii.xlsx)
+* [**Examen Parcial I**](/pdf/mecanismos-upgto/examen-i.pdf)
+* [**Examen Parcial II**](/pdf/mecanismos-upgto/nodisp.pdf)
 
 ## Bibliografía básica
 
