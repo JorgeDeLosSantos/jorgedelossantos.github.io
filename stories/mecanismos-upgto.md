@@ -48,9 +48,9 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 ## Tareas 
 
 
-
 ## Prácticas 
 
+* [1. Introducción a Python y Jupyter](/pdf/mecanismos-upgto/nosrc.pdf)
 
 ## Apuntes (en borrador permanente)
 
