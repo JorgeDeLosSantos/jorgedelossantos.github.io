@@ -48,9 +48,13 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 ## Tareas 
 
 
+
 ## Prácticas 
 
-* [1. Introducción a Python y Jupyter](/pdf/mecanismos-upgto/nosrc.pdf)
+1. [Introducción a Python y Jupyter](/pdf/mecanismos-upgto/PR1.pdf)
+1. [Introducción a MSC Adams](/pdf/mecanismos-upgto/PR2.pdf)
+1. [Modelado y simulación de un mecanismo de manivela-biela corredera](/pdf/mecanismos-upgto/PR3.pdf)
+1. [Modelado y simulación de un mecanismo de cuatro barras](/pdf/mecanismos-upgto/nosrc.pdf)
 
 ## Apuntes (en borrador permanente)
 
