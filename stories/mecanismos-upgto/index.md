@@ -64,7 +64,7 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 * [**Examen Parcial I**](/pdf/mecanismos-upgto/EOP1-MEM-1801.pdf)
 * [**Examen Parcial II**](/pdf/mecanismos-upgto/nosrc.pdf)
 
-<div class="col-md-4 course-box">
+<!-- <div class="col-md-4 course-box">
   <div class="card mb-4 box-shadow">
     <img class="card-img-top" alt="" style="height: 200px; width: 100%; display: block;" src="http://ocw.upm.es/ingenieria-mecanica/mechanical-devices-for-industry/contenidos/lectura-obligatoria/lesson-1/images/leccion1_6.jpg"><div class="card-body">
       <p class="course-title"> <font color="#0000ff">
@@ -73,7 +73,7 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
     </div>
   </div>
 </div>
-<br><br>
+<br><br> -->
 
 ## Bibliografía básica
 
