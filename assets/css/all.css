@@ -467,415 +467,298 @@ pre.code .vm { color: #19177C } /* Name.Variable.Magic */
 pre.code .il { color: #666666 } /* Literal.Number.Integer.Long */
 table.codetable { width: 100%;} td.linenos {text-align: right; width: 4em;}
 
-@charset "UTF-8";
-
 /*
-	Copyright © 2014-2017 Daniel Aleksandersen and others.
-
-	Permission is hereby granted, free of charge, to any
-	person obtaining a copy of this software and associated
-	documentation files (the "Software"), to deal in the
-	Software without restriction, including without limitation
-	the rights to use, copy, modify, merge, publish,
-	distribute, sublicense, and/or sell copies of the
-	Software, and to permit persons to whom the Software is
-	furnished to do so, subject to the following conditions:
-
-	The above copyright notice and this permission notice
-	shall be included in all copies or substantial portions of
-	the Software.
-
-	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
-	KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
-	WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
-	PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS
-	OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-	OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-	OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-	SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
 */
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden; -webkit-transform: translate3d(0,0,0);}
+#cboxWrapper {max-width:none;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
 
-body {
-	color: #4F5151;
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 17px;
-	line-height: 1.4;
-	padding: 1em;
-}
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:#000; opacity: 0.9; filter: alpha(opacity = 90);}
+#colorbox{outline:0;}
+    #cboxContent{margin-top:20px;background:#000;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{border:5px solid #000; background:#fff;}
+        #cboxTitle{position:absolute; top:-20px; left:0; color:#ccc;}
+        #cboxCurrent{position:absolute; top:-20px; right:0px; color:#ccc;}
+        #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
+        
+        #cboxSlideshow{position:absolute; top:-20px; right:90px; color:#fff;}
+        #cboxPrevious{position:absolute; top:50%; left:5px; margin-top:-32px; background:url(images/controls.png) no-repeat top left; width:28px; height:65px; text-indent:-9999px;}
+        #cboxPrevious:hover{background-position:bottom left;}
+        #cboxNext{position:absolute; top:50%; right:5px; margin-top:-32px; background:url(images/controls.png) no-repeat top right; width:28px; height:65px; text-indent:-9999px;}
+        #cboxNext:hover{background-position:bottom right;}
+        #cboxClose{position:absolute; top:5px; right:5px; display:block; background:url(images/controls.png) no-repeat top center; width:38px; height:19px; text-indent:-9999px;}
+        #cboxClose:hover{background-position:bottom center;}
 
 #container {
-	margin: 1em auto;
-	max-width: 770px;
-}
-#menu ul,
-#menu ul li,
-.postpromonav .tags,
-.postpromonav .tags li,
-.pager,
-.pager li,
-#toptranslations ul,
-#toptranslations ul li {
-	list-style: none;
-	padding-left: 0;
-	padding-right: 0;
+    width: 960px;
+    margin: 0 auto;
 }
 
-#toptranslations ul {
-	display: inline;
+#contentcolumn {
+    max-width: 760px;
+}
+#q {
+    width: 150px;
 }
 
-#menu ul li,
-#toptranslations ul li {
-	display: inline-block;
-	margin-right: 1.5em;
+img {
+    max-width: 90%;
 }
 
-#toptranslations h2 {
-	display: inline;
-	font-size: 1em;
-	margin-right: 1.5em;
+.postbox {
+    border-bottom: 2px solid darkgrey;
+    margin-bottom: 12px;
 }
 
-#menu ul li:dir(rtl),
-#toptranslations ul li:dir(rtl),
-#toptranslations h2:dir(rtl) {
-	margin-left: 1.5em;
-	margin-right: 0;
+.titlebox {
+    text-align: right;
 }
 
-#toptranslations {
-	text-align: right;
-	float: right;
+#addthisbox {margin-bottom: 12px;}
+
+td.label {
+    /* Issue #290 */
+    background-color: inherit;
 }
 
-#toptranslations:dir(rtl) {
-	text-align: left;
-	float: left;
+.footnote-reference {
+    /* Issue 290 */
+    vertical-align: super;
+    font-size: xx-small;
 }
 
-.posttranslations h3, .translationslist h3 {
-	display: inline;
-	font-size: 1em;
+
+.caption {
+    /* Issue 292 */
+    text-align: center;
+    padding-top: 1em;
 }
 
-.entry-title {
-	font-size: 2em;
+div.figure > img,
+div.figure > a > img {
+    /* Issue 292 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.posttranslations h3:last-child, .translationslist h3:last-child {
-	display: none;
+blockquote p, blockquote {
+  font-size: 17.5px;
+  font-weight: 300;
+  line-height: 1.25;
 }
 
-.postindex article {
-	border-bottom: 1px solid #4F5151;
-	padding-bottom: 1em;
-}
-#header {
-	border-bottom: 1px solid #4F5151;
-}
-#footer {
-	border-top: 1px solid #4F5151;
+ul.bricks > li {
+    display: inline;
+    background-color: lightblue;
+    padding: 8px;
+    border-radius: 5px;
+    line-height: 3;
+    white-space:nowrap;
+    margin: 3px;
 }
 
-/* Tags */
-.postpromonav {
-	border-bottom: 1px solid #4F5151;
-	border-top: 1px solid #4F5151;
-	margin-top: 1em;
-	padding: .5em 0;
+.at300b, .stMainServices, .stButton, .stButton_gradient {
+    box-sizing: content-box;
 }
-.postpromonav .tags {
-	text-align: center;
+
+pre, pre code {
+    white-space: pre;
+    word-wrap: normal;
+    overflow: auto;
 }
+
+article.post-micro {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+.image-block {
+    display: inline-block;
+}
+
+.flowr_row {
+    width: 100%;
+}
+
+.tags {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+    text-align: center;
+
+}
+
+.tags > li {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #999;
+    border-radius: 10px;
+}
+
+.tags > li a {
+    color: #fff;
+}
+
 .metadata p:before,
-.postpromonav .tags li:before,
 .postlist .listdate:after,
 .translationslist p:before {
-	content: " — ";
-}
-.postlist li {
-	margin-bottom: .33em;
-}
-
-/* Post and archive pagers */
-.postindexpager .pager .next:before {
-	content: "↓ ";
-}
-.postindexpager .pager .previous:before,
-.archivenav .pager .up:before {
-	content: "↑ ";
-}
-.postpromonav .pager .next:after,
-.archivenav .pager .next:after {
-	content: " →";
-}
-.postpromonav .pager .previous:dir(rtl):after,
-.archivenav .pager .previous:dir(rtl):after {
-	content: " →";
-}
-.postpromonav .pager .previous:before,
-.archivenav .pager .previous:before {
-	content: "← ";
-}
-.postpromonav .pager .next:dir(rtl):before,
-.archivenav .pager .next:dir(rtl):before {
-	content: "← ";
+    content: " — ";
 }
 
 .metadata p:first-of-type:before,
-.postpromonav .tags li:first-of-type:before,
 .translationslist p:first-of-type:before {
-	content: "";
-}
-.postpromonav .pager {
-	clear: both;
-	height: 1em;
-}
-.postpromonav .tags li,
-.postpromonav .pager li,
-.archivenav .pager li {
-	display: inline-block;
-}
-.archivenav .pager {
-	text-align: center
-}
-.postpromonav .pager .next,
-.archivenav .pager .next {
-	float: right;
-}
-.postpromonav .pager .next:dir(rtl),
-.archivenav .pager .next:dir(rtl) {
-	float: left;
-}
-
-.postpromonav .pager .previous,
-.archivenav .pager .previous {
-	float: left;
-}
-.postpromonav .pager .previous:dir(rtl),
-.archivenav .pager .previous:dir(rtl) {
-	float: right;
-}
-
-.archivenav .pager .disabled,
-.archivenav .pager .disabled a,
-.archivenav .pager .disabled:link {
-    color: #888;
-    cursor: not-allowed;
+    content: "";
 }
 
 .metadata p,
 .translationslist p {
-	display: inline;
+    display: inline;
 }
 
-#brand {
-	font-size: 3em;
-	line-height: 1;
+.posttranslations h3, .translationslist h3 {
+    display: inline;
+    font-size: 1em;
+    font-weight: bold;
 }
 
-/* Links */
-:link {
-	color: #1168CC;
-	text-decoration: none;
-}
-:visited {
-	color: #6830BB;
-}
-:link:hover, :visited:hover {
-	color: #0d53a3;
+.posttranslations h3:last-child, .translationslist h3:last-child {
+    display: none;
 }
 
-#brand :link,
-#brand :visited {
-	color: inherit;
+.entry-content {
+    margin-top: 1em;
 }
 
-/* Images */
-img {
-	border: none;
-	line-height: 1;
+.navbar-brand {
+    padding: 0 15px;
 }
 
-.postpage img,
-.postpage object,
-.postindex article img,
-.postindex article object {
-	height: auto;
-	max-width: 100%;
+.navbar-brand #blog-title {
+    padding: 15px 0;
+    display: inline-block;
 }
 
-/* Comment helpers */
-#disqus_thread {
-	min-height: 325px;
+.navbar-brand #logo {
+    max-width: 100%;
 }
 
-.breadcrumb {
-	padding: 8px 15px;
-	margin-bottom: 20px;
-	list-style: none;
+.navbar-brand>img {
+    display: inline;
 }
 
-.breadcrumb > li {
-	display: inline-block;
-	margin-right: 0;
-	margin-left: 0;
+.row {
+    margin: 0;
 }
 
-.breadcrumb > li:after {
-	content: ' / ';
-	color: #888;
+/* for alignment with Bootstrap's .entry-content styling */
+.entry-summary {
+    margin-top: 1em;
 }
 
-.breadcrumb > li:last-of-type:after {
-	content: '';
-	margin-left: 0;
+/* Custom page footer */
+#footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
 }
 
-.thumbnails {
-	list-style: none;
-	padding: 0;
+.codetable {
+    table-layout: fixed;
 }
 
-.thumbnails > li {
-	display: inline-block;
-	margin-right: 10px;
+.codetable pre {
+    overflow-x: scroll;
 }
 
-.thumbnails > li:last-of-type {
-	margin-right: 0;
-}
-
-.codetable .linenos {
-	padding-right: 10px;
-}
-
-.sr-only {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	padding: 0;
-	margin: -1px;
-	overflow: hidden;
-	clip: rect(0, 0, 0, 0);
-	border: 0;
-}
-
-.sr-only-focusable:active,
-.sr-only-focusable:focus {
-	position: static;
-	width: auto;
-	height: auto;
-	margin: 0;
-	overflow: visible;
-	clip: auto;
-}
-
-pre.code, code {
-	white-space: pre;
-	word-wrap: normal;
-	overflow: auto;
-}
-
-/* SOURCE: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+/* hat tip bootstrap/html5 boilerplate */
 @media print {
-	*,
-	*:before,
-	*:after {
-		background: transparent !important;
-		color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */
-		box-shadow: none !important;
-		text-shadow: none !important;
-		font-family: Garamond, Junicode, serif;
-	}
+    *, *:before, *:after {
+        font-family: Garamond, Junicode, serif;
+    }
 
-	body {
-		font-size: 12pt;
-	}
+    body {
+        font-size: 12pt;
+    }
 
-	a,
-	a:visited {
-		text-decoration: underline;
-	}
+    article .entry-title a[href]:after,
+    article .metadata a[href]:after,
+    article .tags a[href]:after {
+        content: "";
+    }
 
-	a[href]:after {
-		content: " (" attr(href) ")";
-	}
+    article .metadata .sourceline {
+        display: none;
+    }
 
-	abbr[title]:after {
-		content: " (" attr(title) ")";
-	}
+    article .metadata .linkline a[href]:after {
+        content: " (" attr(href) ")";
+    }
 
-	/*
-	 * Don't show links that are fragment identifiers,
-	 * or use the `javascript:` pseudo protocol
-	 */
+    .navbar {
+        display: none;
+    }
+}
 
-	a[href^="#"]:after,
-	a[href^="data:"]:after,
-	a[href^="javascript:"]:after {
-		content: "";
-	}
+.course-title{
+    color: #ff00ff;
+    font-size: 14px;
+    font-family: "Helvetica";
+    font-weight: bold;
+    text-align: center;
+}
 
-	pre,
-	blockquote {
-		border: 1px solid #999;
-		page-break-inside: avoid;
-	}
+.course-box{
+    border-radius: 10px;
+    border-color: #00ff00;
+    box-shadow: 30px #aaa;
+    background-color: #f2f4f7;
+    padding: 10px;
+    margin: 2px;
+}
 
-	/*
-	 * Printing Tables:
-	 * http://css-discuss.incutio.com/wiki/Printing_Tables
-	 */
+.card-img-top{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
 
-	thead {
-		display: table-header-group;
-	}
+ul {
+    list-style-image: url('/img/nanchi-list.png');
+}
 
-	tr,
-	img {
-		page-break-inside: avoid;
-	}
-
-	img {
-		max-width: 100% !important;
-	}
-
-	p,
-	h2,
-	h3 {
-		orphans: 3;
-		widows: 3;
-	}
-
-	h2,
-	h3 {
-		page-break-after: avoid;
-	}
-
-	.hidden-print {
-		display: none !important;
-	}
-
-	article .entry-title a[href]:after,
-	article .metadata a[href]:after,
-	article .tags a[href]:after {
-		content: "";
-	}
-
-	article .metadata .sourceline {
-		display: none;
-	}
-
-	article .metadata .linkline a[href]:after {
-		content: " (" attr(href) ")";
-	}
-
-	#header {
-		display: none;
-	}
-
-	.postpromonav {
-		padding: 0;
-	}
+body{
+    font-family: "Open Sans";
 }
