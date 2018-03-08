@@ -47,8 +47,6 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 
 ## Tareas 
 
-
-
 ## Prácticas 
 
 1. [Introducción a Python y Jupyter](/pdf/mecanismos-upgto/PR1.pdf)
