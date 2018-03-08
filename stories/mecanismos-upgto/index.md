@@ -73,6 +73,7 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
     </div>
   </div>
 </div>
+<br><br>
 
 ## Bibliografía básica
 
