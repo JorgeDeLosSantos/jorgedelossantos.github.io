@@ -52,8 +52,10 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 
 #### Segundo parcial
 
-* [Análisis de un mecanismo de cuatro barras](pdf/mecanismos-upgto/T2-1.pdf)
-* [Análisis de un mecanismo de cuatro barras](pdf/mecanismos-upgto/T2-2.pdf)
+* [Análisis cinemático de un mecanismo de cuatro barras utilizando Python](/pdf/mecanismos-upgto/T2-1.pdf)
+	- **Fecha de entrega**: 20/03/2017
+* [Análisis cinemático de mecanismos utilizando MSC Adams](/pdf/mecanismos-upgto/T2-2.pdf)
+	- **Fecha de entrega**: 22/03/2017
 
 
 ## Prácticas 
