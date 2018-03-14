@@ -48,11 +48,12 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 
 ## Tareas 
 
-### Primer parcial
+#### Primer parcial
 
-### Segundo parcial
+#### Segundo parcial
 
-* [Análisis de un mecanismo de cuatro barras](pdf/mecanismos-upgto/nosrc.pdf)
+* [Análisis de un mecanismo de cuatro barras](pdf/mecanismos-upgto/T2-1.pdf)
+* [Análisis de un mecanismo de cuatro barras](pdf/mecanismos-upgto/T2-2.pdf)
 
 
 ## Prácticas 
