@@ -56,7 +56,7 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 	- **Fecha de entrega**: 20/03/2018
 1. [Análisis cinemático de mecanismos utilizando MSC Adams](/pdf/mecanismos-upgto/T2-2.pdf)
 	- **Fecha de entrega**: 22/03/2018
-1. [Trenes de engranajes]
+1. [Trenes de engranajes](/pdf/mecanismos-upgto/T2-3.pdf)
 	- **Fecha de entrega**: 16/04/2018
 
 
@@ -65,17 +65,18 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 1. [Introducción a Python y Jupyter](/pdf/mecanismos-upgto/PR1.pdf)
 1. [Introducción a MSC Adams](/pdf/mecanismos-upgto/PR2.pdf)
 1. [Modelado y simulación de un mecanismo de manivela-biela corredera](/pdf/mecanismos-upgto/PR3.pdf)
-1. [Modelado y simulación de un mecanismo de cuatro barras](/pdf/mecanismos-upgto/nosrc.pdf)
+1. [Modelado y simulación de un mecanismo de cuatro barras](/pdf/mecanismos-upgto/PR4.pdf)
+1. [Modelado y simulación de un mecanismo de 2 GDL](/pdf/mecanismos-upgto/PR5.pdf)
 
 ## Apuntes (en borrador permanente)
 
 * [I. Introducción a los mecanismos](/pdf/mecanismos-upgto/i-intro-mecanismos.pdf)
-* [Análisis cinemático de mecanismos planos](/pdf/mecanismos-upgto/nosrc.pdf)
+* [Análisis cinemático de mecanismos planos](/pdf/mecanismos-upgto/apuntes-mem.pdf)
 
 ## Exámenes
 
 * [**Examen Parcial I**](/pdf/mecanismos-upgto/EOP1-MEM-1801.pdf)
-* [**Examen Parcial II**](/pdf/mecanismos-upgto/nosrc.pdf)
+* [**Examen Parcial II**](/pdf/mecanismos-upgto/PR4.pdf)
 
 <!-- <div class="col-md-4 course-box">
   <div class="card mb-4 box-shadow">
