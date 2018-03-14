@@ -19,6 +19,7 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 * [Reuleaux Collection of Kinematic Mechanisms, Cornell University](http://kmoddl.library.cornell.edu./model.php?m=reuleaux)
 * [Mechanism Course - Middle East Technical University](http://ocw.metu.edu.tr/course/view.php?id=132)
 * [Kinematics of machines - National Programme on Technology Enhanced Learning](https://www.youtube.com/watch?v=MJeRFzs4oRU&list=PLBEA57F7E7560C8E8)
+* [Animaciones de mecanismos y máquinas](/mecanismos/animations/Animation.html)
 
 ## Libros de Mecanismos y máquinas
 
@@ -31,10 +32,10 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 
 ## Información MSC Adams
 
+* [Building model in ADAMS/View (BASE)](http://mme.uwaterloo.ca/~me321/BuildingModles.pdf)
 * [ADAMS Tutorial](/pdf/mecanismos/ADAMS-Tutorial.pdf)
 * [Getting Started ADAMS View](/pdf/mecanismos/GS-Adams-View.pdf)
 * [Suplemental ADAMS tutorial kit](http://www.mscsoftware.com/sites/default/files/Book_Adams-Tutorial-ex17-w.pdf)
-* [Building model in ADAMS/View](http://mme.uwaterloo.ca/~me321/BuildingModles.pdf)
 * [ADAMS Guide](http://www.me.unm.edu/~starr/teaching/me314/ADAMSguide.pdf)
 * [Slider crank tutorial](/pdf/mecanismos/Slider_crank_tutorial.ppt)
 
@@ -43,9 +44,16 @@ enlaces de interés, notas parciales, observaciones generales, entre otros.
 * [Introducción a la programación con Python 3](http://repositori.uji.es/xmlui/bitstream/10234/102653/1/s93.pdf)
 * [Matemáticas y programación con Python](/pdf/book/Matemáticas y programación con Python.pdf)
 * [A Primer on Scientific Programming with Python](/pdf/book/A Primer on Scientific Programming with Python.pdf)
-* [Curso Python para ingenieros:](https://www.youtube.com/watch?v=ox09Jko1ErM&list=PLoGFizEtm_6iheDXw2-8onKClyxgstBO1)
+* [Curso Python para ingenieros](https://www.youtube.com/watch?v=ox09Jko1ErM&list=PLoGFizEtm_6iheDXw2-8onKClyxgstBO1)
 
 ## Tareas 
+
+### Primer parcial
+
+### Segundo parcial
+
+* [Análisis de un mecanismo de cuatro barras](pdf/mecanismos-upgto/nosrc.pdf)
+
 
 ## Prácticas 
 
