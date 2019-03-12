@@ -7,74 +7,78 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/blog.xml</loc>
-  <lastmod>2017-11-02T17:38:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/books.xml</loc>
-  <lastmod>2017-11-02T17:38:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://jorgedelossantos.github.io/categories/cat_posts.xml</loc>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/fea.xml</loc>
-  <lastmod>2017-11-02T17:38:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/file-exchange.xml</loc>
-  <lastmod>2017-11-02T17:38:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/gui.xml</loc>
-  <lastmod>2017-11-02T17:38:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/java-swing.xml</loc>
-  <lastmod>2017-11-02T17:38:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/java.xml</loc>
-  <lastmod>2017-11-02T17:38:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/latex.xml</loc>
-  <lastmod>2017-11-02T17:38:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/mathjax.xml</loc>
-  <lastmod>2017-11-02T17:38:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/matlab.xml</loc>
-  <lastmod>2017-11-02T17:38:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/matrices.xml</loc>
-  <lastmod>2017-11-02T17:38:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/mechanical-engineering.xml</loc>
-  <lastmod>2017-11-02T17:38:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/otros.xml</loc>
-  <lastmod>2017-11-02T17:38:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/personal.xml</loc>
-  <lastmod>2017-11-02T17:38:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/poo.xml</loc>
-  <lastmod>2017-11-02T17:38:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/categories/programming.xml</loc>
-  <lastmod>2017-11-02T17:38:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/rss.xml</loc>
-  <lastmod>2017-11-02T17:38:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://jorgedelossantos.github.io/sitemap.xml</loc>
-  <lastmod>2018-03-08T04:13:00Z</lastmod>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
  </sitemap>
 </sitemapindex>
