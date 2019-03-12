@@ -135,26 +135,26 @@ NAVIGATION_LINKS = {
         ("/archive.html", "Archivo"),
         (
             (
-                ('http://numython.github.io', 'Numython'),
-                ('http://matlab-typ.blogspot.mx/', 'MATLAB TYP'),
+                ('https://numython.github.io', 'Numython'),
+                ('https://matlab-typ.blogspot.mx/', 'MATLAB TYP'),
             ),
             'Blogs'
         ),
         # ("/stories/links/", "Links"),
-        # ("/stories/about/", "Acerca de"),
-        (
-            (
-                ("/stories/dinamica-4a/", "Dinámica 4A"),
-                ("/stories/dinamica-4b/", "Dinámica 4B"),
-                ("/stories/mecanismos-upgto/", "Mecanismos"),
-                ("/stories/fur/", "Fundamentos de robótica"),
-                # ("/stories/mecanismos/", "Mecanismos"),
-                # ("/stories/mecanica-de-materiales/", "Mecánica de Materiales"),
-                # ("/stories/estatica-3a", "Estática IRO03A"),
-                # ("/stories/estatica-3b/", "Estática IRO03B"),
-            ),
-            'Asignaturas'
-        ),        
+        ("/stories/about/", "Acerca de"),
+        # (
+        #     (
+        #         ("/stories/dinamica-4a/", "Dinámica 4A"),
+        #         ("/stories/dinamica-4b/", "Dinámica 4B"),
+        #         ("/stories/mecanismos-upgto/", "Mecanismos"),
+        #         ("/stories/fur/", "Fundamentos de robótica"),
+        #         # ("/stories/mecanismos/", "Mecanismos"),
+        #         # ("/stories/mecanica-de-materiales/", "Mecánica de Materiales"),
+        #         # ("/stories/estatica-3a", "Estática IRO03A"),
+        #         # ("/stories/estatica-3b/", "Estática IRO03B"),
+        #     ),
+        #     'Asignaturas'
+        # ),        
         ("/categories/", "Etiquetas"),
         ("/rss.xml", "Canal RSS"),
     ),
