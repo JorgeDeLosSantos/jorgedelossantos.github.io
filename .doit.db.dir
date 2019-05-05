@@ -1268,3 +1268,4 @@
 'copy_assets:output\\assets\\css\\bootblog.css', (1688064, 455)
 'copy_assets:output\\assets\\js\\gallery.min.js', (1745920, 446)
 'copy_assets:output\\assets\\css\\rst_base.css', (1746432, 446)
+'copy_files:output\\pdf\\cv_xyz.pdf', (1859072, 256)
