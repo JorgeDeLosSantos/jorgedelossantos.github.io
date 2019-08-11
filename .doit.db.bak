@@ -1269,3 +1269,4 @@
 'copy_assets:output\\assets\\js\\gallery.min.js', (1745920, 446)
 'copy_assets:output\\assets\\css\\rst_base.css', (1746432, 446)
 'copy_files:output\\pdf\\cv_xyz.pdf', (1859072, 256)
+'copy_files:output\\pdf\\python_notes.pdf', (1859584, 269)
