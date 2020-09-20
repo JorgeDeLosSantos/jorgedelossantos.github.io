@@ -141,6 +141,7 @@ NAVIGATION_LINKS = {
             'Blogs'
         ),
         # ("/stories/links/", "Links"),
+        ("/stories/proyectos/", "Proyectos"),
         ("/stories/about/", "Acerca de"),
         # (
         #     (
