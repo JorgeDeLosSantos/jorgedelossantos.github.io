@@ -132,17 +132,18 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+        ("/blog/", "Blog"),
         ("/archive.html", "Archivo"),
         (
             (
                 ('https://numython.github.io', 'Numython'),
                 ('https://matlab-typ.blogspot.mx/', 'MATLAB TYP'),
             ),
-            'Blogs'
+            'Otros blogs'
         ),
         # ("/stories/links/", "Links"),
-        ("/stories/proyectos/", "Proyectos"),
-        ("/stories/about/", "Acerca de"),
+        ("/proyectos/", "Proyectos"),
+        ("/about/", "Acerca de"),
         # (
         #     (
         #         ("/stories/dinamica-4a/", "Dinámica 4A"),
