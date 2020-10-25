@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estática 3A | While True</title>
+<link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#14178D">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="es" href="../rss.xml">
+<link rel="canonical" href="https://jorgedelossantos.github.io/estatica-3a/">
+<link rel="icon" href="favicon.ico" sizes="16x16">
+<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><meta name="author" content="Pedro Jorge De Los Santos">
+<meta property="og:site_name" content="While True">
+<meta property="og:title" content="Estática 3A">
+<meta property="og:url" content="https://jorgedelossantos.github.io/estatica-3a/">
+<meta property="og:description" content="Bienvenidos a la página del curso de Estática (IRO03A) para Ingeniería Robótica de la UPG.
+Aquí encontrará información relacionada con el desarrollo del curso: criterios de evaluación, referencias, 
+e">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2017-05-07T11:04:09-05:00">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Mostrar navegación</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://jorgedelossantos.github.io/">
+
+                <span id="blog-title">While True</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../archive.html">Archivo</a>
+            </li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blogs <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+<li>
+<a href="https://numython.github.io">Numython</a>
+                    </li>
+<li>
+<a href="https://matlab-typ.blogspot.mx/">MATLAB TYP</a>
+            </li>
+</ul>
+</li>
+<li>
+<a href="../stories/proyectos/">Proyectos</a>
+                </li>
+<li>
+<a href="../stories/about/">Acerca de</a>
+                </li>
+<li>
+<a href="../categories/">Etiquetas</a>
+                </li>
+<li>
+<a href="../rss.xml">Canal RSS</a>
+
+                
+            </li>
+</ul>
+<!-- Google custom search --><form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
+<div class="form-group">
+<input type="text" name="q" class="form-control" placeholder="Search">
+</div>
+<button type="submit" class="btn btn-primary">
+  <span class="glyphicon glyphicon-search"></span>
+</button>
+<input type="hidden" name="sitesearch" value="https://jorgedelossantos.github.io/">
+</form>
+<!-- End of custom search -->
+
+
+            <ul class="nav navbar-nav navbar-right">
+<li>
+    <a href="index.md" id="sourcelink">Código fuente</a>
+    </li>
+
+                
+            </ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Estática 3A</a></h1>
+
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p>Bienvenidos a la página del curso de <strong>Estática (IRO03A)</strong> para Ingeniería Robótica de la UPG.
+Aquí encontrará información relacionada con el desarrollo del curso: criterios de evaluación, referencias, 
+enlaces de interés, notas parciales, observaciones generales, entre otros.</p>
+<h3>Sobre los porcentajes de evaluación</h3>
+<p><strong>Parcial I</strong></p>
+<table>
+<thead><tr>
+<th><strong>Ítem</strong></th>
+<th><strong>Porcentaje</strong></th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Examen</td>
+<td>50 %</td>
+</tr>
+<tr>
+<td>Tareas</td>
+<td>40 %</td>
+</tr>
+<tr>
+<td>Problemario</td>
+<td>10 %</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>Parcial II</strong></p>
+<table>
+<thead><tr>
+<th><strong>Ítem</strong></th>
+<th><strong>Porcentaje</strong></th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Examen</td>
+<td>40 %</td>
+</tr>
+<tr>
+<td>Actividad en clase</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Tareas</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>Problemario</td>
+<td>10 %</td>
+</tr>
+<tr>
+<td>Desempeño</td>
+<td>10 %</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p>Rubros evaluados:</p>
+<ul>
+<li>
+<strong>EC</strong> (60%)</li>
+<li>
+<strong>EP</strong> (30%)</li>
+<li>
+<strong>ED</strong> (10%)</li>
+</ul>
+<p><br></p>
+<h3>Exámenes</h3>
+<ul>
+<li><a href="../pdf/estatica/examen-i-a.pdf"><strong>Examen Parcial I</strong></a></li>
+<li><a href="../pdf/estatica/examen-ii-a.pdf"><strong>Examen Parcial II</strong></a></li>
+</ul>
+<h3>Tareas</h3>
+<p>En esta sección se listan las tareas del curso y su fecha de entrega:</p>
+<p><strong>Parcial I</strong></p>
+<ul>
+<li>Tarea 1. Metodología para la solución de problemas (16/03/2017)</li>
+<li><a href="../pdf/estatica/T2.pdf">Tarea 2. Problemas de conversiones (19/05/2017)</a></li>
+<li>
+<a href="../pdf/estatica/T3.pdf">Tarea 3. Problemas de vectores fuerza (22/05/2017)</a><ul>
+<li><a href="../pdf/estatica/T3-SOL.pdf">Solución</a></li>
+</ul>
+</li>
+<li><a href="../pdf/estatica/T4.pdf">Tarea 4. Problemas de vectores fuerza (22/05/2017)</a></li>
+<li><a href="../pdf/estatica/T5.pdf">Tarea 5. Problemas de vectores fuerza (22/05/2017)</a></li>
+</ul>
+<p><strong>Parcial II</strong></p>
+<!-- **¿Cómo se calificarán las tareas?**
+
+La aportación de cada tarea a la calificación parcial será de forma equitativa, a menos que se especifique 
+de forma explícita una ponderación diferente.
+
+Enseguida, se listan los puntos tomados en cuenta para asignar una calificación a las tareas y su correspondiente 
+ponderación: 
+
+* Presentación (10)
+* Estructura (10)
+* Contenido (60)
+* Redacción y ortografía (10)
+* Referencias (10)
+
+En lo subsiguiente se describen los puntos anteriores: 
+
+* **Presentación**: Todo lo relativo con el formato del documento: márgenes, distribución de espacios, colores, fuentes utilizadas, etc.
+* **Estructura**: Manera en la que se distribuye el contenido: temas y subtemas u otro tipo de ítems necesarios para comunicar las ideas planteadas de manera efectiva.
+* **Contenido**: Referente a la información contenida en el trabajo, sobre todo que esta corresponda con lo que se ha pedido.
+* **Redacción y ortografía**: Autodescriptivo.
+* **Referencias**:  Se califica dependiendo el estilo y claridad de las referencias incluidas.
+
+> *En el caso que la tarea corresponda a la resolución de ejercicios, la calificación estará basada en el procedimiento y solución del mismo.* -->
+
+<h3>Problemario</h3>
+<ul>
+<li><a href="../pdf/estatica/Problemario%20I.pdf"><strong>Problemario Parcial I</strong></a></li>
+<li><a href="../pdf/estatica/Problemario%20II.pdf"><strong>Problemario Parcial II</strong></a></li>
+</ul>
+<h3>Actividad de formación integral</h3>
+<ul>
+<li><a href="../pdf/estatica/AFI.pdf">Entregables de Actividad de formación integral</a></li>
+<li><a href="http://www.upgto.edu.mx/docs/mfi/c3/competitividad/anexo_innovacion_competitividad.pdf">Presentación innovación y competitividad</a></li>
+<li><a href="http://www.upgto.edu.mx/docs/mfi/c3/competitividad/CDA_competitividad.pdf">CDA Competitividad</a></li>
+</ul>
+<p><strong>Lista de proyectos</strong></p>
+<h3>Bibliografía básica</h3>
+<ul>
+<li>Hibbeler, R.C. (2010). Mecánica Vectorial Para Ingenieros: Estática. México: Pearson Educación.</li>
+<li>Beer, F.P., Johnston, E.R., et. al. (2010). Mecánica Vectorial Para Ingenieros: Estática. México: McGraw-Hill.</li>
+<li>Meriam, J.L. &amp; L. G. Kraige (2002). Engineering Mechanics Vol. 1 Statics. USA: Wiley.</li>
+</ul>
+</div>
+    </div>
+    
+
+</article>
+</div>
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2020         <a href="mailto:delossantosmfq@gmail.com">Pedro Jorge De Los Santos</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>
+            
+        </footer>
+</div>
+</div>
+
+
+            <script src="../assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
+    moment.locale("es");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script><!-- Start of StatCounter Code for Default Guide --><script type="text/javascript">
+var sc_project=11236072; 
+var sc_invisible=0; 
+var sc_security="3e0fbb07"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script><noscript><div class="statcounter"><a title="web stats" href="http://statcounter.com/" target="_blank"><img class="statcounter" src="//c.statcounter.com/11236072/0/3e0fbb07/0/" alt="web
+stats"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+
+</body>
+</html>

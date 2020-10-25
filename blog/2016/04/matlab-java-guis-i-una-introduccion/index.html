@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MATLAB-Java GUIs I. Una introducción | While True</title>
+<link href="../../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#14178D">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="es" href="../../../../rss.xml">
+<link rel="canonical" href="https://jorgedelossantos.github.io/blog/2016/04/matlab-java-guis-i-una-introduccion/">
+<link rel="icon" href="favicon.ico" sizes="16x16">
+<!--[if lt IE 9]><script src="../../../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Pedro Jorge De Los Santos">
+<link rel="prev" href="../../03/en-este-post-vamos-ver-como-convertir/" title="Convirtiendo matrices MATLAB a formato LaTeX" type="text/html">
+<link rel="next" href="../matlab-poo-i-conceptos-basicos/" title="MATLAB POO I. Conceptos básicos" type="text/html">
+<meta property="og:site_name" content="While True">
+<meta property="og:title" content="MATLAB-Java GUIs I. Una introducción">
+<meta property="og:url" content="https://jorgedelossantos.github.io/blog/2016/04/matlab-java-guis-i-una-introduccion/">
+<meta property="og:description" content="Bienvenidos, esta será una mini-serie de entradas dedicadas a introducir a los usuarios de MATLAB en el desarrollo de interfaces gráficas utilizando una combinación de controles ordinarios de MATLAB c">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2016-04-11T04:57:00-05:00">
+<meta property="article:tag" content="GUI">
+<meta property="article:tag" content="Java">
+<meta property="article:tag" content="Java-Swing">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Mostrar navegación</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://jorgedelossantos.github.io/">
+
+                <span id="blog-title">While True</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../../../../archive.html">Archivo</a>
+            </li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blogs <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+<li>
+<a href="https://numython.github.io">Numython</a>
+                    </li>
+<li>
+<a href="https://matlab-typ.blogspot.mx/">MATLAB TYP</a>
+            </li>
+</ul>
+</li>
+<li>
+<a href="../../../../stories/proyectos/">Proyectos</a>
+                </li>
+<li>
+<a href="../../../../stories/about/">Acerca de</a>
+                </li>
+<li>
+<a href="../../../../categories/">Etiquetas</a>
+                </li>
+<li>
+<a href="../../../../rss.xml">Canal RSS</a>
+
+                
+            </li>
+</ul>
+<!-- Google custom search --><form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
+<div class="form-group">
+<input type="text" name="q" class="form-control" placeholder="Search">
+</div>
+<button type="submit" class="btn btn-primary">
+  <span class="glyphicon glyphicon-search"></span>
+</button>
+<input type="hidden" name="sitesearch" value="https://jorgedelossantos.github.io/">
+</form>
+<!-- End of custom search -->
+
+
+            <ul class="nav navbar-nav navbar-right">
+<li>
+    <a href="index.src.html" id="sourcelink">Código fuente</a>
+    </li>
+
+                
+            </ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">MATLAB-Java GUIs I. Una introducción</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                    Pedro Jorge De Los Santos
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2016-04-11T04:57:00-05:00" itemprop="datePublished" title="2016-04-11 04:57">2016-04-11 04:57</time></a>
+            </p>
+                <p class="commentline">
+        
+    <a href="#disqus_thread" data-disqus-identifier="cache/posts/2016/04/matlab-java-guis-i-una-introduccion.html">Comments</a>
+
+
+            
+        </p>
+<p class="sourceline"><a href="index.src.html" class="sourcelink">Código fuente</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div style="text-align: justify;">Bienvenidos, esta será una mini-serie de entradas dedicadas a introducir a los usuarios de MATLAB en el desarrollo de interfaces gráficas utilizando una combinación de controles ordinarios de MATLAB con controles de la librería Swing de Java. Es necesario que el lector tenga conocimientos sólidos en el desarrollo de interfaces gráficas en MATLAB utilizando solamente código (no GUIDE), de programación orientada a objetos en MATLAB, y bueno, sería sensacional si conoce algo de Java.</div>
+<div style="text-align: justify;"><br></div>
+<h3 id="para-comenzar">Para comenzar</h3>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Las interfaces gráficas en MATLAB suelen considerarse hasta cierto punto muy limitadas en cuanto a apariencia, funcionalidad y sobre todo a la poca diversidad de controles gráficos disponibles en la librería estándar. Se extraña, por poner un ejemplo, que los <em>Static Text</em> tengan la posibilidad de añadir una imagen, o que a un botón le podamos agregar un ícono junto al texto, o bueno, varias de esas cosas que son posibles y relativamente sencillas de implementar en muchos otros toolkits de interfaces gráficas.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">No obstante, MATLAB tiene la posibilidad (y facilidad) de integrar controles gráficos de la librería Swing de Java de manera muy simple en una interfaz gráfica ordinaria. Esto puede lograrse utilizando la función <code style="white-space: pre;">javacomponent</code>, con la cual podemos <em>incrustar</em> controles gráficos de Java en una <em>figure</em> de MATLAB.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Para ir entrando un poco en el tema vamos a mostrar un código muy simple que coloca un JLabel (similar al <em>Static Text</em>) dentro de una GUI:</div>
+<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">import javax.swing.*<br><br>fig = figure(<span class="st" style="color: #4070a0;">'Name'</span>,<span class="st" style="color: #4070a0;">'Ejemplo MATLAB-Java'</span>,...<br><span class="st" style="color: #4070a0;">'NumberTitle'</span>,<span class="st" style="color: #4070a0;">'off'</span>,...<br><span class="st" style="color: #4070a0;">'MenuBar'</span>,<span class="st" style="color: #4070a0;">'none'</span>,...<br><span class="st" style="color: #4070a0;">'Position'</span>,[<span class="fl" style="color: #40a070;">0</span>,<span class="fl" style="color: #40a070;">0</span>,<span class="fl" style="color: #40a070;">200</span>,<span class="fl" style="color: #40a070;">100</span>]);<br>centerfig(fig);<br><br>lab = JLabel(<span class="st" style="color: #4070a0;">'JLabel Java'</span>);<br>hJlab = javacomponent(lab, <span class="st" style="color: #4070a0;">'East'</span>, fig);</code></pre></div>
+<br><div class="separator" style="clear: both; text-align: center;"></div>
+<br><div class="separator" style="clear: both; text-align: center;"><a href="https://2.bp.blogspot.com/-i61CZl7Uz0I/VwsgK6ojP0I/AAAAAAAACBk/EUM3No6tn54nFSsau_x8mkcFDNOIRVJ7Q/s1600/img_01.PNG" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-i61CZl7Uz0I/VwsgK6ojP0I/AAAAAAAACBk/EUM3No6tn54nFSsau_x8mkcFDNOIRVJ7Q/s1600/img_01.PNG"></a></div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Ahora vamos a <em>desmenuzar</em> el código anterior:</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Primero, importamos todas las clases de la librería Swing, también hubiese sido muy recomendable sólo importar la clase Java que vamos a utilizar: <code style="white-space: pre;">import javax.swing.JLabel</code>. Pero, normalmente (<em>en la vida rea</em>l) no sólo se utiliza una de las clases de Swing, así que podríamos dejarlo tal cual y ya está. Al importar con <code style="white-space: pre;">import javax.swing.*</code> tenemos disponibles todas las clases de Swing en el <em>workspace</em> de MATLAB, así, sólo necesitamos escribir <code style="white-space: pre;">JLabel</code> para instanciar una etiqueta en lugar del <code style="white-space: pre;">javax.swing.JLabel</code> que deberíamos colocar si no colocamos la instrucción de importar.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Lo que sigue es crear una ventana con la función <code style="white-space: pre;">figure</code>, en la cual colocaremos nuestros controles Java. Y claro, la función <code style="white-space: pre;">centerfig</code> para centrar la ventana en la pantalla.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Aquí viene la parte en donde instanciamos un objeto de la clase <code style="white-space: pre;">JLabel</code>. Normalmente, en Java, tendríamos que escribir algo como:</div>
+<br><div class="sourceCode"><pre class="sourceCode java"><code class="sourceCode java">JLabel lab = <span class="kw" style="color: #007020; font-weight: bold;">new</span> JLabel(<span class="st" style="color: #4070a0;">"JLabel Java"</span>);</code></pre></div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Pero en MATLAB la sintaxis es más sencilla.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Una vez tenemos creado un objeto de la clase <code style="white-space: pre;">JLabel</code>, tenemos que colocarlo dentro de la ventana que hemos definido con anterioridad, y para eso usaremos la función <code style="white-space: pre;">javacomponent</code>. Lo primero: la función <code style="white-space: pre;">javacomponent</code> tiene la siguiente sintaxis:</div>
+<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">[hJ, hM] = javacomponent(javaClassName, position, parent, callback);</code></pre></div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Donde <code style="white-space: pre;">javaClassName</code> puede ser un objeto o una clase de Java (en este caso la etiqueta que hemos instanciado), <code style="white-space: pre;">position</code> puede ser un vector de cuatro elementos típico de MATLAB o bien una cadena de texto: <em>South</em>, <em>West</em>, <em>North</em> o <em>East</em>, indicando la ubicación del elemento dentro de la ventana, <code style="white-space: pre;">parent</code> será la ventana o panel en el cual colocaremos el objeto gráfico, y finalmente<code style="white-space: pre;">callback</code> es un cell array de elementos <em>pareados</em> del tipo evento-handler y cuyo objetivo es especificar el comportamiento de un control gráfico ante un evento determinado, por ahora esto lo hemos dejado vacío, ya que no entraremos aún en el manejo de eventos.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">La función <code style="white-space: pre;">javacomponent</code> devuelve normalmente dos valores de salida: <code style="white-space: pre;">hJ</code> será la referencia a la clase Java del control gráfico y a través de este podremos modificar sus características; <code style="white-space: pre;">hM</code> es un handle cuasi ordinario de MATLAB y este nos servirá para modificar las propiedades de posición, unidades y visibilidad del objeto gráfico una vez que este haya sido agregado a la GUI MATLAB.</div>
+<div style="text-align: justify;"><br></div>
+<h3 id="modificando-las-propiedades-de-un-control-java-swing">Modificando las propiedades de un control Java Swing</h3>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">Para modificar las propiedades de un componente creado con <code style="white-space: pre;">javacomponent</code> podemos hacerlo a través de su referencia, por ejemplo, para el JLabel que utilizamos al principio:</div>
+<br><div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">clear;clc;<br>import javax.swing.*<br><br>fig = figure(<span class="st" style="color: #4070a0;">'Name'</span>,<span class="st" style="color: #4070a0;">'Ejemplo MATLAB-Java'</span>,...<br><span class="st" style="color: #4070a0;">'NumberTitle'</span>,<span class="st" style="color: #4070a0;">'off'</span>,...<br><span class="st" style="color: #4070a0;">'MenuBar'</span>,<span class="st" style="color: #4070a0;">'none'</span>,...<br><span class="st" style="color: #4070a0;">'Position'</span>,[<span class="fl" style="color: #40a070;">0</span>,<span class="fl" style="color: #40a070;">0</span>,<span class="fl" style="color: #40a070;">200</span>,<span class="fl" style="color: #40a070;">100</span>]);<br>centerfig(fig);<br><br>lab = JLabel(<span class="st" style="color: #4070a0;">'JLabel Java'</span>);<br>[hJLab,hMLab] = javacomponent(lab, <span class="st" style="color: #4070a0;">'North'</span>, fig);<br>hJLab.setOpaque(true);<br>hJLab.setForeground(java.awt.Color.RED);<br>hJLab.setBackground(java.awt.Color.YELLOW)<br>hJLab.setHorizontalAlignment(JLabel.CENTER);</code></pre></div>
+<br><div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-HXUt3BZSZEQ/VwsfrBbCL0I/AAAAAAAACBc/REz08amEw-Mygn57S58CYsJdLcf_u_eqw/s1600/img_02.PNG" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-HXUt3BZSZEQ/VwsfrBbCL0I/AAAAAAAACBc/REz08amEw-Mygn57S58CYsJdLcf_u_eqw/s1600/img_02.PNG"></a></div>
+<br><br><div style="text-align: justify;">Como puede notar, las propiedades se modifican a través de métodos. Todos estos métodos disponibles para los controles de Java Swing puede consultarlos en la <a href="https://docs.oracle.com/javase/7/docs/api/javax/swing/package-summary.html">documentación oficial de Java</a>.</div>
+<div style="text-align: justify;"><br></div>
+<h3 id="para-aprender-más..." style="text-align: justify;">Para aprender más...</h3>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">La referencia obligatoria y necesaria será siempre el blog <a href="http://undocumentedmatlab.com/"><strong>Undocumented MATLAB</strong></a> del gran Yair Altman, que es sin duda el lugar donde más información online encontraremos sobre la integración MATLAB-Java y muchas otras utilidades no documentadas de MATLAB.</div>
+<div style="text-align: justify;"><br></div>
+<div style="text-align: justify;">También existe el libro <strong>Undocumented Secrets of MATLAB-Java Programming</strong> del mismo Yair Altman, muy recomendable.</div>
+<div style="text-align: justify;"><br></div>
+<br><a href="https://www.crcpress.com/Undocumented-Secrets-of-MATLAB-Java-Programming/Altman/9781439869031"><img src="https://images.tandf.co.uk/common/jackets/amazon/978143986/9781439869031.jpg" width="15%"></a><br><h3 id="sumario-del-curso"><br></h3>
+<h3 id="sumario-del-curso">Sumario del curso</h3>
+<br>Esta lista de se irá actualizando conforme se publiquen nuevas entradas:<br><ul><li><a href="https://www.blogger.com/blogger.g?blogID=204088497223398789">MATLAB-Java GUIs I. Una introducción</a></li></ul>
+</div>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../../../categories/gui/" rel="tag">GUI</a></li>
+            <li><a class="tag p-category" href="../../../../categories/java/" rel="tag">Java</a></li>
+            <li><a class="tag p-category" href="../../../../categories/java-swing/" rel="tag">Java-Swing</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="../../03/en-este-post-vamos-ver-como-convertir/" rel="prev" title="Convirtiendo matrices MATLAB a formato LaTeX">Publicación anterior</a>
+            </li>
+            <li class="next">
+                <a href="../matlab-poo-i-conceptos-basicos/" rel="next" title="MATLAB POO I. Conceptos básicos">Siguiente publicación</a>
+            </li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comentarios</h2>
+        
+        
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="jorge-de-los-santos",
+            disqus_url="https://jorgedelossantos.github.io/blog/2016/04/matlab-java-guis-i-una-introduccion/",
+        disqus_title="MATLAB-Java GUIs I. Una introducci\u00f3n",
+        disqus_identifier="cache/posts/2016/04/matlab-java-guis-i-una-introduccion.html",
+        disqus_config = function () {
+            this.language = "es_ES";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section></article><script>var disqus_shortname="jorge-de-los-santos";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+</div>
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2020         <a href="mailto:delossantosmfq@gmail.com">Pedro Jorge De Los Santos</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>
+            
+        </footer>
+</div>
+</div>
+
+
+            <script src="../../../../assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
+    moment.locale("es");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script><!-- Start of StatCounter Code for Default Guide --><script type="text/javascript">
+var sc_project=11236072; 
+var sc_invisible=0; 
+var sc_security="3e0fbb07"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script><noscript><div class="statcounter"><a title="web stats" href="http://statcounter.com/" target="_blank"><img class="statcounter" src="//c.statcounter.com/11236072/0/3e0fbb07/0/" alt="web
+stats"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+
+</body>
+</html>

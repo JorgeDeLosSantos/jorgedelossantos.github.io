@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://jorgedelossantos.github.io/</loc>
-  <lastmod>2019-03-12T03:05:00Z</lastmod>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/2015/</loc>
@@ -30,12 +30,76 @@
   <lastmod>2018-09-11T22:21:00Z</lastmod>
  </url>
  <url>
+  <loc>https://jorgedelossantos.github.io/about/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://jorgedelossantos.github.io/archive.html</loc>
-  <lastmod>2020-09-20T01:52:00Z</lastmod>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/blog/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/blog/2016/01/metodos-estaticos-en-una-clase-matlab/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/blog/2016/01/test/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/blog/2016/03/en-este-post-vamos-ver-como-convertir/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/blog/2016/04/matlab-java-guis-i-una-introduccion/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/blog/2016/04/matlab-poo-i-conceptos-basicos/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/blog/2016/04/matlab-poo-ii-definiendo-clases/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/blog/hola-mundo/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/blog/implementacion-fem-en-problemas-de-ingenieria/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/blog/index-1.html</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/blog/programacion-matlab/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/blog/propuesta-de-solucion-proyecto-02/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/blog/sobre-la-tesis/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/cad-2d/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/cad-2e/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/categories/</loc>
-  <lastmod>2019-03-12T03:05:00Z</lastmod>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/categories/blog/</loc>
@@ -44,6 +108,10 @@
  <url>
   <loc>https://jorgedelossantos.github.io/categories/books/</loc>
   <lastmod>2019-03-12T03:05:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/categories/cat_blog/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/categories/cat_posts/</loc>
@@ -106,8 +174,48 @@
   <lastmod>2019-03-12T03:05:00Z</lastmod>
  </url>
  <url>
+  <loc>https://jorgedelossantos.github.io/cv/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/dinamica-4a/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/dinamica-4b/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/estatica-3a/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/estatica-3b/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/fur/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://jorgedelossantos.github.io/index-1.html</loc>
   <lastmod>2020-09-20T01:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/links/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/mecanica-de-materiales/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/mecanismos-upgto/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/mecanismos/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/posts/2016/01/metodos-estaticos-en-una-clase-matlab/</loc>
@@ -134,6 +242,10 @@
   <lastmod>2019-03-12T03:05:00Z</lastmod>
  </url>
  <url>
+  <loc>https://jorgedelossantos.github.io/posts/analisis-cinematico-de-un-mecanismo-plano-usando-maple/</loc>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://jorgedelossantos.github.io/posts/hola-mundo/</loc>
   <lastmod>2019-03-12T03:05:00Z</lastmod>
  </url>
@@ -146,12 +258,20 @@
   <lastmod>2019-03-12T03:05:00Z</lastmod>
  </url>
  <url>
+  <loc>https://jorgedelossantos.github.io/posts/programando-funciones-de-singularidad/</loc>
+  <lastmod>2019-03-12T03:05:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://jorgedelossantos.github.io/posts/propuesta-de-solucion-proyecto-02/</loc>
   <lastmod>2019-03-12T03:05:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/posts/sobre-la-tesis/</loc>
   <lastmod>2019-03-12T03:05:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://jorgedelossantos.github.io/proyectos/</loc>
+  <lastmod>2020-10-25T14:55:00Z</lastmod>
  </url>
  <url>
   <loc>https://jorgedelossantos.github.io/stories/about/</loc>
