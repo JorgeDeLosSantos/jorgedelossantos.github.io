@@ -1326,7 +1326,7 @@
 'render_pages:output\\cad-2e\\index.html', (2045440, 4693)
 'render_pages:output\\fur\\index.html', (2050560, 4679)
 'render_sources:output\\cad-2e\\index.md', (2055680, 241)
-'render_posts:cache\\stories\\index.html', (2100224, 544)
+'render_posts:cache\\stories\\index.html', (2100224, 525)
 'render_sources:output\\cv\\index.rst', (2056704, 235)
 'render_pages:output\\blog\\implementacion-fem-en-problemas-de-ingenieria\\index.html', (2057216, 5068)
 'render_pages:output\\mecanismos\\index.html', (2062336, 4717)
