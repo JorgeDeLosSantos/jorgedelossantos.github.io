@@ -171,7 +171,7 @@ NAVIGATION_LINKS = {
 # }
 
 # Name of the theme to use.
-THEME = "bootstrap3"
+THEME = "bootstrap4"
 # THEME = "base-jinja"
 
 # Primary color of your theme. This will be used to customize your theme and
