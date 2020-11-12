@@ -7,6 +7,9 @@
 .. description: 
 .. type: text
 
+.. meta::
+   :http-equiv=Content-Type: text/html; charset=utf-8
+
 .. raw:: html
 	:file: .\files\info.html
 
