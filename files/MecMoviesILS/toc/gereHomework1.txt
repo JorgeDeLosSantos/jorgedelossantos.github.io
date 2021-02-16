@@ -1,0 +1,49 @@
+subtitle=Final Exam Prep&
+&A1=<CONCEPTS>label&
+&A2=<Normal Stress>F440&comment=Normal stress basic problems&
+&B2=<Shear Stress>F480&comment=Shear stress basic problems&
+&C2=<Shear Stress>F240&comment=Pin-supported rigid bar: shear stress&
+&D2=<Normal/Shear>F330&comment=Axial force based on inclined plane stresses&
+&E2=<Mohr's Circle>K520&comment=Coach Mohr's circle of stress&
+&E1=<Stress transform>K680&comment=Sketching stress transformation results&
+
+&A3=<AXIAL>label&
+&A4=<Axial Det>A120&comment=Compound axial members basic problems&
+&B4=<Axial Indet>A240&comment=Two rods in series&
+&C4=<Axial Indet>A320&comment=Rigid bar and two axial members&
+&D4=<Axial Indet>A440&comment=End-to-end rods with temperature&
+&E4=<Pressure>G120&comment=Cylindrical pressure vessel - stresses on a weld&
+
+&A5=<TORSION>label&
+&A6=<Stress/Twist>M320&comment=Torsion concepts&
+&B6=<Shear Stress>M440&comment=Gear trains: torque/stress&
+&C6=<Twist>M480&comment=Gear trains: angles of twist&
+&D6=<Power>M880&comment=Gear trains: power transmission&
+&A7=<Indet Tors>M520&comment=Shear stresses in coaxial shafts&
+&B7=<Indet Tors>M600&comment=Shear stresses in end-to-end shafts&
+
+&A8=<BENDING>label&
+&A9=<Centroids>H200&comment=The centroids game: Learning the ropes&
+&B9=<Moment of Inertia>H280&comment=The moment of inertia: Starting from square one&
+&C9=<V/M Diagrams>N040&comment=6 rules&
+&D9=<V/M Diagrams>N120&comment=Following the rules&
+&A10=<Bending Stress>C120&comment=Moments and bending stress&
+&B10=<Bending Stress>C260&comment=Determine maximum bending stress&
+&C10=<Transverse Shear>D140&comment=Shear stress in a standard steel shape&
+&D10=<Transverse Shear>D240&comment=Q-tile&
+
+&A11=<DEFLECTIONS>label&
+&A12=<Superposition>B120&comment=8 skills: part I&
+&B12=<Superposition>B122&comment=8 skills: part II&
+&C12=<Superposition>B520&comment=One beam, one load, three cases&
+&D12=<Superposition>B560&comment=Propped cantilevers&
+
+&A13=<COMBINED>label&
+&A14=<Axial+Bending>E040&comment=C-clamp normal stresses&
+&B14=<Axial+Bending>E160&comment=Jib crane boom&
+&C14=<Axial+Bending>E120&comment=The tree&
+&D14=<Combined>E240&comment=Beams bending about two axes&
+&E14=<Combined>E360&comment=Up periscope&
+
+
+&EndOfFile=1&

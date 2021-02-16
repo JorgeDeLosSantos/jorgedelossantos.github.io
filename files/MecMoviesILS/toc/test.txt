@@ -1,0 +1,79 @@
+&goldmenu1=Home<mm_home.swf>&
+&submenu1=<About><Navigation>&
+
+&goldmenu2=Concepts<concepts.swf>
+&submenu2=<Shear+Illustrations>
+<Direct+Shear+Stress>
+<Inclined+Plane>
+<Normal+Strain>
+<Stress+Strain+Basics>
+<General+Hooke's+Law>&
+
+&goldmenu3=Axial<axial.swf>&
+&submenu3=<Determinate>
+<Axial+w/temperature>
+<Indeterminate>
+<Indet+w/temperature>
+<Indet+w/misfit>&
+
+&goldmenu4=Torsion<torsion.swf>&
+&submenu4=<Elastic+Torsion+Formula>
+<Angle+of+Twist>
+<Torsion+with+Gears>
+<Indeterminate>
+<Power+Transmission>&
+
+&goldmenu5=Bending<bmflex.swf>&
+&submenu5=<Bending+Stress>
+<Non-homogeneous>&
+
+&goldmenu6=Transverse+Shear<bmshear.swf>&
+&submenu6=<Transverse+Shear>
+<Shear+Flow>&
+
+&goldmenu7=Stress+Transform<stress.swf>&
+&submenu7=<Stress+Transform+Eqns>
+<Mohr's+Circle+Stress>&
+
+&goldmenu8=Strain+Transform<strain.swf>&
+&submenu8=<Strain+Transform+Eqns>
+<Strain+Rosettes>
+<Mohr's+Circle+Strain>&
+
+&goldmenu9=Combined+Loadings<combload.swf>&
+&submenu9=<Pressure+Vessels>
+<Axial+and+Bending>
+<Axial,+Bending,+Shear>
+<Beam+Prin+Stresses>
+<Gen+Combined+Loads>&
+
+&goldmenu10=Beam+Deflections<bmdefl.swf>&
+&submenu10=<Double+Integration>
+<Superposition+Skills>
+<Determinate>
+<Indeterminate>
+<Indet+w/Elastic>&
+
+&goldmenu11=Section+Props<sectprop.swf>&
+&submenu11=<Centroid/Mom+Inertia>
+<Centroid+Games>
+<Moment+Inertia+Games>
+<Principal+Mom+Inertia>&
+
+&goldmenu12=Games+and+Tools<games.swf>&
+&submenu12=<Section+Properties>
+<Stress+Transform>
+<Mohr's+Circle+Stress>
+<Mohr's+Circle+Strain>
+<Beam+Deflection>&
+
+&goldmenu13=Assignments<myAssignments_01.swf>&
+&submenu13=<UMR Summer 2004>
+<UMR Spring 2004>
+<UMR Fall 2004>
+<Section D>
+<Section E>
+<Demo One>
+<Demo Two>&
+
+&EndOfFile=1
