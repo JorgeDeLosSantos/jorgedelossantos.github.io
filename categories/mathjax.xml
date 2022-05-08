@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Jorge De Los Santos (mathjax)</title><link>https://jorgedelossantos.github.io/</link><description></description><atom:link href="https://jorgedelossantos.github.io/categories/mathjax.xml" type="application/rss+xml" rel="self"></atom:link><language>es</language><lastBuildDate>Thu, 29 Sep 2016 16:57:48 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Hola mundo</title><link>https://jorgedelossantos.github.io/posts/hola-mundo/</link><dc:creator>Pedro Jorge De Los Santos</dc:creator><description>&lt;div&gt;&lt;p&gt;Bueno, esta será la primera entrada del blog. Por supuesto, utilizando  &lt;a class="reference external" href="https://getnikola.com"&gt;Nikola&lt;/a&gt; como generador.&lt;/p&gt;
-&lt;p&gt;Se hablará de lo que se pueda: ingeniería, programación, elemento finito, matemáticas, y esas cosas.&lt;/p&gt;
-&lt;p&gt;Bienvenido.&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;strong&gt;Pedro Jorge De Los Santos&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><category>blog</category><category>mathjax</category><category>otros</category><guid>https://jorgedelossantos.github.io/posts/hola-mundo/</guid><pubDate>Wed, 14 Sep 2016 04:27:09 GMT</pubDate></item></channel></rss>

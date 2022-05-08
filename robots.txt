@@ -1,4 +1,0 @@
-Sitemap: https://jorgedelossantos.github.io/sitemapindex.xml
-
-User-Agent: *
-Host: jorgedelossantos.github.io
