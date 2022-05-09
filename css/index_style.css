@@ -23,7 +23,7 @@ section {
 .card {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 15% 30% 40% 15%;
+    grid-template-rows: 10% 30% 40% 10% 10%;
 
     width: 28vw;
     height: 90vh;
@@ -72,13 +72,23 @@ section {
     align-items: center;
 }
 
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1vw;
+
+    grid-row: 4;
+    grid-column: 1 / -1;
+}
+
 .rrss {
     display: flex;
     align-items: center;
     justify-content: center;
     align-content: center;
 
-    grid-row: 4;
+    grid-row: 5;
     grid-column: 1 / -1;
     background: var(--rss-bg-color);
 }
@@ -94,6 +104,20 @@ section {
     padding: 2vw;
     font-size: 0.9rem;
 }
+
+.opt-button {
+    border: none;
+    color: var(--font-color);
+    background-color: var(--main-bg-color);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.85rem;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 3px;
+}  
 
 .rrss a {
     text-align: center;
