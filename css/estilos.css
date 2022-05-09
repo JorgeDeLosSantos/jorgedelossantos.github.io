@@ -1,12 +1,20 @@
+/* color palette https://colorhunt.co/palette/041c3204293a064663ecb365 */
+
 :root {
-    --main-bg-color: #041C32;
+    --body-bg-color: #041C32;
+    --main-bg-color: #04293A;
     --title-bg-color: #064663;
     --rss-bg-color: #064663;
     --font-color: #ECB365;
     --font-family-main: 'Montserrat', sans-serif; 
 }
 
+body {
+    background: var(--body-bg-color);
+}
+
 section {
+    margin-top: 5vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -33,13 +41,16 @@ section {
 
 .title {
     display: flex;
-    text-align: center;
     align-items: center;
     justify-content: center;
     grid-row: 1;
     grid-column: 1 / -1;
     background: var(--title-bg-color);
-    font-size: 0.8em;
+}
+
+.title h1 {
+    font-size: 1.15rem;
+    text-align: center;
 }
 
 .profile-picture {
@@ -58,7 +69,6 @@ section {
 
     justify-content: center;
     align-items: center;
-    font-size: 0.85em;
 }
 
 .rrss {
@@ -66,7 +76,7 @@ section {
     align-items: center;
     justify-content: center;
     align-content: center;
-    
+
     grid-row: 4;
     grid-column: 1 / -1;
     background: var(--rss-bg-color);
@@ -81,6 +91,7 @@ section {
 .description p {
     text-align: center;
     padding: 2vw;
+    font-size: 0.9rem;
 }
 
 .rrss a {
@@ -93,4 +104,10 @@ a img {
     display: inline;
     max-width: 60%;
     height: auto;
+}
+
+
+a img:hover { 
+    transform: scale(1.25);
+    filter: brightness(1.25);
 }
