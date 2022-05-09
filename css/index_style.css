@@ -1,8 +1,8 @@
 /* color palette https://colorhunt.co/palette/041c3204293a064663ecb365 */
 
 :root {
-    --body-bg-color: #041C32;
-    --main-bg-color: #04293A;
+    --body-bg-color: #000011;
+    --main-bg-color: #041C32;
     --title-bg-color: #064663;
     --rss-bg-color: #064663;
     --font-color: #ECB365;
@@ -28,9 +28,10 @@ section {
     width: 28vw;
     height: 90vh;
     min-width: 250px;
+    min-height: 300px;
 
     background: var(--main-bg-color);
-    border-radius: 10px;
+    border-radius: 15px;
     overflow: hidden;    
     box-sizing: border-box;
 
