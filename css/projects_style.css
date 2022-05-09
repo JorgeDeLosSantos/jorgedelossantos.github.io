@@ -9,6 +9,7 @@
     --project-description-font-color: #ECB365;
     --project-title-bg-color: #064663;
     --font-family-main: 'Montserrat', sans-serif; 
+    --project-see-more-font-color: #ECB365;
 }
 
 body {
@@ -25,7 +26,7 @@ main {
 section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     row-gap: 2vh;
     column-gap: 2vw;
 
@@ -49,7 +50,7 @@ section {
     border-radius: 5px;
     overflow: hidden;
 
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 20% 60% 20%;
     background-color: var(--project-card-bg-color);
 }
 
@@ -65,4 +66,9 @@ section {
 .project-description {
     color: var(--project-description-font-color);
     font-size: 0.85rem;
+}
+
+.project-see-more a {
+    color: var(--project-see-more-font-color);
+    font-size: 0.8rem;
 }
