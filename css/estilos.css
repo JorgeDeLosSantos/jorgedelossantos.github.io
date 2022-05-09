@@ -15,48 +15,60 @@ section {
 .card {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-auto-rows: 1fr;
+    grid-template-rows: 15% 30% 40% 15%;
 
-    width: 300px;
-    height: 500px;
+    width: 28vw;
+    height: 90vh;
+    min-width: 250px;
+
     background: var(--main-bg-color);
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;    
     box-sizing: border-box;
 
     font-family: var(--font-family-main);
-    color: var(--font-color);   
+    color: var(--font-color);
+
 }
 
 .title {
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     grid-row: 1;
     grid-column: 1 / -1;
     background: var(--title-bg-color);
+    font-size: 0.8em;
 }
 
 .profile-picture {
     display: flex;
     grid-row: 2;
     grid-column: 2/4;
-    padding: 10px;
+    padding: 1vw;
+    align-items: center;
+    justify-content: center;
 }
 
 .description {
+    display: flex;
     grid-row: 3;
     grid-column: 1 / -1;
-    padding: 10px;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85em;
 }
 
 .rrss {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
     grid-row: 4;
     grid-column: 1 / -1;
-    padding: 5px;
     background: var(--rss-bg-color);
 }
 
@@ -68,9 +80,17 @@ section {
 
 .description p {
     text-align: center;
+    padding: 2vw;
 }
 
 .rrss a {
-    padding: 30px;
+    text-align: center;
+    padding: 2vw;
     width: 100%;
+}
+
+a img { 
+    display: inline;
+    max-width: 60%;
+    height: auto;
 }
