@@ -5,7 +5,7 @@
     --main-bg-color: #041C32;
 
     --project-card-bg-color: #041C32;
-    --project-title-font-color: #ECB365;
+    --items-font-color: #ECB365;
     --project-description-font-color: #ECB365;
     --project-title-bg-color: #064663;
     --font-family-main: 'Inconsolata', monospace;
@@ -25,12 +25,12 @@ main {
 
 section {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
     row-gap: 2vh;
     column-gap: 2vw;
 
-    width: 90vw;
+    width: 75vw;
     height: 90vh;
     min-width: 250px;
     min-height: 300px;
@@ -42,33 +42,45 @@ section {
     color: var(--font-color);
 }
 
-.project-card {
-    display: grid;
-    align-items: center;
-    text-align: center;
-
+section div {
+    display: inline-block;
+    color: var(--items-font-color);
+    background-color: var(--main-bg-color);
+    padding: 10px;
     border-radius: 5px;
-    overflow: hidden;
-
-    grid-template-rows: 20% 60% 20%;
-    background-color: var(--project-card-bg-color);
 }
 
-.project-title {
-    background-color: var(--project-title-bg-color);
+.hard-skills {
+    grid-row: 1;
+    grid-column: 1;
 }
 
-.project-title h2 {
-    color: var(--project-title-font-color);
+.soft-skills {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.skills-list {
+    padding: 5px;
+}
+
+.skills-list li {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 3px;
+}
+
+div h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+div h2 {
     font-size: 0.9rem;
 }
 
-.project-description {
-    color: var(--project-description-font-color);
-    font-size: 0.85rem;
-}
-
-.project-see-more a {
-    color: var(--project-see-more-font-color);
-    font-size: 0.8rem;
+.skills-list li:hover {
+    filter: brightness(1.5);
 }
