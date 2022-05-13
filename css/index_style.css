@@ -127,7 +127,7 @@ section {
 
 a img { 
     display: inline;
-    max-width: 60%;
+    max-width: 40%;
     height: auto;
 }
 
@@ -135,4 +135,9 @@ a img {
 a img:hover { 
     transform: scale(1.25);
     filter: brightness(1.25);
+}
+
+.opt-button:hover {
+    color: var(--main-bg-color);
+    background-color: var(--font-color);
 }
