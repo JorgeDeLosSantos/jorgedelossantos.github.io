@@ -74,7 +74,7 @@ section {
 
 .options {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     column-gap: 1vw;
 
@@ -121,16 +121,14 @@ section {
 
 .rrss a {
     text-align: center;
-    padding: 2vw;
     width: 100%;
 }
 
 a img { 
-    display: inline;
-    max-width: 40%;
+    display: inline-block;
+    max-width: 30%;
     height: auto;
 }
-
 
 a img:hover { 
     transform: scale(1.25);
