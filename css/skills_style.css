@@ -21,6 +21,7 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 section {
@@ -33,7 +34,7 @@ section {
     width: 75vw;
     height: 90vh;
     min-width: 250px;
-    min-height: 300px;
+    /* min-height: 300px; */
 
     /* overflow: hidden;     */
     box-sizing: border-box;
@@ -89,8 +90,8 @@ div h2 {
 @media (max-width: 640px) {
     section {
         grid-template-columns: 1fr;
-        row-gap: 20px;
-        padding: 1em;
+        row-gap: 15px;
+        width: 92vw;
     }
     .hard-skills {
         grid-row: 1;
