@@ -26,7 +26,7 @@ main {
 section {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
+    /* grid-template-rows: 100%; */
     row-gap: 2vh;
     column-gap: 2vw;
 
@@ -35,7 +35,7 @@ section {
     min-width: 250px;
     min-height: 300px;
 
-    overflow: hidden;    
+    /* overflow: hidden;     */
     box-sizing: border-box;
 
     font-family: var(--font-family-main);
@@ -85,3 +85,19 @@ div h2 {
     filter: brightness(1.5);
 }
 
+
+@media (max-width: 640px) {
+    section {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        padding: 1em;
+    }
+    .hard-skills {
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .soft-skills {
+        grid-row: 2;
+        grid-column: 1;
+    }
+    }
