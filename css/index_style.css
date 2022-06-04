@@ -139,3 +139,10 @@ a img:hover {
     color: var(--main-bg-color);
     background-color: var(--font-color);
 }
+
+@media (max-width: 640px) {
+    .card {
+        width: 80vw;
+        height: 60vh;
+    }
+}
