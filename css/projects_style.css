@@ -79,15 +79,13 @@ section {
 
 .project-see-more a:hover {
     font-size: 0.95rem;
-    /* background-color: #ECB365; */
 }
 
 @media (max-width: 640px) {
     section {
         grid-template-columns: 1fr;
-        /* grid-template-rows: repeat(3, 1fr); */
         row-gap: 20px;
-        width: 88vw;
+        width: 80vw;
         /* height: 90vh; */
         /* min-width: 250px; */
         /* min-height: 300px; */
