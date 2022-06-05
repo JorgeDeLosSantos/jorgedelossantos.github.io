@@ -26,14 +26,14 @@ main {
 section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    row-gap: 2vh;
-    column-gap: 2vw;
+    /* grid-template-rows: repeat(3, 1fr); */
+    row-gap: 20px;
+    column-gap: 20px;
 
     width: 90vw;
-    height: 90vh;
-    min-width: 250px;
-    min-height: 300px;
+    /* height: 90vh; */
+    /* min-width: 250px; */
+    /* min-height: 300px; */
 
     overflow: hidden;    
     box-sizing: border-box;
@@ -46,6 +46,8 @@ section {
     display: grid;
     align-items: center;
     text-align: center;
+
+    height: 200px;
 
     border-radius: 5px;
     overflow: hidden;
@@ -64,6 +66,8 @@ section {
 }
 
 .project-description {
+    padding: 10px;
+
     color: var(--project-description-font-color);
     font-size: 0.85rem;
 }
@@ -71,4 +75,21 @@ section {
 .project-see-more a {
     color: var(--project-see-more-font-color);
     font-size: 0.8rem;
+}
+
+.project-see-more a:hover {
+    font-size: 0.95rem;
+    /* background-color: #ECB365; */
+}
+
+@media (max-width: 640px) {
+    section {
+        grid-template-columns: 1fr;
+        /* grid-template-rows: repeat(3, 1fr); */
+        row-gap: 20px;
+        width: 88vw;
+        /* height: 90vh; */
+        /* min-width: 250px; */
+        /* min-height: 300px; */
+    }
 }
