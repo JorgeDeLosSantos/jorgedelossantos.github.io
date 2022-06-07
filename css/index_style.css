@@ -26,7 +26,7 @@ section {
     grid-template-rows: 10% 30% 40% 10% 10%;
 
     width: 28vw;
-    height: 85vh;
+    height: 88vh;
     min-width: 250px;
     min-height: 300px;
 
@@ -143,6 +143,6 @@ a img:hover {
 @media (max-width: 640px) {
     .card {
         width: 80vw;
-        height: 60vh;
+        height: 75vh;
     }
 }
