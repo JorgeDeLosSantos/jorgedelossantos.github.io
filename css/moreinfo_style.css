@@ -15,11 +15,13 @@ body {
 
 main {
     margin-top: 5vh;
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-left: 20px;
+    align-self: center;
+    /* justify-content: center; */
+    /* margin-left: 50px; */
+    /* padding: 20px; */
 }
 
 h2 {
@@ -33,6 +35,13 @@ img {
     max-width: 30%;
     width: 30px;
     height: 30px;
+}
+
+.course-doc img { 
+    /* display: inline-block; */
+    /* max-width: 30%; */
+    /* width: 0.; */
+    height: 0.9rem;
 }
 
 .section {
@@ -57,17 +66,17 @@ img {
 }
 
 .course-name {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     /* font-weight: bold; */
 }
 
 .course-instructor {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     font-style: italic;
 }
 
 .course-year {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     /* font-style: italic; */
 }
 
