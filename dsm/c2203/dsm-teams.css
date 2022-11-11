@@ -1,0 +1,36 @@
+/* color palette https://colorhunt.co/palette/041c3204293a064663ecb365 */
+
+:root {
+    --body-bg-color: #ffffff;
+    --main-bg-color: #ffffff;
+    --title-bg-color: #064663;
+    --rss-bg-color: #064663;
+    --font-color: #ECB365;
+    --font-family-main: 'Inconsolata', monospace;
+}
+
+body {
+    background: var(--body-bg-color);
+    font-family: var(--font-family-main);
+}
+
+section {
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-of-contents {
+    margin-top: 5px;
+}
+
+
+@media (max-width: 640px) {
+    .card {
+        width: 80vw;
+        height: 75vh;
+    }
+}
