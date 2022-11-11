@@ -43,6 +43,29 @@ table, th, td {
   padding: 5px;
 }
 
+nav {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+nav a {
+    text-align: center;
+    width: 100%;
+}
+
+a img { 
+    display: inline-block;
+    width: 20px;
+    height: auto;
+}
+
+a img:hover { 
+    transform: scale(1.25);
+    filter: brightness(1.25);
+}
+
+
 @media (max-width: 640px) {
     .card {
         width: 80vw;
