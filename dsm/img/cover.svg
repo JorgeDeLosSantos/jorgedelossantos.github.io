@@ -33,38 +33,38 @@
      inkscape:deskcolor="#d1d1d1" />
   <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
   <ellipse
-     style="opacity:0.9;fill:#ff0000;stroke:#000000;stroke-width:0.7;stroke-dasharray:1.4, 0.7"
+     style="opacity:0.9;fill:#ff0000;stroke:none;stroke-width:0.7;stroke-dasharray:1.4, 0.7"
      id="path1565"
      cx="98.432449"
      cy="271.25107"
      rx="55.557446"
      ry="68.629784" />
   <ellipse
-     style="opacity:0.9;fill:#ffd42a;stroke:#000000;stroke-width:0.7;stroke-dasharray:1.4, 0.7"
+     style="opacity:0.9;fill:#ffd42a;stroke:none;stroke-width:0.7;stroke-dasharray:1.4, 0.7"
      id="path1567"
-     cx="382.36594"
-     cy="331.90555"
+     cx="375.82977"
+     cy="302.84256"
      rx="57.736172"
      ry="46.842552" />
   <ellipse
-     style="opacity:0.9;fill:#ff80b2;stroke:#000000;stroke-width:0.7;stroke-dasharray:1.4, 0.7"
+     style="opacity:0.9;fill:#ff80b2;stroke:none;stroke-width:0.7;stroke-dasharray:1.4, 0.7"
      id="path1569"
-     cx="382.36566"
-     cy="106.75726"
+     cx="375.82977"
+     cy="130.72322"
      rx="37.582977"
      ry="42.485107" />
   <ellipse
-     style="opacity:0.9;fill:#e6e6e6;stroke:#000000;stroke-width:0.7;stroke-dasharray:1.4, 0.7"
+     style="opacity:0.9;fill:#e6e6e6;stroke:none;stroke-width:0.7;stroke-dasharray:1.4, 0.7"
      id="path1571"
-     cx="218.41701"
-     cy="419.20969"
+     cx="240.20424"
+     cy="421.3884"
      rx="63.727661"
      ry="39.761703" />
   <ellipse
-     style="opacity:0.9;fill:#afc6e9;stroke:#000000;stroke-width:0.7;stroke-dasharray:1.4, 0.7"
+     style="opacity:0.9;fill:#afc6e9;stroke:none;stroke-width:0.7;stroke-dasharray:1.4, 0.7"
      id="path1573"
-     cx="159.59148"
-     cy="90.688751"
+     cx="202.07658"
+     cy="102.32216"
      rx="82.246811"
      ry="58.55328" />
 </svg>

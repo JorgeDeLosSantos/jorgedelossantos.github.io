@@ -1,0 +1,88 @@
+/* color palette https://colorhunt.co/palette/041c3204293a064663ecb365 */
+
+:root {
+    --body-bg-color: #ffffff;
+    --main-bg-color: #ffffff;
+    --title-bg-color: #064663;
+    --rss-bg-color: #064663;
+    --font-title-color: #082e40;
+    --font-color: #226280;
+    --font-family-main: 'Inconsolata', monospace;
+}
+
+body {
+    background: var(--body-bg-color);
+    font-family: var(--font-family-main);
+    color: var(--font-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    margin-top: 10px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: var(--font-title-color);
+}
+
+.table-of-contents {
+    margin-top: 5px;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+nav {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left;
+    top: 10px;
+    left: 10px;
+    background-color: #dadada;
+    padding: 3px;
+}
+
+.nav-items {
+    margin-left: 3px;
+}
+
+nav a {
+    text-align: center;
+    width: 100%;
+}
+
+a img { 
+    display: inline-block;
+    width: 20px;
+    height: auto;
+}
+
+a img:hover { 
+    transform: scale(1.25);
+    filter: brightness(1.25);
+}
+
+div {
+
+}
+
+
+@media (max-width: 640px) {
+    .card {
+        width: 80vw;
+        height: 75vh;
+    }
+}
