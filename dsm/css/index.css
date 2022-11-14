@@ -1,17 +1,21 @@
 /* color palette https://colorhunt.co/palette/041c3204293a064663ecb365 */
 
 :root {
-    --body-bg-color: #dadada;
+    --body-bg-color: #fafafa;
     --main-bg-color: #041C32;
     --title-bg-color: #064663;
     --rss-bg-color: #064663;
     --font-color: #ECB365;
     --font-family-main: 'Inconsolata', monospace;
+    --h1-fontsize: 1.85em;
+    --h2-fontsize: 1.5em;
+    --text-fontsize: 1em;
 }
 
 body {
     background: var(--body-bg-color);
     font-family: var(--font-family-main);
+    font-size: var(--text-fontsize);
 }
 
 section {
@@ -23,10 +27,39 @@ section {
     align-items: center;
 }
 
+div {
+    padding: 3px;
+}
 
+h1 {
+    font-size: var(--h1-fontsize);
+}
+
+h2 {
+    font-size: var(--h2-fontsize);
+}
+
+
+.cover-img {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.cover-img:hover {
+    animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.75);
+    }
+}
 
 @media (max-width: 640px) {
-    .card {
+    .section {
         width: 80vw;
         height: 75vh;
     }
