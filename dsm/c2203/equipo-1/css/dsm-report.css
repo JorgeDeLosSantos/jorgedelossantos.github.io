@@ -81,7 +81,7 @@ div {
 
 
 @media (max-width: 640px) {
-    .card {
+    section {
         width: 80vw;
         height: 75vh;
     }
