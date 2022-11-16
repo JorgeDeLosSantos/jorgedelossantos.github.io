@@ -5,13 +5,22 @@
     --main-bg-color: #ffffff;
     --title-bg-color: #064663;
     --rss-bg-color: #064663;
-    --font-color: #ECB365;
+    --font-title-color: #082e40;
+    --font-color: #226280;
     --font-family-main: 'Inconsolata', monospace;
+    --h1-fontsize: 1.85em;
+    --h2-fontsize: 1.5em;
+    --text-fontsize: 1em;
 }
 
 body {
     background: var(--body-bg-color);
     font-family: var(--font-family-main);
+    color: var(--font-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
@@ -21,9 +30,55 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 75%;
 }
 
 .table-of-contents {
+    margin-top: 5px;
+}
+
+
+nav {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left;
+    top: 10px;
+    left: 10px;
+    padding: 3px;
+}
+
+.nav-items {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid #AFAFAF;
+/*    border-bottom: 2px solid;*/
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.nav-items:hover {
+    background-color: #dadada;
+}
+
+.nav-items > a {
+    text-align: center;
+    width: 100%;
+}
+
+a > img { 
+    display: inline-block;
+    width: 20px;
+    height: auto;
+}
+
+a > img:hover { 
+    transform: scale(1.15);
+    filter: brightness(1.25);
+}
+
+.list-of-teams {
     margin-top: 5px;
 }
 

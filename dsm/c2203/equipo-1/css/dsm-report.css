@@ -97,6 +97,10 @@ a > img:hover {
     text-decoration: none;
 }*/
 
+iframe {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 @media (max-width: 640px) {
     section {

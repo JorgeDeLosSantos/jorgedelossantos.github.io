@@ -8,8 +8,15 @@
     --font-title-color: #082e40;
     --font-color: #226280;
     --font-family-main: 'Inconsolata', monospace;
+    --h1-fontsize: 1.85em;
+    --h2-fontsize: 1.5em;
+    --text-fontsize: 1em;
 }
 
+/*body, section, nav {
+    border: 1px solid;
+}
+*/
 body {
     background: var(--body-bg-color);
     font-family: var(--font-family-main);
@@ -31,6 +38,12 @@ section {
 
 h1 {
     color: var(--font-title-color);
+    font-size: var(--h1-fontsize);
+}
+
+h2 {
+/*    color: var(--font-title-color);*/
+    font-size: var(--h2-fontsize);
 }
 
 .table-of-contents {
