@@ -1,15 +1,12 @@
 /* color palette https://colorhunt.co/palette/041c3204293a064663ecb365 */
 
 :root {
-    --body-bg-color: #000011;
-    --main-bg-color: #041C32;
+    --body-bg-color: #dadada;
+    --main-bg-color: #ffffff;
 
-    --project-card-bg-color: #041C32;
-    --items-font-color: #ECB365;
-    --project-description-font-color: #ECB365;
-    --project-title-bg-color: #064663;
-    --font-family-main: 'Inconsolata', monospace;
-    --project-see-more-font-color: #ECB365;
+    --items-font-color: #101010;
+    --font-family-main: 'Montserrat', sans-serif;
+    --font-color: #101010;
 }
 
 body {
@@ -17,7 +14,7 @@ body {
 }
 
 main {
-    margin-top: 5vh;
+    margin-top: 10px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -48,7 +45,7 @@ section div {
     color: var(--items-font-color);
     background-color: var(--main-bg-color);
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .hard-skills {
@@ -83,7 +80,8 @@ div h2 {
 }
 
 .skills-list li:hover {
-    filter: brightness(1.5);
+    color: var(--main-bg-color);
+    background-color: var(--font-color);
 }
 
 

@@ -1,12 +1,12 @@
 /* color palette https://colorhunt.co/palette/041c3204293a064663ecb365 */
 
 :root {
-    --body-bg-color: #000011;
-    --main-bg-color: #041C32;
-    --title-bg-color: #064663;
-    --rss-bg-color: #064663;
-    --font-color: #ECB365;
-    --font-family-main: 'Inconsolata', monospace;
+    --body-bg-color: #D0D0D0;
+    --main-bg-color: #FFFFFF;
+    --title-bg-color: #FFFFFF;
+    --rss-bg-color: #FFFFFF;
+    --font-color: #101010;
+    --font-family-main: 'Montserrat', sans-serif;
 }
 
 body {
@@ -23,7 +23,7 @@ section {
 .card {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 10% 30% 40% 10% 10%;
+    grid-template-rows: 35% 10% 35% 10% 10%;
 
     width: 28vw;
     height: 88vh;
@@ -32,6 +32,7 @@ section {
 
     background: var(--main-bg-color);
     border-radius: 15px;
+    /* border: 1px solid; */
     overflow: hidden;    
     box-sizing: border-box;
 
@@ -44,7 +45,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    grid-row: 1;
+    grid-row: 2;
     grid-column: 1 / -1;
     background: var(--title-bg-color);
 }
@@ -56,11 +57,12 @@ section {
 
 .profile-picture {
     display: flex;
-    grid-row: 2;
-    grid-column: 2/4;
+    grid-row: 1;
+    grid-column: 1/-1;
     padding: 1vw;
     align-items: center;
     justify-content: center;
+    background-color: #303030;
 }
 
 .description {
@@ -91,6 +93,7 @@ section {
     grid-row: 5;
     grid-column: 1 / -1;
     background: var(--rss-bg-color);
+    /* border-top: 1px solid; */
 }
 
 .profile-picture img {
@@ -106,7 +109,6 @@ section {
 }
 
 .opt-button {
-    border: none;
     color: var(--font-color);
     background-color: var(--main-bg-color);
     padding: 10px 20px;
@@ -116,7 +118,8 @@ section {
     font-size: 0.85rem;
     cursor: pointer;
     border: 1px solid;
-    border-radius: 3px;
+    border-radius: 8px;
+    font-family: var(--font-family-main);
 }  
 
 .rrss a {

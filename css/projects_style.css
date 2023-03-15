@@ -1,15 +1,15 @@
 /* color palette https://colorhunt.co/palette/041c3204293a064663ecb365 */
 
 :root {
-    --body-bg-color: #000011;
-    --main-bg-color: #041C32;
+    --body-bg-color: #dadada;
+    --main-bg-color: #dadada;
 
-    --project-card-bg-color: #041C32;
-    --project-title-font-color: #ECB365;
-    --project-description-font-color: #ECB365;
-    --project-title-bg-color: #064663;
-    --font-family-main: 'Inconsolata', monospace;
-    --project-see-more-font-color: #ECB365;
+    --project-card-bg-color: #fafafa;
+    --project-title-font-color: #101010;
+    --project-description-font-color: #101010;
+    --project-title-bg-color: #ababab;
+    --font-family-main: 'Montserrat', sans-serif;
+    --project-see-more-font-color: #101010;
 }
 
 body {
@@ -30,7 +30,7 @@ section {
     row-gap: 20px;
     column-gap: 20px;
 
-    width: 90vw;
+    width: 80vw;
     /* height: 90vh; */
     /* min-width: 250px; */
     /* min-height: 300px; */
