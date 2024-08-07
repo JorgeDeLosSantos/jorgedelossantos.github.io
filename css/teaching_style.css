@@ -1,0 +1,65 @@
+/* color palette https://colorhunt.co/palette/041c3204293a064663ecb365 */
+
+:root {
+    --body-bg-color: #dadada;
+    --main-bg-color: #dadada;
+
+    --font-color:#101010;
+    --font-family-main: 'Montserrat', sans-serif;
+    --project-see-more-font-color: #101010;
+}
+
+body {
+    background: var(--body-bg-color);
+}
+
+main {
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-rows: repeat(3, 1fr); */
+    /* row-gap: 20px; */
+    column-gap: 20px;
+
+    /* width: 80vw; */
+    /* height: 90vh; */
+    /* min-width: 250px; */
+    /* min-height: 300px; */
+
+    overflow: hidden;    
+    box-sizing: border-box;
+
+    font-family: var(--font-family-main);
+    color: var(--font-color);
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: var(--main-bg-color);
+    background-color: var(--font-color);
+}
+
+@media (max-width: 640px) {
+    section {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        width: 80vw;
+        /* height: 90vh; */
+        /* min-width: 250px; */
+        /* min-height: 300px; */
+    }
+}
