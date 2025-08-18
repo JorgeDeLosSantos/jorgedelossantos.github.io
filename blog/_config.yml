@@ -1,0 +1,6 @@
+title: "Blog de Jorge De Los Santos"
+description: "Artículos sobre Python, robótica y ciencia de datos"
+baseurl: "/blog"  # ruta del blog
+url: "https://jorgedelossantos.github.io"
+
+theme: minima   # tema por defecto de Jekyll
