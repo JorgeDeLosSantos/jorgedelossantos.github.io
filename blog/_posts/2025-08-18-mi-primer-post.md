@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Probando ando"
+title: "Mi primer post"
 date: 2025-08-18
 categories: python robótica
 ---

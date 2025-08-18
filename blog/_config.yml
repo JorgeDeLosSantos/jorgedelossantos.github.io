@@ -4,3 +4,4 @@ baseurl: "/blog"  # ruta del blog
 url: "https://jorgedelossantos.github.io"
 
 theme: minima   # tema por defecto de Jekyll
+
