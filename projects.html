@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
+    <link rel="stylesheet" href="css/index_style.css">   
     <link rel="stylesheet" href="css/projects_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,18 +14,39 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+        <div class="nav-left">
+            <a class="nav-home" href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="teaching.html">Teaching</a>
+        </div>
+        <div class="nav-right"> 
+            <a href="https://github.com/JorgeDeLosSantos"> <img src="img/github.svg" alt="github"> </a>
+            <!-- <a href="https://twitter.com/numython"><img src="img/twitter.svg" alt="twitter"> </a> -->
+            <a href="https://www.linkedin.com/in/pedrojorgedelossantos/"><img src="img/linkedin.svg" alt="linkedin"></a>
+            <a href="mailto:delossantosmfq@gmail.com"><img src="img/envelope-solid.svg" alt="email"></a>
+        </div>
+        </nav>
+    </header>
     <main>
         <section>
-
             <div class="project-card">
                 <div class="project-title">
                     <h2>Nusa</h2>
                 </div>
                 <div class="project-description">
-                    <p>A Python library for structural analysis using the finite element method, designed for academic purposes.</p>
+                    <p>A Python library for structural analysis using the finite element method</p>
+                </div>
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>FEM</span>
+                    <span>NumPy</span>
+                    <span>Matplotlib</span>
                 </div>
                 <div class="project-see-more">
-                    <a href="https://github.com/JorgeDeLosSantos/nusa">See more...</a>
+                    <a href="https://github.com/JorgeDeLosSantos/nusa" target="_blank">View on GitHub</a>
                 </div>
             </div>
 
@@ -33,34 +55,34 @@
                     <h2>Moro</h2>
                 </div>
                 <div class="project-description">
-                    <p>A Python library for kinematic and dynamic modeling of robots.</p>
+                    <p>A Python library for kinematic and dynamic (symbolic) modeling of robots.</p>
+                </div>
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>SymPy</span>
+                    <span>Robotics</span>
+                    <span>Engineering</span>
                 </div>
                 <div class="project-see-more">
-                    <a href="https://github.com/numython-rd/moro">See more...</a>
+                    <a href="https://github.com/numython-rd/moro" target="_blank">View on GitHub</a>
                 </div>
             </div>
 
-            <div class="project-card">
-                <div class="project-title">
-                    <h2>NanchiPlot</h2>
-                </div>
-                <div class="project-description">
-                    <p>A GUI tool for viewing plots (wxPython, Matplotlib & NumPy)</p>
-                </div>
-                <div class="project-see-more">
-                    <a href="https://github.com/JorgeDeLosSantos/NanchiPlot">See more...</a>
-                </div>
-            </div>
 
             <div class="project-card">
                 <div class="project-title">
                     <h2>wxTruss</h2>
                 </div>
                 <div class="project-description">
-                    <p>wxPython based application for solve 2D-Trusses.</p>
+                    <p>A wxPython-based application for solving 2D trusses.</p>
+                </div>
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>wxPython</span>
+                    <span>FEM</span>
                 </div>
                 <div class="project-see-more">
-                    <a href="https://github.com/numython-rd/wxtruss">See more...</a>
+                    <a href="https://github.com/numython-rd/wxtruss" target="_blank">View on GitHub</a>
                 </div>
             </div>
 
@@ -74,8 +96,15 @@
                         Introductory notes to the Python programming language, designed for engineering students and professionals.
                     </p>
                 </div>
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>Jupyter-book</span>
+                    <span>Markdown</span>
+                    <span>Writing</span>
+                    <span>Engineering</span>
+                </div>
                 <div class="project-see-more">
-                    <a href="https://jorgedelossantos.github.io/apuntes-python/intro.html">See more...</a>
+                    <a href="https://jorgedelossantos.github.io/apuntes-python/intro.html" target="_blank"> View Online </a>
                 </div>
             </div>
 

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skills</title>
+    <link rel="stylesheet" href="css/index_style.css">
     <link rel="stylesheet" href="css/skills_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,85 +14,157 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+        <div class="nav-left">
+            <a class="nav-home" href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="teaching.html">Teaching</a>
+        </div>
+        <div class="nav-right"> 
+            <a href="https://github.com/JorgeDeLosSantos"> <img src="img/github.svg" alt="github"> </a>
+            <!-- <a href="https://twitter.com/numython"><img src="img/twitter.svg" alt="twitter"> </a> -->
+            <a href="https://www.linkedin.com/in/pedrojorgedelossantos/"><img src="img/linkedin.svg" alt="linkedin"></a>
+            <a href="mailto:delossantosmfq@gmail.com"><img src="img/envelope-solid.svg" alt="email"></a>
+        </div>
+        </nav>
+    </header>
     <main>
-        <section>
-            <div class="hard-skills">   
-                <h1>Hard skills</h1>
+        <section class="skills-container">
 
-                <h2>Programming languages</h2>
-                <ul class="skills-list">
-                    <li>Python</li>
-                    <li>MATLAB</li>
-                    <li>JavaScript</li>
-                    <li>C/C++</li>
-                    <li>VBA</li>
-                </ul>
+            <h1>Skills</h1>
 
-                <h2>Web technologies and markup languages</h2>
-                <ul class="skills-list">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>XML</li>
-                    <li>Markdown</li>
-                    <li>LaTeX</li>
-                </ul>
+            <div class="skills-grid">
 
-<!--                 <h2>Databases</h2>
-                <ul class="skills-list">
-                    <li>MySQL</li>
-                    <li>SQLite</li>
-                    <li>PostgreSQL</li>
-                </ul>
- -->
-                <h2>Data analysis and visualization</h2>
-                <ul class="skills-list">
-                    <li>Pandas</li>
-                    <li>NumPy</li>
-                    <li>Matplotlib</li>
-                    <li>Seaborn</li>
-                    <li>Plotly</li>
-                    <li>Microsoft Excel</li>
-                    <li>Tableau</li>
-                </ul>
+                <div class="skill-block">
+                    <h2>Programming languages</h2>
+                    <ul>
+                        <li>Python</li>
+                        <li>MATLAB</li>
+                        <li>C++</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+
+                <!-- <div class="skill-block">
+                    <h2>Machine Learning & Deep Learning</h2>
+                    <ul>
+                        <li>Scikit-learn</li>
+                        <li>TensorFlow</li>
+                        <li>PyTorch</li>
+                        <li>Computer Vision</li>
+                        <li>Convolutional Neural Networks (CNNs)</li>
+                        <li>Natural Language Processing (NLP)</li>
+                        <li>Reinforcement Learning</li>
+                    </ul>
+                </div> -->
+
+                <div class="skill-block">
+                    <h2>Data Science & Data Processing</h2>
+                    <ul>
+                        <li>Data Analysis</li>
+                        <li>Exploratory Data Analysis (EDA)</li>
+                        <li>Data Visualization</li>
+                        <li>Feature Engineering</li>
+                        <li>Data Pipelines*</li>
+                        <li>Data Cleaning and Preprocessing</li>
+                        <li>SQL</li>
+                        <li>NumPy</li>
+                        <li>Pandas*</li>
+                        <li>SciPy</li>
+                        <li>Matplotlib</li>
+                        <li>Seaborn*</li>
+                    </ul>
+                </div>
                 
-                <h2>CAD/CAE Software</h2>
-                <ul class="skills-list">
-                    <li>ANSYS</li>
-                    <li>Abaqus</li>
-                    <li>SolidWorks</li>
-                    <li>MSC Adams</li>
-                    <li>Solid Edge</li>
-                    <li>Siemens NX</li>
-                    <li>Onshape</li>
-                </ul>
+                <!-- <div class="skill-block">
+                    <h2>MLOps & Production ML</h2>
+                    <ul>
+                        <li>Model Deployment*</li>
+                        <li>REST APIs for ML Models*</li>
+                        <li>Experiment Tracking (MLflow)*</li>
+                        <li>Model Versioning*</li>
+                        <li>Docker*</li>
+                        <li>CI/CD for ML Pipelines*</li>
+                    </ul>
+                </div> -->
 
-                <h2>Languages</h2>
-                <ul class="skills-list">
-                    <li>Spanish (Native)</li>
-                    <li>English (B2)</li>
-                    <li>Portuguese (A1)</li>
-                </ul>
+                <!-- <div class="skill-block">
+                    <h2>Data & Infrastructure</h2>
+                    <ul>
+                        <li>Data Warehouses*</li>
+                        <li>Spark / Distributed Computing*</li>
+                        <li>Cloud Platforms (AWS / GCP / Azure)*</li>
+                    </ul>
+                </div> -->
 
-                <h2>General</h2>
-                <ul class="skills-list">
-                    <li>Git/Github</li>
-                    <li>CI/CD</li>
-                </ul>
+                <div class="skill-block">
+                    <h2>Software Engineering</h2>
+                    <ul>
+                        <li>Object-Oriented Programming</li>
+                        <li>Scientific Software Development</li>
+                        <li>API Development</li>
+                        <li>Code Documentation</li>
+                        <li>Testing (pytest)*</li>
+                        <li>Design of Python Libraries</li>
+                        <li>Software Architecture</li>
+                        <li>Software Design Patterns</li>
+                        <li>Version Control</li>
+                    </ul>
+                </div>
+
+                <div class="skill-block">
+                    <h2>Tools</h2>
+                    <ul>
+                        <li>Git / GitHub</li>
+                        <li>Linux</li>
+                        <li>Jupyter</li>
+                        <li>Google Colab</li>
+                        <li>Flask</li>
+                        <li>LaTeX</li>
+                        <li>Markdown</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                </div>
+
+                <div class="skill-block">
+                    <h2>Engineering & Scientific Background</h2>
+                    <ul>
+                        <li>Scientific Computing</li>
+                        <li>Mathematical Modeling</li>
+                        <li>Mechanical Systems Modeling</li>
+                        <li>Kinematics and dynamics of robots</li>
+                        <li>Mechanism Design and Synthesis</li>
+                        <li>Finite Element Analysis (FEA)</li>
+                        <li>Numerical Methods</li>
+                        <li>Mechanical design</li>
+                    </ul>
+                </div>
+
+                <div class="skill-block">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>Spanish (Native)</li>
+                        <li>English (B2)</li>
+                        <li>Portuguese (A1)</li>
+                    </ul>
+                </div>
+
+                <div class="skill-block">
+                    <h2>Soft Skills</h2>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Analytical Thinking</li>
+                        <li>Research and Technical Writing</li>
+                        <li>Time Management</li>
+                        <li>Teamwork</li>
+                        <li>Teaching and Mentoring</li>
+                    </ul>
+                </div>
 
             </div>
 
-            <div class="soft-skills">
-                <h1>Soft skills</h1>
-                <ul class="skills-list">
-                    <li>Problem-solving</li>
-                    <li>Critical Thinking</li>
-                    <li>Time management</li>
-                    <li>Patience</li>
-                    <li>Accountability</li>
-                    <li>Collaboration and teamwork</li>
-                    <li>Adaptability</li>
-                </ul>
-            </div>
         </section>
     </main>
 </body>

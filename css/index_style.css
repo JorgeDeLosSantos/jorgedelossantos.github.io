@@ -11,9 +11,56 @@
 
 body {
     background: var(--body-bg-color);
+    margin: 0;
 }
 
-section {
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #140202;
+}
+
+.nav-left {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-left a {
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* separación entre íconos */
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: rgb(220, 206, 206);
+    text-align: center;
+    width: 100%;
+}
+
+.nav-left a:hover {
+    text-decoration: underline;
+}
+
+.nav-right a:hover {
+    text-decoration: underline;
+}
+
+.nav-right img {
+    width: 50px;
+    height: 50px;
+}
+
+.home-section {
     margin-top: 5vh;
     width: 100%;
     display: flex;
@@ -22,11 +69,12 @@ section {
 
 .card {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 35% 10% 35% 10% 10%;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: 35% 10% 35% 10% 10%; */
+    grid-template-rows: 35% 10% 45%;
 
     width: 28vw;
-    height: 88vh;
+    height: 60vh;
     min-width: 250px;
     min-height: 300px;
 
@@ -38,7 +86,6 @@ section {
 
     font-family: var(--font-family-main);
     color: var(--font-color);
-
 }
 
 .title {
@@ -84,18 +131,6 @@ section {
     grid-column: 1 / -1;
 }
 
-.rrss {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-
-    grid-row: 5;
-    grid-column: 1 / -1;
-    background: var(--rss-bg-color);
-    /* border-top: 1px solid; */
-}
-
 .profile-picture img {
     border-radius: 50%;
     max-width:100%;
@@ -122,11 +157,6 @@ section {
     font-family: var(--font-family-main);
 }  
 
-.rrss a {
-    text-align: center;
-    width: 100%;
-}
-
 a img { 
     display: inline-block;
     max-width: 30%;
@@ -148,4 +178,22 @@ a img:hover {
         width: 80vw;
         height: 75vh;
     }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .nav-left {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .nav-right {
+        display: flex;
+        gap: 15px;
+    }
+
 }

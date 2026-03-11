@@ -9,94 +9,77 @@
     --font-color: #101010;
 }
 
+/* 
 body {
     background: var(--body-bg-color);
-}
+} */
 
-main {
+/* main {
     margin-top: 10px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-section {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    /* grid-template-rows: 100%; */
-    row-gap: 2vh;
-    column-gap: 2vw;
-
-    width: 75vw;
-    height: 90vh;
-    min-width: 250px;
-    /* min-height: 300px; */
-
-    /* overflow: hidden;     */
-    box-sizing: border-box;
-
+main {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     font-family: var(--font-family-main);
-    color: var(--font-color);
+    font-size: 0.9em;
 }
 
-section div {
-    display: inline-block;
-    color: var(--items-font-color);
-    background-color: var(--main-bg-color);
-    padding: 10px;
-    border-radius: 10px;
+.skills-container {
+    max-width: 85vw;
+    margin: 0 auto;
+    padding: 40px 20px;
 }
 
-.hard-skills {
-    grid-row: 1;
-    grid-column: 1;
+.skills-container h1 {
+    margin-bottom: 30px;
+    text-align: left;
 }
 
-.soft-skills {
-    grid-row: 1;
-    grid-column: 2;
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
 }
 
-.skills-list {
-    padding: 5px;
+.skill-block{
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
 }
 
-.skills-list li {
+.skill-block h2 {
+    margin-bottom: 10px;
+}
+
+.skill-block ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-block li {
+    margin-bottom: 5px;
+}
+/* 
+.skill-block li {
     display: inline-block;
     border: 1px solid;
     border-radius: 5px;
     padding: 3px;
     margin-top: 3px;
-}
-
-div h1 {
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-div h2 {
-    font-size: 0.9rem;
-}
-
-.skills-list li:hover {
-    color: var(--main-bg-color);
-    background-color: var(--font-color);
-}
+} */
 
 
-@media (max-width: 640px) {
-    section {
+@media (max-width: 700px) {
+
+    .skills-grid {
         grid-template-columns: 1fr;
-        row-gap: 15px;
-        width: 92vw;
     }
-    .hard-skills {
-        grid-row: 1;
-        grid-column: 1;
-    }
-    .soft-skills {
-        grid-row: 2;
-        grid-column: 1;
-    }
-    }
+
+}

@@ -1,6 +1,6 @@
 /* color palette https://colorhunt.co/palette/041c3204293a064663ecb365 */
 
-:root {
+/* :root {
     --body-bg-color: #dadada;
     --main-bg-color: #dadada;
 
@@ -11,7 +11,7 @@
 
 body {
     background: var(--body-bg-color);
-}
+} */
 
 main {
     margin-top: 5vh;
