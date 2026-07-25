@@ -27,27 +27,71 @@ main {
     gap: 30px;
 }
 
+/* --- Skill Block (Card) --- */
 .skill-block {
     background: #ffffff;
     padding: 20px;
     border-radius: 8px;
+    border-left: 4px solid var(--accent-blue);
+
+    /* Sombra sutil + hover effect */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
+
+.skill-block:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Bordes de colores alternados para cada categoría */
+.skill-block:nth-child(1) { border-left-color: var(--accent-blue); }      /* Programming */
+.skill-block:nth-child(2) { border-left-color: var(--accent-gold); }      /* Data Science */
+.skill-block:nth-child(3) { border-left-color: var(--secondary-dark); }   /* Software Eng */
+.skill-block:nth-child(4) { border-left-color: var(--primary-dark); }     /* Tools */
+.skill-block:nth-child(5) { border-left-color: var(--accent-blue); }      /* Engineering */
+.skill-block:nth-child(6) { border-left-color: var(--accent-gold); }      /* Languages */
+.skill-block:nth-child(7) { border-left-color: var(--secondary-dark); }   /* Soft Skills */
 
 .skill-block h2 {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    font-size: 1rem;
 }
 
-.skill-block ul {
-    list-style: none;
-    padding: 0;
+/* --- Skill Tags (badges) --- */
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
-.skill-block li {
-    margin-bottom: 5px;
+.skill-tag {
+    background: #f0f0f0;
+    padding: 5px 14px;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    transition: background 0.2s ease, color 0.2s ease;
+    cursor: default;
 }
 
+.skill-tag:hover {
+    background: var(--accent-blue);
+    color: #ffffff;
+}
+
+/* --- Responsive --- */
 @media (max-width: 700px) {
     .skills-grid {
         grid-template-columns: 1fr;
+    }
+
+    .skills-container {
+        padding: 20px 15px;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
