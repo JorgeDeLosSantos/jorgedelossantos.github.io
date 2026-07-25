@@ -1,26 +1,5 @@
-/* color palette https://colorhunt.co/palette/041c3204293a064663ecb365 */
-
-:root {
-    --body-bg-color: #dadada;
-    --main-bg-color: #ffffff;
-
-    --items-font-color: #101010;
-    --font-family-main: 'Montserrat', sans-serif;
-    --font-color: #101010;
-}
-
-/* 
-body {
-    background: var(--body-bg-color);
-} */
-
-/* main {
-    margin-top: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+/* Estilos específicos para la página Skills */
+/* Las variables CSS compartidas están definidas en index_style.css */
 
 main {
     margin-top: 30px;
@@ -48,7 +27,7 @@ main {
     gap: 30px;
 }
 
-.skill-block{
+.skill-block {
     background: #ffffff;
     padding: 20px;
     border-radius: 8px;
@@ -66,20 +45,9 @@ main {
 .skill-block li {
     margin-bottom: 5px;
 }
-/* 
-.skill-block li {
-    display: inline-block;
-    border: 1px solid;
-    border-radius: 5px;
-    padding: 3px;
-    margin-top: 3px;
-} */
-
 
 @media (max-width: 700px) {
-
     .skills-grid {
         grid-template-columns: 1fr;
     }
-
 }

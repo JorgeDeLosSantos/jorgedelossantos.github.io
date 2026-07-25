@@ -1,20 +1,5 @@
-/* color palette https://colorhunt.co/palette/041c3204293a064663ecb365 */
-
-:root {
-    --body-bg-color: #dadada;
-    --main-bg-color: #dadada;
-
-    --project-card-bg-color: #fafafa;
-    --project-title-font-color: #101010;
-    --project-description-font-color: #101010;
-    --project-title-bg-color: #ababab;
-    --font-family-main: 'Montserrat', sans-serif;
-    --project-see-more-font-color: #101010;
-}
-
-/* body {
-    background: var(--body-bg-color);
-} */
+/* Estilos específicos para la página Projects */
+/* Las variables CSS compartidas están definidas en index_style.css */
 
 main {
     margin-top: 5vh;
@@ -26,14 +11,10 @@ main {
 section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* grid-template-rows: repeat(4, 1fr); */
     row-gap: 20px;
     column-gap: 20px;
 
     width: 80vw;
-    /* height: 90vh; */
-    /* min-width: 250px; */
-    /* min-height: 300px; */
 
     overflow: hidden;    
     box-sizing: border-box;
@@ -48,17 +29,14 @@ section {
     text-align: center;
 
     height: 250px;
-    /* height: auto; */
 
     border-radius: 5px;
     overflow: hidden;
 
-    /* grid-template-rows: 20% 60% 20% 20%; */
     background-color: var(--project-card-bg-color);
 }
 
 .project-title {
-    /* background-color: var(--project-title-bg-color); */
     border-bottom: 1px solid #cccccc;
 }
 
@@ -74,20 +52,11 @@ section {
     font-size: 0.85rem;
 }
 
-/* .project-see-more a {
-    color: var(--project-see-more-font-color);
-    font-size: 0.8rem;
-}
-
-.project-see-more a:hover {
-    font-size: 0.95rem;
-} */
-
-.project-see-more{
+.project-see-more {
     padding: 10px;
 }
 
-.project-see-more a{
+.project-see-more a {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 14px;
@@ -98,16 +67,16 @@ section {
     font-size: 14px;
 }
 
-.project-see-more a:hover{
+.project-see-more a:hover {
     background: #1a5fd1;
 }
 
-.project-tech span{
-    background:#f2f2f2;
-    padding:4px 8px;
-    border-radius:4px;
-    font-size:12px;
-    margin-right:5px;
+.project-tech span {
+    background: #f2f2f2;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-right: 5px;
 }
 
 @media (max-width: 640px) {
@@ -115,8 +84,5 @@ section {
         grid-template-columns: 1fr;
         row-gap: 20px;
         width: 80vw;
-        /* height: 90vh; */
-        /* min-width: 250px; */
-        /* min-height: 300px; */
     }
 }

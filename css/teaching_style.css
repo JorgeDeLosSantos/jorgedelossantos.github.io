@@ -1,17 +1,5 @@
-/* color palette https://colorhunt.co/palette/041c3204293a064663ecb365 */
-
-/* :root {
-    --body-bg-color: #dadada;
-    --main-bg-color: #dadada;
-
-    --font-color:#101010;
-    --font-family-main: 'Montserrat', sans-serif;
-    --project-see-more-font-color: #101010;
-}
-
-body {
-    background: var(--body-bg-color);
-} */
+/* Estilos específicos para la página Teaching */
+/* Las variables CSS compartidas están definidas en index_style.css */
 
 main {
     margin-top: 5vh;
@@ -21,20 +9,9 @@ main {
 }
 
 section {
-    /* display: grid; */
-    /* grid-template-columns: repeat(3, 1fr); */
-    /* grid-template-rows: repeat(3, 1fr); */
-    /* row-gap: 20px; */
     column-gap: 20px;
-
-    /* width: 80vw; */
-    /* height: 90vh; */
-    /* min-width: 250px; */
-    /* min-height: 300px; */
-
     overflow: hidden;    
     box-sizing: border-box;
-
     font-family: var(--font-family-main);
     color: var(--font-color);
 }
@@ -44,7 +21,7 @@ li {
     padding: 5px;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
 }
 
@@ -58,8 +35,5 @@ ul li a:hover {
         grid-template-columns: 1fr;
         row-gap: 20px;
         width: 80vw;
-        /* height: 90vh; */
-        /* min-width: 250px; */
-        /* min-height: 300px; */
     }
 }
