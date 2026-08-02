@@ -16,11 +16,17 @@ section {
 
     width: 80vw;
 
-    overflow: hidden;    
     box-sizing: border-box;
 
     font-family: var(--font-family-main);
     color: var(--font-color);
+}
+
+/* Título de la página (encabeza la grid) */
+section h1 {
+    grid-column: 1 / -1;
+    margin: 10px 0 10px;
+    font-size: 1.6rem;
 }
 
 .project-card {
@@ -28,12 +34,19 @@ section {
     align-items: center;
     text-align: center;
 
-    height: 250px;
+    min-height: 250px;
 
-    border-radius: 5px;
+    border-radius: 15px;
     overflow: hidden;
 
     background-color: var(--project-card-bg-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
 }
 
 .project-title {
@@ -60,7 +73,7 @@ section {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 14px;
-    background: #2c7be5;
+    background: var(--accent-blue);
     color: white;
     text-decoration: none;
     border-radius: 6px;
@@ -68,7 +81,7 @@ section {
 }
 
 .project-see-more a:hover {
-    background: #1a5fd1;
+    background: var(--primary-dark);
 }
 
 .project-tech span {
@@ -79,10 +92,16 @@ section {
     margin-right: 5px;
 }
 
+@media (min-width: 641px) and (max-width: 1024px) {
+    section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 640px) {
     section {
         grid-template-columns: 1fr;
         row-gap: 20px;
-        width: 80vw;
+        width: 90vw;
     }
 }

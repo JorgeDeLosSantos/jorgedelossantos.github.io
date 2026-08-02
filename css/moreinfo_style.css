@@ -30,8 +30,7 @@ h2 {
     text-align: left;
 }
 
-img { 
-    /* display: inline-block; */
+.section-title img { 
     max-width: 30%;
     width: 30px;
     height: 30px;

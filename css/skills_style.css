@@ -23,7 +23,7 @@ main {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
@@ -31,7 +31,7 @@ main {
 .skill-block {
     background: #ffffff;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 15px;
     border-left: 4px solid var(--accent-blue);
 
     /* Sombra sutil + hover effect */
@@ -44,14 +44,13 @@ main {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Bordes de colores alternados para cada categoría */
-.skill-block:nth-child(1) { border-left-color: var(--accent-blue); }      /* Programming */
-.skill-block:nth-child(2) { border-left-color: var(--accent-gold); }      /* Data Science */
-.skill-block:nth-child(3) { border-left-color: var(--secondary-dark); }   /* Software Eng */
-.skill-block:nth-child(4) { border-left-color: var(--primary-dark); }     /* Tools */
-.skill-block:nth-child(5) { border-left-color: var(--accent-blue); }      /* Engineering */
-.skill-block:nth-child(6) { border-left-color: var(--accent-gold); }      /* Languages */
-.skill-block:nth-child(7) { border-left-color: var(--secondary-dark); }   /* Soft Skills */
+/* Bordes de colores alternados para cada categoría (orden real en skills.html) */
+.skill-block:nth-child(1) { border-left-color: var(--accent-blue); }      /* Programming languages */
+.skill-block:nth-child(2) { border-left-color: var(--accent-blue); }      /* ML & Deep Learning */
+.skill-block:nth-child(3) { border-left-color: var(--accent-gold); }      /* Data Science */
+.skill-block:nth-child(4) { border-left-color: var(--accent-blue); }      /* Dev Tools & Frameworks */
+.skill-block:nth-child(5) { border-left-color: var(--accent-blue); }      /* Engineering & Scientific Computing */
+.skill-block:nth-child(6) { border-left-color: var(--accent-blue); }      /* Languages */
 
 .skill-block h2 {
     margin-bottom: 12px;
