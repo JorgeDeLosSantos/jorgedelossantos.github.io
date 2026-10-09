@@ -42,6 +42,7 @@ h1 { max-width: 900px; margin-bottom: 12px; font-size: clamp(2.6rem, 3.25vw, 3.1
 .section-number { padding-top: 8px; }
 h2 { margin-bottom: 12px; font-size: clamp(2.125rem, 3vw, 2.5rem); line-height: 1.17; font-weight: 640; letter-spacing: -.045em; }
 .section-description { max-width: 640px; margin: 0; font-size: 1.08rem; line-height: 1.65; color: var(--muted); }
+.section-description + .section-description { margin-top: 10px; }
 .projects-list, .resource-list { border-top: 1px solid var(--line); }
 .project { padding-block: 17px 19px; border-bottom: 1px solid var(--line); }
 .project-number { color: var(--subtle); font-size: .83rem; padding-top: 9px; font-variant-numeric: tabular-nums; }
