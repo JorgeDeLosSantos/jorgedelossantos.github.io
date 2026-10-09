@@ -107,8 +107,13 @@ h2 { margin-bottom: 12px; font-size: clamp(2.125rem, 3vw, 2.5rem); line-height: 
   .footer-inner { min-height: 0; flex-direction: column; align-items: flex-start; justify-content: center; gap: 9px; padding-block: 18px; }
 }
 @media (max-width: 390px) {
-  .navigation { gap: 8px 12px; }
-  .navigation a { font-size: .78rem; }
+  .navigation {
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 4px;
+  }
+  .navigation a { font-size: .76rem; white-space: nowrap; }
 }
 @media (prefers-reduced-motion: no-preference) {
   html { scroll-behavior: smooth; }
